@@ -1,0 +1,6240 @@
+{
+  "versao": "1.0",
+  "fonte": "itens.xlsx",
+  "total_registros": 1558,
+  "total_descricoes_ambiguas": 3,
+  "registros": [
+    {
+      "codigo": "229641",
+      "descricao": "ADAPTADOR APC 15KV  50MM²"
+    },
+    {
+      "codigo": "229658",
+      "descricao": "ADAPTADOR APC 15KV 120MM²"
+    },
+    {
+      "codigo": "229393",
+      "descricao": "ADAPTADOR APC 15KV 185MM²"
+    },
+    {
+      "codigo": "229666",
+      "descricao": "ADAPTADOR APC 15KV 240MM²"
+    },
+    {
+      "codigo": "229401",
+      "descricao": "ADAPTADOR APC 15KV 380MM²"
+    },
+    {
+      "codigo": "229674",
+      "descricao": "ADAPTADOR APC 15KV 400MM²"
+    },
+    {
+      "codigo": "229682",
+      "descricao": "ADAPTADOR APC 25KV  50MM²"
+    },
+    {
+      "codigo": "229690",
+      "descricao": "ADAPTADOR APC 25KV 185MM²"
+    },
+    {
+      "codigo": "224295",
+      "descricao": "ADESIVO VERMELHO 25KV PARA RDAP"
+    },
+    {
+      "codigo": "237222",
+      "descricao": "AFASTADOR ARMAÇÃO  SECUNDÁRIA 500MM"
+    },
+    {
+      "codigo": "237206",
+      "descricao": "AFASTADOR DE 250mm"
+    },
+    {
+      "codigo": "374360",
+      "descricao": "AFASTADOR DE RAMAL DE LIGAÇÃO"
+    },
+    {
+      "codigo": "230102",
+      "descricao": "ALÇA PARA ESTRIBO ABERTA"
+    },
+    {
+      "codigo": "374893",
+      "descricao": "ALÇA PARA ESTRIBO FECHADA 1/0AWG"
+    },
+    {
+      "codigo": "231522",
+      "descricao": "ALÇA PARA ESTRIBO FECHADA 2AWG"
+    },
+    {
+      "codigo": "229229",
+      "descricao": "ALÇA PARA LANÇAMENTO CABO"
+    },
+    {
+      "codigo": "376375",
+      "descricao": "ALÇA PRÉ-FORMADA  1N5 AÇO ALUMINZADO"
+    },
+    {
+      "codigo": "228809",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAA  170MM²"
+    },
+    {
+      "codigo": "228932",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAA 21MM²"
+    },
+    {
+      "codigo": "228924",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAA 34MM²"
+    },
+    {
+      "codigo": "228890",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAA 53MM²"
+    },
+    {
+      "codigo": "228973",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAL  10MM²"
+    },
+    {
+      "codigo": "228981",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAL  16MM²"
+    },
+    {
+      "codigo": "228833",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAL  25MM²"
+    },
+    {
+      "codigo": "228874",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAL  35MM²"
+    },
+    {
+      "codigo": "229005",
+      "descricao": "ALÇA PRÉ-FORMADA  CA/CAL  70MM²"
+    },
+    {
+      "codigo": "219691",
+      "descricao": "ALÇA PRÉ-FORMADA  OLHAL CAA 21MM²"
+    },
+    {
+      "codigo": "219709",
+      "descricao": "ALÇA PRÉ-FORMADA  OLHAL CAA 34MM²"
+    },
+    {
+      "codigo": "219717",
+      "descricao": "ALÇA PRÉ-FORMADA  OLHAL CAA 54MM²"
+    },
+    {
+      "codigo": "228858",
+      "descricao": "ALÇA PRÉ-FORMADA CA/CAA 107MM²"
+    },
+    {
+      "codigo": "237685",
+      "descricao": "ALÇA PRÉ-FORMADA ESTAI CABO 6,4MM"
+    },
+    {
+      "codigo": "237677",
+      "descricao": "ALÇA PRÉ-FORMADA ESTAI CABO 9,5MM"
+    },
+    {
+      "codigo": "11783",
+      "descricao": "ALICATE 210MM CABO ISOLADO"
+    },
+    {
+      "codigo": "11791",
+      "descricao": "ALICATE BICO REDONDO 160MM"
+    },
+    {
+      "codigo": "10942",
+      "descricao": "ALICATE BOMBA D'ÁGUA 250MM"
+    },
+    {
+      "codigo": "44818",
+      "descricao": "ALICATE BOMBA D'ÁGUA GRANDE"
+    },
+    {
+      "codigo": "19463",
+      "descricao": "ALICATE COMPRESSÃO  HIDRÁULICO  120KN"
+    },
+    {
+      "codigo": "44644",
+      "descricao": "ALICATE DE CORTE DIAGONAL"
+    },
+    {
+      "codigo": "19455",
+      "descricao": "ALICATE LACRAR COM SELO DE CHUMBO"
+    },
+    {
+      "codigo": "7823",
+      "descricao": "ALICATE MECÂNICO DE COMPRESSÃO"
+    },
+    {
+      "codigo": "7849",
+      "descricao": "ALICATE MECÂNICO DE COMPRESSÃO  COM CATRACA"
+    },
+    {
+      "codigo": "259218",
+      "descricao": "ALOJAMENTO P/EQUIP LUMIN"
+    },
+    {
+      "codigo": "314435",
+      "descricao": "AMPERÍMETRO ANALÓGICO 0-6A PARA VARA"
+    },
+    {
+      "codigo": "314328",
+      "descricao": "AMPERÍMETRO GRÁFICO 0-6A"
+    },
+    {
+      "codigo": "306555",
+      "descricao": "ANEL CAIXA ZA CONCRETO  PREMOLDADO"
+    },
+    {
+      "codigo": "299511",
+      "descricao": "ANEL CAIXA ZB CONCRETO PREMOLDADO"
+    },
+    {
+      "codigo": "299594",
+      "descricao": "ANEL CAIXA ZC CONCRETO  PREMOLDADO"
+    },
+    {
+      "codigo": "299602",
+      "descricao": "ANEL CAIXA ZD CONCRETO  PREMOLDADO"
+    },
+    {
+      "codigo": "327700",
+      "descricao": "ANEL ELASTOMÉRICO AMARRAÇÃO ISOL PINO POLIMÉRICO"
+    },
+    {
+      "codigo": "374711",
+      "descricao": "ANEL ELASTOMÉRICO ISOLADOR  PINO 36KV"
+    },
+    {
+      "codigo": "20099",
+      "descricao": "APARELHO TESTE BASTÃO/VARA"
+    },
+    {
+      "codigo": "2980",
+      "descricao": "ARAME AÇO 2,76MM² (12)"
+    },
+    {
+      "codigo": "11874",
+      "descricao": "ARCO SERRA CROMADO 305MM"
+    },
+    {
+      "codigo": "237230",
+      "descricao": "ARMAÇÃO SECUNDÁRIO 1 ESTRIBO"
+    },
+    {
+      "codigo": "237248",
+      "descricao": "ARMAÇÃO SECUNDÁRIO 2 ESTRIBOS"
+    },
+    {
+      "codigo": "119123",
+      "descricao": "ARMÁRIO DE MADEIRA DUAS PORTAS PRATELEIRA VERTICAL"
+    },
+    {
+      "codigo": "375780",
+      "descricao": "ARMÁRIO FOTOVOLTAICO PODER PÚBLICO"
+    },
+    {
+      "codigo": "375557",
+      "descricao": "ARMÁRIO FOTOVOLTAICO RESIDENCIAL"
+    },
+    {
+      "codigo": "375578",
+      "descricao": "ARMÁRIO P.PUBLICO FOTOVOLTAICO"
+    },
+    {
+      "codigo": "375579",
+      "descricao": "ARMÁRIO RESIDENCIAL SISTEMA FOTOVOLTAICO"
+    },
+    {
+      "codigo": "299560",
+      "descricao": "ARO COM TAMPA ARTICULADA CAIXA ZA"
+    },
+    {
+      "codigo": "299529",
+      "descricao": "ARO COM TAMPA ARTICULADA CAIXA ZB PASSEIO"
+    },
+    {
+      "codigo": "297341",
+      "descricao": "ARO COM TAMPA ARTICULADA CAIXA ZB PISTA"
+    },
+    {
+      "codigo": "299578",
+      "descricao": "ARO E TAMPA CAIXA ZC PASSEIO"
+    },
+    {
+      "codigo": "299545",
+      "descricao": "ARO E TAMPA CAIXA ZC PISTA"
+    },
+    {
+      "codigo": "299552",
+      "descricao": "ARO E TAMPA POÇOS XA/XB"
+    },
+    {
+      "codigo": "371890",
+      "descricao": "ARO PARA CAIXA ZD"
+    },
+    {
+      "codigo": "75721",
+      "descricao": "ARRUELA QUADRADA 38X18X3MM"
+    },
+    {
+      "codigo": "267591",
+      "descricao": "ATUADOR QUIMICO"
+    },
+    {
+      "codigo": "246942",
+      "descricao": "AUTOTRANSFORMADOR AUXILIAR 300VA 115KV"
+    },
+    {
+      "codigo": "79806",
+      "descricao": "BAINHA PARA ALICATE SOLA CURTIDA"
+    },
+    {
+      "codigo": "81273",
+      "descricao": "BANDEIROLA 300X300X0,5MM"
+    },
+    {
+      "codigo": "230524",
+      "descricao": "BARRAMENTO DERIVAÇÃO ISOLADO 120MM²"
+    },
+    {
+      "codigo": "230532",
+      "descricao": "BARRAMENTO DERIVAÇÃO ISOLADO 240MM²"
+    },
+    {
+      "codigo": "377118",
+      "descricao": "BARRAMENTO DERIVAÇÃO ISOLADO TIPO 1"
+    },
+    {
+      "codigo": "377119",
+      "descricao": "BARRAMENTO DERIVAÇAO ISOLADO TIPO 2"
+    },
+    {
+      "codigo": "377120",
+      "descricao": "BARRAMENTO DERIVAÇÃO ISOLADO TIPO 3"
+    },
+    {
+      "codigo": "229740",
+      "descricao": "BARRAMENTO ISOLADO  AL 1200A"
+    },
+    {
+      "codigo": "229732",
+      "descricao": "BARRAMENTO ISOLADO CU 2000A"
+    },
+    {
+      "codigo": "231704",
+      "descricao": "BARRAMENTO QUADRIPLEX BQX 15KV 200A"
+    },
+    {
+      "codigo": "327783",
+      "descricao": "BARRAMENTO QUADRIPLEX BQX 15KV 600A"
+    },
+    {
+      "codigo": "229864",
+      "descricao": "BARRAMENTO TRIPLEX BTX 15KV 200A"
+    },
+    {
+      "codigo": "230987",
+      "descricao": "BARRAMENTO TRIPLEX BTX 15KV 600A"
+    },
+    {
+      "codigo": "323196",
+      "descricao": "BASE 10A RELÉ FOTOELÉTRICO"
+    },
+    {
+      "codigo": "323204",
+      "descricao": "BASE 50A RELÉ FOTOELÉTRICO"
+    },
+    {
+      "codigo": "352722",
+      "descricao": "BASE PARA RELÉ 10A RECUPERÁVEL"
+    },
+    {
+      "codigo": "310524",
+      "descricao": "BASE PARA RELÉ 50A RECUPERÁVEL"
+    },
+    {
+      "codigo": "265876",
+      "descricao": "BASTÃO AMARRAÇÃO COM GANCHO E LÂMINA ROTATIVA"
+    },
+    {
+      "codigo": "288878",
+      "descricao": "BASTÃO ATERRAMENTO COM DETETOR DE TENSÃO"
+    },
+    {
+      "codigo": "20438",
+      "descricao": "BASTÃO CATRACA TENSOR ISOLADO 34,5KV 1800KN"
+    },
+    {
+      "codigo": "20420",
+      "descricao": "BASTÃO ISOLADO TENAZ AJUSTÁVEL PARA LINHA VIVA"
+    },
+    {
+      "codigo": "289033",
+      "descricao": "BASTÃO MANOBRA ELEMENTO INFERIOR"
+    },
+    {
+      "codigo": "282616",
+      "descricao": "BASTÃO MANOBRA ELEMENTO INTERMEDIÁRIO"
+    },
+    {
+      "codigo": "81281",
+      "descricao": "BASTÃO PARA BANDEIRA SINALIZAÇÃO"
+    },
+    {
+      "codigo": "18366",
+      "descricao": "BASTÃO PARA CORDA MOITÃO 580MM"
+    },
+    {
+      "codigo": "19703",
+      "descricao": "BASTÃO PARA VOLT-AMPERÍMETRO 1795MM"
+    },
+    {
+      "codigo": "19612",
+      "descricao": "BASTÃO PEGA-TUDO 1975MM"
+    },
+    {
+      "codigo": "266841",
+      "descricao": "BASTÃO PEGA-TUDO 2580MM"
+    },
+    {
+      "codigo": "19620",
+      "descricao": "BASTÃO PRENDEDOR DE CONDUTOR 1800MM"
+    },
+    {
+      "codigo": "19638",
+      "descricao": "BASTÃO PRENDEDOR DE CONDUTOR 2400MM"
+    },
+    {
+      "codigo": "19646",
+      "descricao": "BASTÃO PUNHO ALICATE 1170MM"
+    },
+    {
+      "codigo": "19661",
+      "descricao": "BASTÃO SUPORTE COM GARRA 3000MM"
+    },
+    {
+      "codigo": "19679",
+      "descricao": "BASTÃO SUPORTE COM GARRA 3775MM"
+    },
+    {
+      "codigo": "19653",
+      "descricao": "BASTÃO SUPORTE D 38X2400M"
+    },
+    {
+      "codigo": "19687",
+      "descricao": "BASTÃO TRAÇÃO COM ESPIRAL  700MM"
+    },
+    {
+      "codigo": "17632",
+      "descricao": "BASTÃO TRAÇÃO COM TORNIQUETE 32X1425MM"
+    },
+    {
+      "codigo": "18341",
+      "descricao": "BASTÃO TRAÇÃO PARA MOITÃO"
+    },
+    {
+      "codigo": "19695",
+      "descricao": "BASTÃO UNIVERSAL COM 2 CABEÇOTES"
+    },
+    {
+      "codigo": "337659",
+      "descricao": "BATERIA 100AH 12V CHUMBO ÁCIDO"
+    },
+    {
+      "codigo": "375736",
+      "descricao": "BATERIA 105AH"
+    },
+    {
+      "codigo": "89656",
+      "descricao": "BOLSA LEITURISTA"
+    },
+    {
+      "codigo": "79798",
+      "descricao": "BOLSA LONA PARA LUVAS"
+    },
+    {
+      "codigo": "79814",
+      "descricao": "BOLSA PARA FERRAMENTA VAQUETA"
+    },
+    {
+      "codigo": "76943",
+      "descricao": "BOTA CAMPANHA 36 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76778",
+      "descricao": "BOTA CAMPANHA 37"
+    },
+    {
+      "codigo": "76760",
+      "descricao": "BOTA CAMPANHA 37 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76794",
+      "descricao": "BOTA CAMPANHA 38"
+    },
+    {
+      "codigo": "76786",
+      "descricao": "BOTA CAMPANHA 38 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76810",
+      "descricao": "BOTA CAMPANHA 39"
+    },
+    {
+      "codigo": "76802",
+      "descricao": "BOTA CAMPANHA 39 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76836",
+      "descricao": "BOTA CAMPANHA 40"
+    },
+    {
+      "codigo": "76828",
+      "descricao": "BOTA CAMPANHA 40 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76851",
+      "descricao": "BOTA CAMPANHA 41"
+    },
+    {
+      "codigo": "76844",
+      "descricao": "BOTA CAMPANHA 41 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76869",
+      "descricao": "BOTA CAMPANHA 42 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76885",
+      "descricao": "BOTA CAMPANHA 43 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76901",
+      "descricao": "BOTA CAMPANHA 44 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "76927",
+      "descricao": "BOTA CAMPANHA 45 SEM ALMA AÇO"
+    },
+    {
+      "codigo": "77321",
+      "descricao": "BOTINA 36 SOLADO COMUM"
+    },
+    {
+      "codigo": "76968",
+      "descricao": "BOTINA 37 SOLADO COMUM"
+    },
+    {
+      "codigo": "77008",
+      "descricao": "BOTINA 38 SOLADO COMUM"
+    },
+    {
+      "codigo": "77040",
+      "descricao": "BOTINA 39 SOLADO COMUM"
+    },
+    {
+      "codigo": "77081",
+      "descricao": "BOTINA 40 SOLADO COMUM"
+    },
+    {
+      "codigo": "77123",
+      "descricao": "BOTINA 41 SOLADO COMUM"
+    },
+    {
+      "codigo": "77164",
+      "descricao": "BOTINA 42 SOLADO COMUM"
+    },
+    {
+      "codigo": "77206",
+      "descricao": "BOTINA 43 SOLADO COMUM"
+    },
+    {
+      "codigo": "77248",
+      "descricao": "BOTINA 44 SOLADO COMUM"
+    },
+    {
+      "codigo": "77289",
+      "descricao": "BOTINA 45 SOLADO COMUM"
+    },
+    {
+      "codigo": "365208",
+      "descricao": "BRAÇADEIRA PARA FIAÇÃO 10CM"
+    },
+    {
+      "codigo": "373324",
+      "descricao": "BRAÇADEIRA PARA FIAÇÃO 15CM"
+    },
+    {
+      "codigo": "82255",
+      "descricao": "BRAÇADEIRA PARA FIAÇÃO 28CM"
+    },
+    {
+      "codigo": "327692",
+      "descricao": "BRAÇADEIRA PLÁSTICA CABO MULTIPLEXADO"
+    },
+    {
+      "codigo": "328138",
+      "descricao": "BRAÇO ANTIBALANÇO 15KV"
+    },
+    {
+      "codigo": "372729",
+      "descricao": "BRAÇO ANTIBALANÇO 25KV"
+    },
+    {
+      "codigo": "231712",
+      "descricao": "BRAÇO COM GRAMPO DE SUSPENSÃO ITEM 2"
+    },
+    {
+      "codigo": "258913",
+      "descricao": "BRAÇO LEVE I"
+    },
+    {
+      "codigo": "258947",
+      "descricao": "BRAÇO LEVE II"
+    },
+    {
+      "codigo": "258806",
+      "descricao": "BRAÇO PA4"
+    },
+    {
+      "codigo": "214684",
+      "descricao": "BRAÇO PARA IP PARA ÁREA ARBORIZADA"
+    },
+    {
+      "codigo": "258905",
+      "descricao": "BRAÇO PARA IP TIPO CURTO"
+    },
+    {
+      "codigo": "258921",
+      "descricao": "BRAÇO PARA IP TIPO MÉDIO"
+    },
+    {
+      "codigo": "258939",
+      "descricao": "BRAÇO PARA IP TIPO PESADO"
+    },
+    {
+      "codigo": "211789",
+      "descricao": "BRAÇO SUPORTE C"
+    },
+    {
+      "codigo": "212704",
+      "descricao": "BRAÇO SUPORTE C PARA 25KV"
+    },
+    {
+      "codigo": "214619",
+      "descricao": "BRAÇO SUPORTE COM GRAMPO DE SUSPENSÃO ITEM 1"
+    },
+    {
+      "codigo": "211771",
+      "descricao": "BRAÇO SUPORTE L"
+    },
+    {
+      "codigo": "212712",
+      "descricao": "BRAÇO SUPORTE L PARA 25KV"
+    },
+    {
+      "codigo": "357255",
+      "descricao": "BRAÇO TIPO J PARA RDP"
+    },
+    {
+      "codigo": "299859",
+      "descricao": "BUCHA ALUMÍNIO 1P"
+    },
+    {
+      "codigo": "310136",
+      "descricao": "BUCHA ALUMÍNIO 3/4P"
+    },
+    {
+      "codigo": "365670",
+      "descricao": "BUCHA N.6"
+    },
+    {
+      "codigo": "365971",
+      "descricao": "BUCHA N.8"
+    },
+    {
+      "codigo": "365270",
+      "descricao": "BUCHA NYLON S06"
+    },
+    {
+      "codigo": "79525",
+      "descricao": "BUCHA NYLON S08"
+    },
+    {
+      "codigo": "374555",
+      "descricao": "BUCHA REDUÇÃO COM PORCA  ARRUELA 2 X 1 1/2\""
+    },
+    {
+      "codigo": "374554",
+      "descricao": "BUCHA REDUÇÃO COM PORCA ARRUELA  2 1/2 X 2\""
+    },
+    {
+      "codigo": "374553",
+      "descricao": "BUCHA REDUÇÃO COM PORCA ARRUELA 2 X 1 1/4\""
+    },
+    {
+      "codigo": "374556",
+      "descricao": "BUCHA REDUÇÃO COM PORCA ARRUELA 3 1/2 X 2 1/2\""
+    },
+    {
+      "codigo": "96735",
+      "descricao": "CABEÇOTE HIDRÁULICO 12T EQV Y35"
+    },
+    {
+      "codigo": "288746",
+      "descricao": "CABEÇOTE MANUAL GRAMPO ATERRAMENTO"
+    },
+    {
+      "codigo": "288795",
+      "descricao": "CABEÇOTE PARA BASTÃO UNIVERSAL"
+    },
+    {
+      "codigo": "298703",
+      "descricao": "CABEÇOTE PARA ELETRODUTO 1.1/2P"
+    },
+    {
+      "codigo": "372662",
+      "descricao": "CABEÇOTE PARA ELETRODUTO 1.1/4P"
+    },
+    {
+      "codigo": "298687",
+      "descricao": "CABEÇOTE PARA ELETRODUTO 1P"
+    },
+    {
+      "codigo": "372663",
+      "descricao": "CABEÇOTE PARA ELETRODUTO 2P"
+    },
+    {
+      "codigo": "298745",
+      "descricao": "CABEÇOTE PARA ELETRODUTO 3P"
+    },
+    {
+      "codigo": "298778",
+      "descricao": "CABEÇOTE PARA ELETRODUTO 4P"
+    },
+    {
+      "codigo": "377443",
+      "descricao": "CABO AÇO 3N5 (9,93MM) ALUMINIZADO"
+    },
+    {
+      "codigo": "225623",
+      "descricao": "CABO AL 1X 16MM² 1KV"
+    },
+    {
+      "codigo": "225631",
+      "descricao": "CABO AL 1X 25MM² 1KV"
+    },
+    {
+      "codigo": "375521",
+      "descricao": "CABO AL 1X 50+3/8P 15KV"
+    },
+    {
+      "codigo": "224196",
+      "descricao": "CABO AL 1X 50MM²  25KV PROTEGIDO"
+    },
+    {
+      "codigo": "225680",
+      "descricao": "CABO AL 1X 50MM² 15KV"
+    },
+    {
+      "codigo": "231548",
+      "descricao": "CABO AL 1X 50MM² 15KV PROTEGIDO"
+    },
+    {
+      "codigo": "225649",
+      "descricao": "CABO AL 1X 50MM² 1KV"
+    },
+    {
+      "codigo": "225722",
+      "descricao": "CABO AL 1X 50MM² 25KV"
+    },
+    {
+      "codigo": "225656",
+      "descricao": "CABO AL 1X 70MM² 1KV"
+    },
+    {
+      "codigo": "373007",
+      "descricao": "CABO AL 1X 70MM² 35KV PROTEGIDO"
+    },
+    {
+      "codigo": "225698",
+      "descricao": "CABO AL 1X120MM² 15KV"
+    },
+    {
+      "codigo": "225664",
+      "descricao": "CABO AL 1X120MM² 1KV"
+    },
+    {
+      "codigo": "224204",
+      "descricao": "CABO AL 1X150MM²  25KV PROTEGIDO"
+    },
+    {
+      "codigo": "231530",
+      "descricao": "CABO AL 1X150MM² 15KV PROTEGIDO"
+    },
+    {
+      "codigo": "374438",
+      "descricao": "CABO AL 1X150MM² 35KV PROTEGIDO"
+    },
+    {
+      "codigo": "225730",
+      "descricao": "CABO AL 1X185MM² 25KV"
+    },
+    {
+      "codigo": "225706",
+      "descricao": "CABO AL 1X240MM² 15KV"
+    },
+    {
+      "codigo": "225672",
+      "descricao": "CABO AL 1X240MM² 1KV"
+    },
+    {
+      "codigo": "225714",
+      "descricao": "CABO AL 1X400MM² 15KV"
+    },
+    {
+      "codigo": "231597",
+      "descricao": "CABO AL 3X 50+3/8P 15KV"
+    },
+    {
+      "codigo": "327718",
+      "descricao": "CABO AL 3X 50+3/8P 25KV"
+    },
+    {
+      "codigo": "375967",
+      "descricao": "CABO AL 3X 70+3/8P 35KV"
+    },
+    {
+      "codigo": "231605",
+      "descricao": "CABO AL 3X120+3/8P 15KV"
+    },
+    {
+      "codigo": "327775",
+      "descricao": "CABO AL 3X120+3/8P 25KV"
+    },
+    {
+      "codigo": "231613",
+      "descricao": "CABO AL 3X185+3/8P 15KV"
+    },
+    {
+      "codigo": "337899",
+      "descricao": "CABO ANTIFURTO CU  6MM²"
+    },
+    {
+      "codigo": "337881",
+      "descricao": "CABO ANTIFURTO CU 16MM²"
+    },
+    {
+      "codigo": "220475",
+      "descricao": "CABO CA  34MM² (2AWG)"
+    },
+    {
+      "codigo": "220434",
+      "descricao": "CABO CA  53MM² (1/0AWG)"
+    },
+    {
+      "codigo": "220400",
+      "descricao": "CABO CA 107MM² (4/0AWG)"
+    },
+    {
+      "codigo": "220673",
+      "descricao": "CABO CA 170MM² (336,4MCM)"
+    },
+    {
+      "codigo": "220517",
+      "descricao": "CABO CA 4"
+    },
+    {
+      "codigo": "220483",
+      "descricao": "CABO CAA  21MM² (4AWG)"
+    },
+    {
+      "codigo": "220467",
+      "descricao": "CABO CAA  34MM² (2AWG)"
+    },
+    {
+      "codigo": "220418",
+      "descricao": "CABO CAA  53MM² (1/0AWG)"
+    },
+    {
+      "codigo": "220392",
+      "descricao": "CABO CAA 107MM² (4/0AWG)"
+    },
+    {
+      "codigo": "220368",
+      "descricao": "CABO CAA 170MM² (336,4MCM)"
+    },
+    {
+      "codigo": "219956",
+      "descricao": "CABO COBRE NU MEIO DURO 35mm2"
+    },
+    {
+      "codigo": "377121",
+      "descricao": "CABO CONCÊNTRICO 3X25(AL) + 25(CU)"
+    },
+    {
+      "codigo": "377122",
+      "descricao": "CABO CONCÊNTRICO 3X35(AL) + 35(CU)"
+    },
+    {
+      "codigo": "377185",
+      "descricao": "CABO CONCÊNTRICO 3X50(CU) + 50(CU)"
+    },
+    {
+      "codigo": "225615",
+      "descricao": "CABO CU 1X 1,5MM² 1KV XLPE"
+    },
+    {
+      "codigo": "225979",
+      "descricao": "CABO CU 1X 1,5MM² 750V PVC"
+    },
+    {
+      "codigo": "225961",
+      "descricao": "CABO CU 1X 1,5MM² 750V SILICONE"
+    },
+    {
+      "codigo": "225821",
+      "descricao": "CABO CU 1X 10MM² 750V"
+    },
+    {
+      "codigo": "226167",
+      "descricao": "CABO CU 1X 16MM² 600V NEOPRENE"
+    },
+    {
+      "codigo": "225813",
+      "descricao": "CABO CU 1X 16MM² 750V"
+    },
+    {
+      "codigo": "225896",
+      "descricao": "CABO CU 1X 2,5MM² 750V"
+    },
+    {
+      "codigo": "225805",
+      "descricao": "CABO CU 1X 25MM² 750V"
+    },
+    {
+      "codigo": "19711",
+      "descricao": "CABO CU 1X 34MM² 15KV PARA LINHA VIVA"
+    },
+    {
+      "codigo": "225433",
+      "descricao": "CABO CU 1X 35MM² 1KV"
+    },
+    {
+      "codigo": "225789",
+      "descricao": "CABO CU 1X 35MM² 750V"
+    },
+    {
+      "codigo": "365278",
+      "descricao": "CABO CU 1X 4MM² 750V"
+    },
+    {
+      "codigo": "225771",
+      "descricao": "CABO CU 1X 50MM² 750V"
+    },
+    {
+      "codigo": "225391",
+      "descricao": "CABO CU 1X 70MM² 1KV"
+    },
+    {
+      "codigo": "225763",
+      "descricao": "CABO CU 1X 95MM² 750V"
+    },
+    {
+      "codigo": "225383",
+      "descricao": "CABO CU 1X120MM² 1KV"
+    },
+    {
+      "codigo": "225755",
+      "descricao": "CABO CU 1X120MM² 750V"
+    },
+    {
+      "codigo": "225342",
+      "descricao": "CABO CU 1X150MM² 1KV"
+    },
+    {
+      "codigo": "225326",
+      "descricao": "CABO CU 1X240MM² 1KV"
+    },
+    {
+      "codigo": "225797",
+      "descricao": "CABO CU 1X25MM² 750V TRANSPARENTE"
+    },
+    {
+      "codigo": "225854",
+      "descricao": "CABO CU 1X6MM² 750V"
+    },
+    {
+      "codigo": "225581",
+      "descricao": "CABO CU 2X 4MM² 0,6/1KV"
+    },
+    {
+      "codigo": "225540",
+      "descricao": "CABO CU 2X 6MM² 0,6/1KV"
+    },
+    {
+      "codigo": "225508",
+      "descricao": "CABO CU 2X10MM² 0,6/1KV"
+    },
+    {
+      "codigo": "222125",
+      "descricao": "CABO CU 2X2,5MM²  0,6/1KV"
+    },
+    {
+      "codigo": "225532",
+      "descricao": "CABO CU 3X6MM² 1 KV EPR/ST1"
+    },
+    {
+      "codigo": "225565",
+      "descricao": "CABO CU 4X4MM2 0,6/1KV EPR"
+    },
+    {
+      "codigo": "219873",
+      "descricao": "CABO CU NU 35MM² MEIO DURO"
+    },
+    {
+      "codigo": "219857",
+      "descricao": "CABO CU NU 70MM² MEIO DURO"
+    },
+    {
+      "codigo": "2964",
+      "descricao": "CABO DE AÇO HS 3/8P (9,5MM) 7FIOS"
+    },
+    {
+      "codigo": "2931",
+      "descricao": "CABO DE AÇO MR 1/4P (6,4MM) 7 FIOS"
+    },
+    {
+      "codigo": "226183",
+      "descricao": "CABO DUPLEX  CA 1X1X10+10 1KV"
+    },
+    {
+      "codigo": "226209",
+      "descricao": "CABO DUPLEX  CA 1X1X16+16 1KV"
+    },
+    {
+      "codigo": "226217",
+      "descricao": "CABO DUPLEX  CA 1X1X25+25 1KV"
+    },
+    {
+      "codigo": "226142",
+      "descricao": "CABO QUADRUPLEX CA 3X1X 16+16 1KV"
+    },
+    {
+      "codigo": "226084",
+      "descricao": "CABO QUADRUPLEX CA 3X1X 35+70 1KV"
+    },
+    {
+      "codigo": "226373",
+      "descricao": "CABO QUADRUPLEX CA 3X1X 70+70 1KV"
+    },
+    {
+      "codigo": "226365",
+      "descricao": "CABO QUADRUPLEX CA 3X1X120+70 1KV"
+    },
+    {
+      "codigo": "226175",
+      "descricao": "CABO TRIPLEX CA 2X1X10+10 1KV"
+    },
+    {
+      "codigo": "226191",
+      "descricao": "CABO TRIPLEX CA 2X1X16+16 1KV"
+    },
+    {
+      "codigo": "376198",
+      "descricao": "CABO TRIPLEX CA 2X1X25+25 1KV"
+    },
+    {
+      "codigo": "226092",
+      "descricao": "CABO TRIPLEX CA 2X1X35+70 1KV"
+    },
+    {
+      "codigo": "231589",
+      "descricao": "CABO TRIPLEX CA 2X1X70+70 1KV"
+    },
+    {
+      "codigo": "79160",
+      "descricao": "CADEADO 35MM HASTE NORMAL"
+    },
+    {
+      "codigo": "242677",
+      "descricao": "CAIXA BT TRAFO SUBTERRAN"
+    },
+    {
+      "codigo": "300160",
+      "descricao": "CAIXA DE MEDIÇÃO THS"
+    },
+    {
+      "codigo": "311282",
+      "descricao": "CAIXA DE PROTEÇÃO APARENTE"
+    },
+    {
+      "codigo": "377280",
+      "descricao": "CAIXA DERIVACAO DT P/RDC"
+    },
+    {
+      "codigo": "377123",
+      "descricao": "CAIXA DERIVAÇÃO PARA RDC CABOS 25 E 35MM² 0,6/1KV"
+    },
+    {
+      "codigo": "364668",
+      "descricao": "CAIXA DERIVAÇÃO RSS 30CM ITEM 1"
+    },
+    {
+      "codigo": "364669",
+      "descricao": "CAIXA DERIVAÇÃO RSS 60CM ITEM 2"
+    },
+    {
+      "codigo": "375493",
+      "descricao": "CAIXA LIGAÇÃO PVC TAMPA CEGA"
+    },
+    {
+      "codigo": "377424",
+      "descricao": "CAIXA MEDIÇÃO  ELETRÔNICA CONCENTRADORA RDC"
+    },
+    {
+      "codigo": "302299",
+      "descricao": "CAIXA MEDIÇÃO DIRETA CM-2"
+    },
+    {
+      "codigo": "309286",
+      "descricao": "CAIXA MEDIÇÃO INDIRETA CM-3"
+    },
+    {
+      "codigo": "309294",
+      "descricao": "CAIXA PADRÃO POPULAR COM ACESSÓRIOS"
+    },
+    {
+      "codigo": "254417",
+      "descricao": "CAIXA PASSAGEM BT 1875A PARA TRANSFORMADOR"
+    },
+    {
+      "codigo": "254425",
+      "descricao": "CAIXA PASSAGEM BT 2925A PARA TRANSFORMADOR"
+    },
+    {
+      "codigo": "299313",
+      "descricao": "CAIXA PVC PARA ITERRUPTOR"
+    },
+    {
+      "codigo": "288563",
+      "descricao": "CAMARA EXT ARCO CH ALDUTI"
+    },
+    {
+      "codigo": "345868",
+      "descricao": "CÂMARA EXTINÇÃO ARCO CHAVE OMNI"
+    },
+    {
+      "codigo": "307249",
+      "descricao": "CANALETA 2,1M"
+    },
+    {
+      "codigo": "375472",
+      "descricao": "CANALETA 20X10X2000MM"
+    },
+    {
+      "codigo": "375492",
+      "descricao": "CANALETA 25X25X2000MM"
+    },
+    {
+      "codigo": "11817",
+      "descricao": "CANIVETE PARA ELETRICISTA 100MM"
+    },
+    {
+      "codigo": "223818",
+      "descricao": "CANTONEIRA PARA BRAÇO C"
+    },
+    {
+      "codigo": "80960",
+      "descricao": "CAPACETE SEGURANÇA AMARELO CLASSE B"
+    },
+    {
+      "codigo": "284992",
+      "descricao": "CAPACITOR 15KV 100KVAR"
+    },
+    {
+      "codigo": "285007",
+      "descricao": "CAPACITOR 15KV 200KVAR"
+    },
+    {
+      "codigo": "285015",
+      "descricao": "CAPACITOR 25KV 100KVAR"
+    },
+    {
+      "codigo": "285023",
+      "descricao": "CAPACITOR 25KV 200KVAR"
+    },
+    {
+      "codigo": "261214",
+      "descricao": "CAPACITOR RECUPERÁVEL"
+    },
+    {
+      "codigo": "8219",
+      "descricao": "CARRETILHA 75DAN PARA CORDA 13MM"
+    },
+    {
+      "codigo": "44701",
+      "descricao": "CARRETILHA DUPLA AÇÃO"
+    },
+    {
+      "codigo": "231860",
+      "descricao": "CARTUCHO DE APLICAÇÃO AZUL"
+    },
+    {
+      "codigo": "231878",
+      "descricao": "CARTUCHO DE APLICAÇÃO VERMELHO"
+    },
+    {
+      "codigo": "18606",
+      "descricao": "CESTA PARA FERRAMENTA FIBRA DE VIDRO"
+    },
+    {
+      "codigo": "375418",
+      "descricao": "CHAPA FIXAÇÃO CHAVE FACA BRAÇO J"
+    },
+    {
+      "codigo": "237727",
+      "descricao": "CHAPA PARA ÂNCORA 320X320MM"
+    },
+    {
+      "codigo": "237719",
+      "descricao": "CHAPA PARA ESTAI"
+    },
+    {
+      "codigo": "82081",
+      "descricao": "CHASSI 350MM P/PLACAS ID."
+    },
+    {
+      "codigo": "356865",
+      "descricao": "CHASSI 410MM PARA PLACAS DE IDENTIFICAÇÃO"
+    },
+    {
+      "codigo": "306225",
+      "descricao": "CHAVE AFERIÇÃO 600V 20A"
+    },
+    {
+      "codigo": "5405",
+      "descricao": "CHAVE AJUSTÁVEL INGLESA 250MM"
+    },
+    {
+      "codigo": "5421",
+      "descricao": "CHAVE AJUSTÁVEL INGLESA 380MM"
+    },
+    {
+      "codigo": "5397",
+      "descricao": "CHAVE AJUSTÁVEL PARA PORCA 200X23MM"
+    },
+    {
+      "codigo": "5413",
+      "descricao": "CHAVE AJUSTÁVEL PARA PORCA 300X34MM"
+    },
+    {
+      "codigo": "5371",
+      "descricao": "CHAVE AJUSTÁVEL PARA TUBO 300X44MM"
+    },
+    {
+      "codigo": "5348",
+      "descricao": "CHAVE CANHÃO 3/8P"
+    },
+    {
+      "codigo": "5355",
+      "descricao": "CHAVE CANHÃO 7/16P"
+    },
+    {
+      "codigo": "328104",
+      "descricao": "CHAVE CATRACA PARA CONETOR DE PERFURAÇÃO"
+    },
+    {
+      "codigo": "268326",
+      "descricao": "CHAVE COMANDO CAPACITOR 15KV 200A"
+    },
+    {
+      "codigo": "285031",
+      "descricao": "CHAVE COMANDO CAPACITOR MONOFÁSICO"
+    },
+    {
+      "codigo": "374388",
+      "descricao": "CHAVE FACA MONOPOLAR 15KV 300A"
+    },
+    {
+      "codigo": "377508",
+      "descricao": "CHAVE FACA MONOPOLAR 36,2KV 630A"
+    },
+    {
+      "codigo": "260430",
+      "descricao": "CHAVE FACA RECUPERÁVEL"
+    },
+    {
+      "codigo": "273417",
+      "descricao": "CHAVE FACA UNIPOLAR 15KV 630A"
+    },
+    {
+      "codigo": "273599",
+      "descricao": "CHAVE FACA UNIPOLAR 24,2KV 630A"
+    },
+    {
+      "codigo": "5298",
+      "descricao": "CHAVE FENDA 0,5X3X100MM"
+    },
+    {
+      "codigo": "5306",
+      "descricao": "CHAVE FENDA 0,8X5,5X125MM"
+    },
+    {
+      "codigo": "5314",
+      "descricao": "CHAVE FENDA 1X6,5X150MM"
+    },
+    {
+      "codigo": "270439",
+      "descricao": "CHAVE FUSÍVEL 15KV PF 100A 7,1KA"
+    },
+    {
+      "codigo": "270488",
+      "descricao": "CHAVE FUSÍVEL 15KV PF 200A 10KA"
+    },
+    {
+      "codigo": "288993",
+      "descricao": "CHAVE FUSÍVEL 24KV PF 100A 2KA"
+    },
+    {
+      "codigo": "270546",
+      "descricao": "CHAVE FUSÍVEL 24KV PF 100A 6,3KA"
+    },
+    {
+      "codigo": "375257",
+      "descricao": "CHAVE FUSÍVEL 36,2KV 100A 3,5KA"
+    },
+    {
+      "codigo": "375744",
+      "descricao": "CHAVE FUSÍVEL 36/15KV 200A 10KA"
+    },
+    {
+      "codigo": "260422",
+      "descricao": "CHAVE FUSÍVEL RECUPERÁVEL"
+    },
+    {
+      "codigo": "375461",
+      "descricao": "CHAVE FUSÍVEL REPETIDORA 24,2KV 7,1KA"
+    },
+    {
+      "codigo": "293316",
+      "descricao": "CHAVE FUSÍVEL REPETIDORA MONOFÁSICA 15KV 7,1KA"
+    },
+    {
+      "codigo": "288167",
+      "descricao": "CHAVE RDP 630A 15KV COM MOTOR"
+    },
+    {
+      "codigo": "328658",
+      "descricao": "CHAVE RDS 200A 15KV 3V DISJ"
+    },
+    {
+      "codigo": "288928",
+      "descricao": "CHAVE RDS 200A 24KV 2V F40A"
+    },
+    {
+      "codigo": "289330",
+      "descricao": "CHAVE RDS 200A 24KV 2V SIMP"
+    },
+    {
+      "codigo": "352263",
+      "descricao": "CHAVE RDS 200A 24KV 3V F20A"
+    },
+    {
+      "codigo": "328666",
+      "descricao": "CHAVE RDS 200A 24KV 3V F40A"
+    },
+    {
+      "codigo": "291229",
+      "descricao": "CHAVE RDS 200A 24KV 3V SIMP"
+    },
+    {
+      "codigo": "327809",
+      "descricao": "CHAVE RDS 600A 15KV 3V DISJ"
+    },
+    {
+      "codigo": "289348",
+      "descricao": "CHAVE RDS 600A 24KV 2V SIMP"
+    },
+    {
+      "codigo": "328674",
+      "descricao": "CHAVE RDS 600A 24KV 3V SIMP"
+    },
+    {
+      "codigo": "273342",
+      "descricao": "CHAVE SECA 630A 15KV ALDUTI"
+    },
+    {
+      "codigo": "273615",
+      "descricao": "CHAVE SECA 630A 24KV ALDUTI"
+    },
+    {
+      "codigo": "288217",
+      "descricao": "CHAVE SF6 RDI 15KV 200A"
+    },
+    {
+      "codigo": "288225",
+      "descricao": "CHAVE SF6 RDI 15KV 600A"
+    },
+    {
+      "codigo": "289389",
+      "descricao": "CHAVE SF6 RDP 24KV 630A"
+    },
+    {
+      "codigo": "293043",
+      "descricao": "CHAVE TRIPOLAR 15KV 630A"
+    },
+    {
+      "codigo": "285056",
+      "descricao": "CHAVE TRIPOLAR 400A 15KV SUBM"
+    },
+    {
+      "codigo": "214650",
+      "descricao": "CHICOTE DUPLO 2,5M PARA IP POSTE AÇO OCTOGONAL"
+    },
+    {
+      "codigo": "376524",
+      "descricao": "CHICOTE DUPLO 3M PARA IP POSTE AÇO OCTOGONAL 14M"
+    },
+    {
+      "codigo": "214643",
+      "descricao": "CHICOTE SIMPLES 2,5M PARA IP POSTE AÇO OCTOGONAL"
+    },
+    {
+      "codigo": "376527",
+      "descricao": "CHICOTE SIMPLES 3M PARA IP POSTE AÇO OCTOGONAL 14M"
+    },
+    {
+      "codigo": "296806",
+      "descricao": "CHUMBADOR CANT L 2X2X5/16"
+    },
+    {
+      "codigo": "80275",
+      "descricao": "CHUMBADOR EXP 1/2P R.INT"
+    },
+    {
+      "codigo": "82263",
+      "descricao": "CHUMBADOR EXPANSÃO 5/8PX150MM"
+    },
+    {
+      "codigo": "79152",
+      "descricao": "CIMENTO CP320 SACO 50KG"
+    },
+    {
+      "codigo": "375747",
+      "descricao": "CINTA 102MM PARA SISTEMA FOTOVOLTAICO"
+    },
+    {
+      "codigo": "236802",
+      "descricao": "CINTA DE AÇO D 140MM"
+    },
+    {
+      "codigo": "236810",
+      "descricao": "CINTA DE AÇO D 150MM"
+    },
+    {
+      "codigo": "236828",
+      "descricao": "CINTA DE AÇO D 160MM"
+    },
+    {
+      "codigo": "236836",
+      "descricao": "CINTA DE AÇO D 170MM"
+    },
+    {
+      "codigo": "236844",
+      "descricao": "CINTA DE AÇO D 180MM"
+    },
+    {
+      "codigo": "236851",
+      "descricao": "CINTA DE AÇO D 190MM"
+    },
+    {
+      "codigo": "236869",
+      "descricao": "CINTA DE AÇO D 200MM"
+    },
+    {
+      "codigo": "236877",
+      "descricao": "CINTA DE AÇO D 210MM"
+    },
+    {
+      "codigo": "236885",
+      "descricao": "CINTA DE AÇO D 220MM"
+    },
+    {
+      "codigo": "236893",
+      "descricao": "CINTA DE AÇO D 230MM"
+    },
+    {
+      "codigo": "236901",
+      "descricao": "CINTA DE AÇO D 240MM"
+    },
+    {
+      "codigo": "236919",
+      "descricao": "CINTA DE AÇO D 250MM"
+    },
+    {
+      "codigo": "236927",
+      "descricao": "CINTA DE AÇO D 260MM"
+    },
+    {
+      "codigo": "236935",
+      "descricao": "CINTA DE AÇO D 270MM"
+    },
+    {
+      "codigo": "236943",
+      "descricao": "CINTA DE AÇO D 280MM"
+    },
+    {
+      "codigo": "236950",
+      "descricao": "CINTA DE AÇO D 290MM"
+    },
+    {
+      "codigo": "236968",
+      "descricao": "CINTA DE AÇO D 300MM"
+    },
+    {
+      "codigo": "236976",
+      "descricao": "CINTA DE AÇO D 310MM"
+    },
+    {
+      "codigo": "236984",
+      "descricao": "CINTA DE AÇO D 320MM"
+    },
+    {
+      "codigo": "236992",
+      "descricao": "CINTA DE AÇO D 340MM"
+    },
+    {
+      "codigo": "237016",
+      "descricao": "CINTA DE AÇO D 360MM"
+    },
+    {
+      "codigo": "237032",
+      "descricao": "CINTA DE AÇO D 380MM"
+    },
+    {
+      "codigo": "81125",
+      "descricao": "CINTURÃO SEGURANÇA  920MM"
+    },
+    {
+      "codigo": "81133",
+      "descricao": "CINTURÃO SEGURANÇA 1120MM"
+    },
+    {
+      "codigo": "39255",
+      "descricao": "COBERT FLEXÍVEL CONDUTOR 30KV"
+    },
+    {
+      "codigo": "83469",
+      "descricao": "COBERTURA ISOLADOR PINO 46KV"
+    },
+    {
+      "codigo": "19737",
+      "descricao": "COBERTURA ISOLANTE FLEXÍVEL PARA CHAVE FUSÍVEL"
+    },
+    {
+      "codigo": "19745",
+      "descricao": "COBERTURA ISOLANTE FLEXÍVEL PARA CONDUTOR"
+    },
+    {
+      "codigo": "19752",
+      "descricao": "COBERTURA ISOLANTE FLEXÍVEL PARA ISOLADOR DE DISCO"
+    },
+    {
+      "codigo": "19760",
+      "descricao": "COBERTURA ISOLANTE FLEXÍVEL PARA ISOLADOR DE PINO"
+    },
+    {
+      "codigo": "19778",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA CHAVE FACA"
+    },
+    {
+      "codigo": "19786",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA CHAVE FUSÍVEL"
+    },
+    {
+      "codigo": "19794",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA CONDUTOR"
+    },
+    {
+      "codigo": "20503",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA CONDUTOR 46KV"
+    },
+    {
+      "codigo": "19802",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA CRUZETA"
+    },
+    {
+      "codigo": "19836",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA ISOLADOR DE  PINO"
+    },
+    {
+      "codigo": "19810",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA ISOLADOR DE DISCO"
+    },
+    {
+      "codigo": "20511",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA PARA POSTE 230X300MM"
+    },
+    {
+      "codigo": "19844",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA POSTE 150X300MM"
+    },
+    {
+      "codigo": "19851",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA POSTE 150X600MM"
+    },
+    {
+      "codigo": "19869",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA POSTE 230X1200MM"
+    },
+    {
+      "codigo": "19877",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA POSTE 230X1800MM"
+    },
+    {
+      "codigo": "18424",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA POSTE 230X600MM"
+    },
+    {
+      "codigo": "19885",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA POSTE 300X1200MM"
+    },
+    {
+      "codigo": "19901",
+      "descricao": "COBERTURA ISOLANTE RÍGIDA POSTE 300X1800MM"
+    },
+    {
+      "codigo": "81182",
+      "descricao": "COBERTURA PROTETORA BT  21MM²"
+    },
+    {
+      "codigo": "81190",
+      "descricao": "COBERTURA PROTETORA BT  34MM²"
+    },
+    {
+      "codigo": "81208",
+      "descricao": "COBERTURA PROTETORA BT  53MM²"
+    },
+    {
+      "codigo": "81216",
+      "descricao": "COBERTURA PROTETORA BT 107MM²"
+    },
+    {
+      "codigo": "81257",
+      "descricao": "COBERTURA PROTETORA BT 170MM²"
+    },
+    {
+      "codigo": "375058",
+      "descricao": "COBERTURA PROTETORA BUCHA BT TRANSFORMADOR ITEM 1"
+    },
+    {
+      "codigo": "375056",
+      "descricao": "COBERTURA PROTETORA BUCHA BT TRANSFORMADOR ITEM 2"
+    },
+    {
+      "codigo": "364561",
+      "descricao": "COBERTURA PROTETORA P CONETOR E GRAMPO LV RDP 25KV"
+    },
+    {
+      "codigo": "39586",
+      "descricao": "COBERTURA PROTETORA PARA BUCHA DE EQUIPAMENTO"
+    },
+    {
+      "codigo": "3376",
+      "descricao": "COBERTURA PROTETORA PARA CA 1/0AWG 15KV"
+    },
+    {
+      "codigo": "352697",
+      "descricao": "COBERTURA PROTETORA PARA CA 336MCM 15KV"
+    },
+    {
+      "codigo": "364562",
+      "descricao": "COBERTURA PROTETORA PARA CONETOR RDP 25KV"
+    },
+    {
+      "codigo": "360874",
+      "descricao": "COBERTURA PROTETORA PARA ISOLADOR PINO 15KV"
+    },
+    {
+      "codigo": "39479",
+      "descricao": "COLAR DE 38MM COM ARGOLA"
+    },
+    {
+      "codigo": "260653",
+      "descricao": "COLARINHO COM ALÇA PARA BASTÃO"
+    },
+    {
+      "codigo": "19919",
+      "descricao": "COLARINHO PARA MOITÃO 64MM"
+    },
+    {
+      "codigo": "19935",
+      "descricao": "COLARINHO PARA SUPORTE BASTÃO 64MM"
+    },
+    {
+      "codigo": "19950",
+      "descricao": "COLOCADOR DE CONTRAPINO"
+    },
+    {
+      "codigo": "81299",
+      "descricao": "CONE 280X750MM PARA SINALIZAÇÃO"
+    },
+    {
+      "codigo": "228619",
+      "descricao": "CONETOR ATERRAMENTO CU 25-70MM² AÇO 6,4-9,5MM"
+    },
+    {
+      "codigo": "228585",
+      "descricao": "CONETOR ATERRAMENTO CU 25-70MM² AÇO 8-9,5MM"
+    },
+    {
+      "codigo": "230052",
+      "descricao": "CONETOR BORNE PARA CU 6MM²"
+    },
+    {
+      "codigo": "230565",
+      "descricao": "CONETOR COM LUVA ISOLANTE  16MM²"
+    },
+    {
+      "codigo": "230573",
+      "descricao": "CONETOR COM LUVA ISOLANTE  25MM²"
+    },
+    {
+      "codigo": "230581",
+      "descricao": "CONETOR COM LUVA ISOLANTE  50MM²"
+    },
+    {
+      "codigo": "230599",
+      "descricao": "CONETOR COM LUVA ISOLANTE  70MM²"
+    },
+    {
+      "codigo": "230615",
+      "descricao": "CONETOR COM LUVA ISOLANTE 120MM²"
+    },
+    {
+      "codigo": "230557",
+      "descricao": "CONETOR COM LUVA ISOLANTE 2,5-10MM²"
+    },
+    {
+      "codigo": "230623",
+      "descricao": "CONETOR COM LUVA ISOLANTE 240MM²"
+    },
+    {
+      "codigo": "365698",
+      "descricao": "CONETOR COMPRESSÃO OLHAL CABO 10MM²"
+    },
+    {
+      "codigo": "365699",
+      "descricao": "CONETOR COMPRESSÃO OLHAL CABO 16MM²"
+    },
+    {
+      "codigo": "231795",
+      "descricao": "CONETOR CUNHA AL  50MM² COM ESTRIBO"
+    },
+    {
+      "codigo": "231787",
+      "descricao": "CONETOR CUNHA AL 150-150MM²"
+    },
+    {
+      "codigo": "231753",
+      "descricao": "CONETOR CUNHA AL 150-50MM²"
+    },
+    {
+      "codigo": "231811",
+      "descricao": "CONETOR CUNHA AL 150MM² COM ESTRIBO"
+    },
+    {
+      "codigo": "227850",
+      "descricao": "CONETOR CUNHA CU ITEM 1"
+    },
+    {
+      "codigo": "227868",
+      "descricao": "CONETOR CUNHA CU ITEM 2"
+    },
+    {
+      "codigo": "227876",
+      "descricao": "CONETOR CUNHA CU ITEM 3"
+    },
+    {
+      "codigo": "227884",
+      "descricao": "CONETOR CUNHA CU ITEM 4"
+    },
+    {
+      "codigo": "231670",
+      "descricao": "CONETOR CUNHA CU ITEM 5"
+    },
+    {
+      "codigo": "231696",
+      "descricao": "CONETOR CUNHA CU ITEM 6"
+    },
+    {
+      "codigo": "231688",
+      "descricao": "CONETOR CUNHA CU ITEM 7"
+    },
+    {
+      "codigo": "331710",
+      "descricao": "CONETOR CUNHA ITEM 1 + COBERTURA ISOLANTE ITEM 1"
+    },
+    {
+      "codigo": "331728",
+      "descricao": "CONETOR CUNHA ITEM 2 + COBERTURA ISOLANTE ITEM 2"
+    },
+    {
+      "codigo": "331736",
+      "descricao": "CONETOR CUNHA ITEM 3 + COBERTURA ISOLANTE ITEM 3"
+    },
+    {
+      "codigo": "331744",
+      "descricao": "CONETOR CUNHA ITEM 4 + COBERTURA ISOLANTE ITEM 3"
+    },
+    {
+      "codigo": "331751",
+      "descricao": "CONETOR CUNHA ITEM 5 + COBERTURA ISOLANTE ITEM 4"
+    },
+    {
+      "codigo": "331769",
+      "descricao": "CONETOR CUNHA ITEM 6 + COBERTURA ISOLANTE ITEM 5"
+    },
+    {
+      "codigo": "331777",
+      "descricao": "CONETOR CUNHA ITEM 7 + COBERTURA ISOLANTE ITEM 1"
+    },
+    {
+      "codigo": "224931",
+      "descricao": "CONETOR DE BORNE PARA CU 16MM²"
+    },
+    {
+      "codigo": "362866",
+      "descricao": "CONETOR DE COMPRESSÃO OLHAL 2,64-6,6MM²"
+    },
+    {
+      "codigo": "327734",
+      "descricao": "CONETOR DE PERFURAÇÃO  10MM² / 6MM²"
+    },
+    {
+      "codigo": "327742",
+      "descricao": "CONETOR DE PERFURAÇÃO  120MM² / 240MM²"
+    },
+    {
+      "codigo": "327726",
+      "descricao": "CONETOR DE PERFURAÇÃO  16-70MM² / 6-35MM²"
+    },
+    {
+      "codigo": "327759",
+      "descricao": "CONETOR DE PERFURAÇÃO  70-120MM² / 10-35MM²"
+    },
+    {
+      "codigo": "327767",
+      "descricao": "CONETOR DE PERFURAÇÃO  70-120MM² / 70-120MM²"
+    },
+    {
+      "codigo": "227819",
+      "descricao": "CONETOR FORMATO H IT 6 CAA 107-201MM² / 107-201MM²"
+    },
+    {
+      "codigo": "227769",
+      "descricao": "CONETOR FORMATO H ITEM 1 CAA 13-34MM² / 13-34MM²"
+    },
+    {
+      "codigo": "227777",
+      "descricao": "CONETOR FORMATO H ITEM 2 CAA 27-54MM² / 13-34MM²"
+    },
+    {
+      "codigo": "227785",
+      "descricao": "CONETOR FORMATO H ITEM 3 CAA 42-67MM² / 42-67MM²"
+    },
+    {
+      "codigo": "227793",
+      "descricao": "CONETOR FORMATO H ITEM 4 CAA 85-107MM² / 42-67MM²"
+    },
+    {
+      "codigo": "227801",
+      "descricao": "CONETOR FORMATO H ITEM 5 CAA 85-107MM² / 85-107MM²"
+    },
+    {
+      "codigo": "227827",
+      "descricao": "CONETOR FORMATO H ITEM 7 CAA 107-241MM² / 13-67MM²"
+    },
+    {
+      "codigo": "231175",
+      "descricao": "CONETOR PARA ATERRAMENTO DE FERRAGENS DE IP"
+    },
+    {
+      "codigo": "377357",
+      "descricao": "CONETOR TERMINAL ATERRAMENTO TEMPORÁRIO P/ CHAVES"
+    },
+    {
+      "codigo": "377357",
+      "descricao": "CONETOR TERMINAL ATERRAMENTO TEMPORÁRIO P/ CHAVES"
+    },
+    {
+      "codigo": "20453",
+      "descricao": "CONETOR TERMINAL BY-PASS CU 107MM² PARA LINHA VIVA"
+    },
+    {
+      "codigo": "20446",
+      "descricao": "CONETOR TERMINAL BY-PASS CU 34MM² PARA LINHA VIVA"
+    },
+    {
+      "codigo": "227074",
+      "descricao": "CONETOR TERMINAL COMP CA/CAA 107MM²/120MM² COMPACT"
+    },
+    {
+      "codigo": "227058",
+      "descricao": "CONETOR TERMINAL COMP CA/CAA 34MM² / 50MM² COMPACT"
+    },
+    {
+      "codigo": "227066",
+      "descricao": "CONETOR TERMINAL COMP CA/CAA 54MM² / 70MM² COMPACT"
+    },
+    {
+      "codigo": "227090",
+      "descricao": "CONETOR TERMINAL COMP CAA 170MM² / 40MM² COMPAC"
+    },
+    {
+      "codigo": "231050",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO 150MM² COMPACT"
+    },
+    {
+      "codigo": "338731",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO 16MM²"
+    },
+    {
+      "codigo": "231886",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO 1F 50MM²"
+    },
+    {
+      "codigo": "227389",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO 1F AÇO  6,4MM / 21MM²"
+    },
+    {
+      "codigo": "227348",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO 1F CABO AÇO  9,5MM"
+    },
+    {
+      "codigo": "227465",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO AL/CU 240MM²"
+    },
+    {
+      "codigo": "227082",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CA 170MM²"
+    },
+    {
+      "codigo": "227041",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CA/CAA 21MM²"
+    },
+    {
+      "codigo": "227405",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CABO 240MM²"
+    },
+    {
+      "codigo": "227454",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CABO PINO 120MM²"
+    },
+    {
+      "codigo": "227462",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CABO PINO 185MM²"
+    },
+    {
+      "codigo": "227470",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CABO PINO 240MM²"
+    },
+    {
+      "codigo": "227488",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CABO PINO 400MM²"
+    },
+    {
+      "codigo": "227447",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CABO PINO 50MM²"
+    },
+    {
+      "codigo": "353196",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU  16MM²"
+    },
+    {
+      "codigo": "353197",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU  25MM²"
+    },
+    {
+      "codigo": "353198",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU  35MM²"
+    },
+    {
+      "codigo": "353199",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU  50MM²"
+    },
+    {
+      "codigo": "353200",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU  95MM²"
+    },
+    {
+      "codigo": "353201",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU 120MM²"
+    },
+    {
+      "codigo": "372668",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU 150MM²"
+    },
+    {
+      "codigo": "372671",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU 185MM²"
+    },
+    {
+      "codigo": "372672",
+      "descricao": "CONETOR TERMINAL COMPRESSÃO CU 240MM²"
+    },
+    {
+      "codigo": "39263",
+      "descricao": "CONEXAO ISOLANTE PARA COBERTURA DE CONDUTOR 30KV"
+    },
+    {
+      "codigo": "19976",
+      "descricao": "CONEXÃO PARA COBERTURA FLEXÍVEL DE BORRACHA"
+    },
+    {
+      "codigo": "43489",
+      "descricao": "CONJUNTO ELEVAÇÃO CONDUTOR LINHA VIVA"
+    },
+    {
+      "codigo": "75853",
+      "descricao": "CONTRAPINO 40,5MM"
+    },
+    {
+      "codigo": "217653",
+      "descricao": "CONTRA-POSTE CIRCULAR 5x300dAN"
+    },
+    {
+      "codigo": "217142",
+      "descricao": "CONTRA-POSTE CIRCULAR 5x400dAN"
+    },
+    {
+      "codigo": "207209",
+      "descricao": "CONTRA-POSTE CIRCULAR 7x300dAN"
+    },
+    {
+      "codigo": "207175",
+      "descricao": "CONTRA-POSTE CIRCULAR 7x400dAN"
+    },
+    {
+      "codigo": "207217",
+      "descricao": "CONTRAPOSTE CONCRETO DUPLO T  7M300"
+    },
+    {
+      "codigo": "207167",
+      "descricao": "CONTRA-POSTE DT 7x400dAN"
+    },
+    {
+      "codigo": "903932",
+      "descricao": "CONTROLADOR 30A 12VCC"
+    },
+    {
+      "codigo": "903925",
+      "descricao": "CONTROLADOR 30A 24VCC"
+    },
+    {
+      "codigo": "375367",
+      "descricao": "CONTROLADOR CARGA 30A 24VCC"
+    },
+    {
+      "codigo": "375368",
+      "descricao": "CONTROLADOR CARGA 40A 48VCC"
+    },
+    {
+      "codigo": "376704",
+      "descricao": "CONTROLADOR CARGA/DESCARGA 10A 12V"
+    },
+    {
+      "codigo": "376706",
+      "descricao": "CONTROLADOR CARGA/DESCARGA 30A 12V"
+    },
+    {
+      "codigo": "376707",
+      "descricao": "CONTROLADOR CARGA/DESCARGA 40A 24V"
+    },
+    {
+      "codigo": "375370",
+      "descricao": "CONTROLADOR DESCARGA 30A 24VCC"
+    },
+    {
+      "codigo": "375371",
+      "descricao": "CONTROLADOR DESCARGA 40A 48VCC"
+    },
+    {
+      "codigo": "20032",
+      "descricao": "CORDA DE POLY-DRACON 13MM"
+    },
+    {
+      "codigo": "78444",
+      "descricao": "CORDA NYLON D 6,5MM"
+    },
+    {
+      "codigo": "362120",
+      "descricao": "CORDA TRANÇADA D 8MM"
+    },
+    {
+      "codigo": "82156",
+      "descricao": "CORDA TRANÇADA DN 3/8P"
+    },
+    {
+      "codigo": "81141",
+      "descricao": "CORDÃO DE SEGURANÇA"
+    },
+    {
+      "codigo": "10447",
+      "descricao": "CORREIA PARA ESPORA POSTE DT"
+    },
+    {
+      "codigo": "11809",
+      "descricao": "CORRENTE DE AÇO 1,50M"
+    },
+    {
+      "codigo": "20057",
+      "descricao": "CORRIMÃO PARA PLATAFORMA 1800MM"
+    },
+    {
+      "codigo": "20073",
+      "descricao": "CRUZETA AUXILIAR EPOXI 2400MM"
+    },
+    {
+      "codigo": "214254",
+      "descricao": "CRUZETA CONTRAPOSTE EUCALIPTO 5M MÉDIO"
+    },
+    {
+      "codigo": "214288",
+      "descricao": "CRUZETA CONTRAPOSTE EUCALIPTO 7M MÉDIO"
+    },
+    {
+      "codigo": "377705",
+      "descricao": "CRUZETA DE FIBRA DE VIDRO"
+    },
+    {
+      "codigo": "377706",
+      "descricao": "CRUZETA DE PLÁSTICO REFORÇADA COM FIBRA DE VIDRO"
+    },
+    {
+      "codigo": "214221",
+      "descricao": "CRUZETA MADEIRA 2400X90X112,5MM"
+    },
+    {
+      "codigo": "375496",
+      "descricao": "CRUZETA MADEIRA 2800X135X110 IT3"
+    },
+    {
+      "codigo": "214239",
+      "descricao": "CRUZETA MADEIRA 2800X135X110MM"
+    },
+    {
+      "codigo": "376073",
+      "descricao": "CRUZETA MADEIRA 5000X110X135MM"
+    },
+    {
+      "codigo": "377602",
+      "descricao": "CRUZETA ROLIÇA 2400MM"
+    },
+    {
+      "codigo": "377613",
+      "descricao": "CRUZETA ROLIÇA 2800MM"
+    },
+    {
+      "codigo": "298661",
+      "descricao": "CURVA CA 11,25GR ELET125"
+    },
+    {
+      "codigo": "298596",
+      "descricao": "CURVA CA 11,25GRAUS ELETRODUTO 75MM"
+    },
+    {
+      "codigo": "298570",
+      "descricao": "CURVA CA 22,5 GRAUS ELETRODUTO 75MM"
+    },
+    {
+      "codigo": "298638",
+      "descricao": "CURVA CA 22,5GRAUS ELETRODUTO 125MM"
+    },
+    {
+      "codigo": "298554",
+      "descricao": "CURVA CA 45 GRAUS ELETRODUTO  75MM"
+    },
+    {
+      "codigo": "298612",
+      "descricao": "CURVA CA 45GRAUS ELETRODUTO 125MM"
+    },
+    {
+      "codigo": "310102",
+      "descricao": "CURVA PVC 3/4P 90G"
+    },
+    {
+      "codigo": "298356",
+      "descricao": "CURVA ZINCADO PARA ELETRODUTO 1.1/2P"
+    },
+    {
+      "codigo": "56952",
+      "descricao": "CURVA ZINCADO PARA ELETRODUTO 2P"
+    },
+    {
+      "codigo": "298463",
+      "descricao": "CURVA ZINCADO PARA ELETRODUTO 3P"
+    },
+    {
+      "codigo": "298448",
+      "descricao": "CURVA ZINCADO PARA ELETRODUTO 4P"
+    },
+    {
+      "codigo": "295535",
+      "descricao": "CURVA ZINCADO PARA ELETRODUTO 5P"
+    },
+    {
+      "codigo": "229237",
+      "descricao": "DEGRAU PARA CÂMARA TRANSFORMADORA"
+    },
+    {
+      "codigo": "49916",
+      "descricao": "DESCASCADOR DE CABOS"
+    },
+    {
+      "codigo": "316513",
+      "descricao": "DETETOR DE TENSAO 1KV"
+    },
+    {
+      "codigo": "325902",
+      "descricao": "DINAMOMETRO 0-55KG TESTE"
+    },
+    {
+      "codigo": "297309",
+      "descricao": "DISJUNTOR BIPOLAR  40A 220V 10KA"
+    },
+    {
+      "codigo": "297325",
+      "descricao": "DISJUNTOR BIPOLAR  70A 220V 10KA"
+    },
+    {
+      "codigo": "309955",
+      "descricao": "DISJUNTOR BIPOLAR  90A 220V 10KA"
+    },
+    {
+      "codigo": "310110",
+      "descricao": "DISJUNTOR BIPOLAR 120A 220V 10KA"
+    },
+    {
+      "codigo": "309963",
+      "descricao": "DISJUNTOR BIPOLAR 2OOA 220V 10KA"
+    },
+    {
+      "codigo": "359569",
+      "descricao": "DISJUNTOR BIPOLAR 30A 220V 10KA"
+    },
+    {
+      "codigo": "310003",
+      "descricao": "DISJUNTOR BIPOLAR 60A 220VCA 10KA"
+    },
+    {
+      "codigo": "306035",
+      "descricao": "DISJUNTOR TRIPOLAR  50A 220V 10KA"
+    },
+    {
+      "codigo": "297333",
+      "descricao": "DISJUNTOR TRIPOLAR  90A 220V 10KA"
+    },
+    {
+      "codigo": "309997",
+      "descricao": "DISJUNTOR TRIPOLAR 100A 220VCA 10KA"
+    },
+    {
+      "codigo": "310128",
+      "descricao": "DISJUNTOR TRIPOLAR 120A 220V 10KA"
+    },
+    {
+      "codigo": "306092",
+      "descricao": "DISJUNTOR TRIPOLAR 150A 220V 10KA"
+    },
+    {
+      "codigo": "306068",
+      "descricao": "DISJUNTOR TRIPOLAR 225A 220V 10KA"
+    },
+    {
+      "codigo": "310029",
+      "descricao": "DISJUNTOR TRIPOLAR 40A 220VCA 10KA"
+    },
+    {
+      "codigo": "309971",
+      "descricao": "DISJUNTOR TRIPOLAR 60A 220V 10KA"
+    },
+    {
+      "codigo": "309989",
+      "descricao": "DISJUNTOR TRIPOLAR 70A 220V 10KA"
+    },
+    {
+      "codigo": "305920",
+      "descricao": "DISJUNTOR UNIPOLAR 10A 127V 5KA"
+    },
+    {
+      "codigo": "365427",
+      "descricao": "DISJUNTOR UNIPOLAR 15A"
+    },
+    {
+      "codigo": "305938",
+      "descricao": "DISJUNTOR UNIPOLAR 15A 127V 5KA"
+    },
+    {
+      "codigo": "362450",
+      "descricao": "DISJUNTOR UNIPOLAR 16A"
+    },
+    {
+      "codigo": "373553",
+      "descricao": "DISJUNTOR UNIPOLAR 16A 110/127VCA"
+    },
+    {
+      "codigo": "377360",
+      "descricao": "DISJUNTOR UNIPOLAR 16A 127V 6KA"
+    },
+    {
+      "codigo": "305946",
+      "descricao": "DISJUNTOR UNIPOLAR 25A 127V 5KA"
+    },
+    {
+      "codigo": "354379",
+      "descricao": "DISJUNTOR UNIPOLAR 30A"
+    },
+    {
+      "codigo": "297275",
+      "descricao": "DISJUNTOR UNIPOLAR 35A"
+    },
+    {
+      "codigo": "310011",
+      "descricao": "DISJUNTOR UNIPOLAR 40A 127V 5KA"
+    },
+    {
+      "codigo": "306019",
+      "descricao": "DISJUNTOR UNIPOLAR 50A 220V 5KA"
+    },
+    {
+      "codigo": "362445",
+      "descricao": "DISJUNTOR UNIPOLAR 6A"
+    },
+    {
+      "codigo": "297291",
+      "descricao": "DISJUNTOR UNIPOLAR 70A 220V 5KA"
+    },
+    {
+      "codigo": "331165",
+      "descricao": "DISPOSITIVO DAT 185/240/400 15KV"
+    },
+    {
+      "codigo": "230466",
+      "descricao": "DISPOSITIVO DAT 400MM² 600A 15KV"
+    },
+    {
+      "codigo": "331157",
+      "descricao": "DISPOSITIVO DAT 50/120/185 15KV"
+    },
+    {
+      "codigo": "289017",
+      "descricao": "ELEMENTO SUPORTE PARA BASTÃO"
+    },
+    {
+      "codigo": "377571",
+      "descricao": "ELETRODUT0 CORRUGADO PEAD 140MM"
+    },
+    {
+      "codigo": "297143",
+      "descricao": "ELETRODUTO AÇO  ZINCADO 1.1/2P COM LUVA"
+    },
+    {
+      "codigo": "297101",
+      "descricao": "ELETRODUTO AÇO  ZINCADO 1P COM LUVA"
+    },
+    {
+      "codigo": "297184",
+      "descricao": "ELETRODUTO AÇO  ZINCADO 2P COM LUVA"
+    },
+    {
+      "codigo": "297077",
+      "descricao": "ELETRODUTO AÇO  ZINCADO 3/4P COM LUVA"
+    },
+    {
+      "codigo": "297218",
+      "descricao": "ELETRODUTO AÇO  ZINCADO 3P COM LUVA"
+    },
+    {
+      "codigo": "297226",
+      "descricao": "ELETRODUTO AÇO  ZINCADO 4P COM LUVA"
+    },
+    {
+      "codigo": "306613",
+      "descricao": "ELETRODUTO AÇO ZINCADO 5P X 6M"
+    },
+    {
+      "codigo": "297283",
+      "descricao": "ELETRODUTO AMIANTO 125MM"
+    },
+    {
+      "codigo": "297234",
+      "descricao": "ELETRODUTO AMIANTO 75MM"
+    },
+    {
+      "codigo": "377570",
+      "descricao": "ELETRODUTO CORRUGADO PEAD 125MM"
+    },
+    {
+      "codigo": "377568",
+      "descricao": "ELETRODUTO CORRUGADO PEAD 63MM"
+    },
+    {
+      "codigo": "377569",
+      "descricao": "ELETRODUTO CORRUGADO PEAD 90MM"
+    },
+    {
+      "codigo": "364671",
+      "descricao": "ELETRODUTO FLEXÍVEL 2P RSS 1M ITEM 2"
+    },
+    {
+      "codigo": "364670",
+      "descricao": "ELETRODUTO FLEXÍVEL 2P RSS 50CM ITEM 1"
+    },
+    {
+      "codigo": "364673",
+      "descricao": "ELETRODUTO FLEXÍVEL 3P RSS 1M ITEM 4"
+    },
+    {
+      "codigo": "364672",
+      "descricao": "ELETRODUTO FLEXÍVEL 3P RSS 50CM ITEM 3"
+    },
+    {
+      "codigo": "310045",
+      "descricao": "ELETRODUTO PVC 1.1/2P C/LUVA"
+    },
+    {
+      "codigo": "310052",
+      "descricao": "ELETRODUTO PVC 1.1/4P C/LUVA"
+    },
+    {
+      "codigo": "310060",
+      "descricao": "ELETRODUTO PVC 1P C/LUVA"
+    },
+    {
+      "codigo": "310037",
+      "descricao": "ELETRODUTO PVC 2P C/LUVA"
+    },
+    {
+      "codigo": "310078",
+      "descricao": "ELETRODUTO PVC 3/4P"
+    },
+    {
+      "codigo": "297051",
+      "descricao": "ELETRODUTO PVC 3/4P COM LUVA"
+    },
+    {
+      "codigo": "271320",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM    1H"
+    },
+    {
+      "codigo": "271338",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM    2H"
+    },
+    {
+      "codigo": "271353",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM    3H"
+    },
+    {
+      "codigo": "271403",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM    5H"
+    },
+    {
+      "codigo": "271460",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM    6K"
+    },
+    {
+      "codigo": "271486",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM    8K"
+    },
+    {
+      "codigo": "271510",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   10K"
+    },
+    {
+      "codigo": "271544",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   12K"
+    },
+    {
+      "codigo": "271593",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   15K"
+    },
+    {
+      "codigo": "271643",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   20K"
+    },
+    {
+      "codigo": "271668",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   25K"
+    },
+    {
+      "codigo": "271726",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   30K"
+    },
+    {
+      "codigo": "271775",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   40K"
+    },
+    {
+      "codigo": "271841",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   50K"
+    },
+    {
+      "codigo": "271858",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   65K"
+    },
+    {
+      "codigo": "271940",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM   80K"
+    },
+    {
+      "codigo": "272039",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM  100K"
+    },
+    {
+      "codigo": "272013",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM  140K"
+    },
+    {
+      "codigo": "272054",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM  200K"
+    },
+    {
+      "codigo": "272112",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM  6T"
+    },
+    {
+      "codigo": "272120",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM  8T"
+    },
+    {
+      "codigo": "272138",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 10T"
+    },
+    {
+      "codigo": "272146",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 12T"
+    },
+    {
+      "codigo": "272153",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 15T"
+    },
+    {
+      "codigo": "272161",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 20T"
+    },
+    {
+      "codigo": "272179",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 25T"
+    },
+    {
+      "codigo": "272070",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 30T"
+    },
+    {
+      "codigo": "272088",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 40T"
+    },
+    {
+      "codigo": "272104",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 50T"
+    },
+    {
+      "codigo": "271916",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 65T"
+    },
+    {
+      "codigo": "271924",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM 80T"
+    },
+    {
+      "codigo": "271965",
+      "descricao": "ELO FUSÍVEL BOTÃO 500MM100T"
+    },
+    {
+      "codigo": "231621",
+      "descricao": "EMENDA PRÉ-FORMADA CABO AÇO  6,4MM"
+    },
+    {
+      "codigo": "231639",
+      "descricao": "EMENDA PRÉ-FORMADA CABO AÇO  9,5MM"
+    },
+    {
+      "codigo": "231472",
+      "descricao": "EMENDA TERMOCONTRÁTIL  50-150MM² RDP"
+    },
+    {
+      "codigo": "230946",
+      "descricao": "EMENDA TERMOCONTRÁTIL 1X 50MM² 25KV RDS"
+    },
+    {
+      "codigo": "230920",
+      "descricao": "EMENDA TERMOCONTRÁTIL 1X120MM² 15KV RDS"
+    },
+    {
+      "codigo": "231027",
+      "descricao": "EMENDA TERMOCONTRÁTIL 1X185MM² 15KV"
+    },
+    {
+      "codigo": "230953",
+      "descricao": "EMENDA TERMOCONTRÁTIL 1X185MM² 25KV RDS"
+    },
+    {
+      "codigo": "230938",
+      "descricao": "EMENDA TERMOCONTRÁTIL 1X400MM² 15KV RDS"
+    },
+    {
+      "codigo": "230912",
+      "descricao": "EMENDA TERMOCONTRÁTIL.1X 50MM² 15KV RDS"
+    },
+    {
+      "codigo": "82362",
+      "descricao": "EQUIPAMENTO RESGATE ELETRICISTA 150DAN"
+    },
+    {
+      "codigo": "10926",
+      "descricao": "ESCADA CORRENTE MANUTENÇÃO RDA"
+    },
+    {
+      "codigo": "352267",
+      "descricao": "ESCADA DE FIBRA 3500MM"
+    },
+    {
+      "codigo": "54601",
+      "descricao": "ESCADA DE FIBRA 7500MM"
+    },
+    {
+      "codigo": "11833",
+      "descricao": "ESCADA EXT 7M MAD VEICUL"
+    },
+    {
+      "codigo": "10892",
+      "descricao": "ESCADA EXTENSÃO MADEIRA 2X3,70M"
+    },
+    {
+      "codigo": "11866",
+      "descricao": "ESCADA EXTENSÃO MADEIRA 2X4,30M"
+    },
+    {
+      "codigo": "12021",
+      "descricao": "ESCOVA DE AÇO TUBULAR"
+    },
+    {
+      "codigo": "5157",
+      "descricao": "ESCOVA DE CERDAS AÇO CABO CURVO"
+    },
+    {
+      "codigo": "79038",
+      "descricao": "ESPAÇADOR 1X2 BANCO DUTOS"
+    },
+    {
+      "codigo": "79053",
+      "descricao": "ESPAÇADOR 1X3 BANCO DUTOS"
+    },
+    {
+      "codigo": "299628",
+      "descricao": "ESPAÇADOR 2X2 BANCO DUTOS"
+    },
+    {
+      "codigo": "79061",
+      "descricao": "ESPAÇADOR 2X3 BANCO DUTOS"
+    },
+    {
+      "codigo": "224220",
+      "descricao": "ESPAÇADOR LOSANGULAR 50-150MM² 35KV"
+    },
+    {
+      "codigo": "377623",
+      "descricao": "ESPAÇADOR LOSANGULAR AUTO-TRAVANTE 15KV"
+    },
+    {
+      "codigo": "231662",
+      "descricao": "ESPAÇADOR LOSANGULAR PARA 50-150MM²"
+    },
+    {
+      "codigo": "338079",
+      "descricao": "ESPAÇADOR MONOFÁSICO 2A 50-150MM²"
+    },
+    {
+      "codigo": "10330",
+      "descricao": "ESPORA PARA POSTE CONCRETO DT"
+    },
+    {
+      "codigo": "8052",
+      "descricao": "ESTICADOR COM CORREIA 1,5KN"
+    },
+    {
+      "codigo": "79319",
+      "descricao": "ESTOPA ALGODAO ESPECIAL"
+    },
+    {
+      "codigo": "328120",
+      "descricao": "ESTRIBO PARA  BRAÇO TIPO L"
+    },
+    {
+      "codigo": "20123",
+      "descricao": "ESTRIBO PARA MÃO FRANCESA"
+    },
+    {
+      "codigo": "8292",
+      "descricao": "ESTROPO DE AÇO 13MMX1,20M"
+    },
+    {
+      "codigo": "8300",
+      "descricao": "ESTROPO DE AÇO 16MMX1,60M"
+    },
+    {
+      "codigo": "8284",
+      "descricao": "ESTROPO DE AÇO 9,5MMX1,20M"
+    },
+    {
+      "codigo": "81158",
+      "descricao": "ESTROPO NYLON  500X53X4,5MM"
+    },
+    {
+      "codigo": "81166",
+      "descricao": "ESTROPO NYLON  800X53X4,5MM"
+    },
+    {
+      "codigo": "20131",
+      "descricao": "ESTROPO NYLON  900X53X10MM"
+    },
+    {
+      "codigo": "81174",
+      "descricao": "ESTROPO NYLON 1200X53X4,5MM"
+    },
+    {
+      "codigo": "20149",
+      "descricao": "EXTENSÃO DE CRUZETA 1500MM"
+    },
+    {
+      "codigo": "20156",
+      "descricao": "EXTENSÃO DE CRUZETA 1800MM"
+    },
+    {
+      "codigo": "12401",
+      "descricao": "EXTRATOR CARTUCHO 25MM"
+    },
+    {
+      "codigo": "20164",
+      "descricao": "EXTRATOR DE CARTUCHO 13-38MM"
+    },
+    {
+      "codigo": "10959",
+      "descricao": "EXTRATOR DE CONETOR.DERIVAÇÃO DE CUNHA"
+    },
+    {
+      "codigo": "337998",
+      "descricao": "FERRAGEM ELETROTÉCNICA ZINCADA"
+    },
+    {
+      "codigo": "351379",
+      "descricao": "FERRAMENTA PARA CONETOR CUNHA AL"
+    },
+    {
+      "codigo": "377442",
+      "descricao": "FIO AÇO 1N2 (6,54MM) ALUMINIZADO"
+    },
+    {
+      "codigo": "376373",
+      "descricao": "FIO AÇO 1N5 ALUMINIZADO"
+    },
+    {
+      "codigo": "225987",
+      "descricao": "FIO AL 1,5MM² PARA AMARRAÇÃO"
+    },
+    {
+      "codigo": "225748",
+      "descricao": "FIO AL 10MM² 1KV XLPE"
+    },
+    {
+      "codigo": "234492",
+      "descricao": "FIO AL 5,1MM PARA AMARRAÇÃO RDP"
+    },
+    {
+      "codigo": "357342",
+      "descricao": "FIO AL 5,2MM(4) RECOZIDO"
+    },
+    {
+      "codigo": "375325",
+      "descricao": "FIO CU 1,5MM² 750V AZUL"
+    },
+    {
+      "codigo": "225995",
+      "descricao": "FIO CU 1,5MM² 750V PRETO"
+    },
+    {
+      "codigo": "225904",
+      "descricao": "FIO CU 2,5MM² 750V AMARELO"
+    },
+    {
+      "codigo": "357345",
+      "descricao": "FIO CU 2,5MM² 750V AZUL"
+    },
+    {
+      "codigo": "225912",
+      "descricao": "FIO CU 2,5MM² 750V BRANCO"
+    },
+    {
+      "codigo": "357343",
+      "descricao": "FIO CU 2,5MM² 750V PRETO"
+    },
+    {
+      "codigo": "225938",
+      "descricao": "FIO CU 2,5MM² 750V VERDE"
+    },
+    {
+      "codigo": "357344",
+      "descricao": "FIO CU 2,5MM² 750V VERMELHO"
+    },
+    {
+      "codigo": "225870",
+      "descricao": "FIO CU 4MM² 750V"
+    },
+    {
+      "codigo": "225847",
+      "descricao": "FIO CU 6MM² 750V"
+    },
+    {
+      "codigo": "3673",
+      "descricao": "FITA ADESIVA ISOLANTE AMARELA"
+    },
+    {
+      "codigo": "3715",
+      "descricao": "FITA ADESIVA ISOLANTE AZUL"
+    },
+    {
+      "codigo": "3616",
+      "descricao": "FITA ADESIVA ISOLANTE VERDE"
+    },
+    {
+      "codigo": "3681",
+      "descricao": "FITA ADESIVA ISOLANTE VERMELHA"
+    },
+    {
+      "codigo": "3954",
+      "descricao": "FITA ADESIVA.ISOLANTE.PVC 19MMX20M"
+    },
+    {
+      "codigo": "357341",
+      "descricao": "FITA ALUMÍNIO 1X10MM PARA AMARRAÇÃO"
+    },
+    {
+      "codigo": "3996",
+      "descricao": "FITA ISOLANTE AUTO-ADESIVA 19MMX10M"
+    },
+    {
+      "codigo": "375200",
+      "descricao": "FITA SEMI-COND PARA CABO PROTEGIDO"
+    },
+    {
+      "codigo": "224287",
+      "descricao": "FITA TERMOCONTRÁTIL 25MM PARA RDAP"
+    },
+    {
+      "codigo": "237701",
+      "descricao": "FIXADOR PRÉ-FORMADO ESTAI 6,4MM"
+    },
+    {
+      "codigo": "237693",
+      "descricao": "FIXADOR PRÉ-FORMADO ESTAI 9,5MM"
+    },
+    {
+      "codigo": "306936",
+      "descricao": "FIXADOR RÁPIDO LATAO  1P"
+    },
+    {
+      "codigo": "306944",
+      "descricao": "FIXADOR RÁPIDO LATAO 1.1/2P"
+    },
+    {
+      "codigo": "306845",
+      "descricao": "FIXADOR RÁPIDO LATAO 2P"
+    },
+    {
+      "codigo": "78030",
+      "descricao": "FIXADOR RÁPIDO LATÃO 3/4P"
+    },
+    {
+      "codigo": "18523",
+      "descricao": "FURADEIRA DE IMPACTO HIDRÁULICA"
+    },
+    {
+      "codigo": "375776",
+      "descricao": "FUSÍVEL 36/15KV 100K 10KA"
+    },
+    {
+      "codigo": "375779",
+      "descricao": "FUSÍVEL 36/15KV 10K 10KA"
+    },
+    {
+      "codigo": "376853",
+      "descricao": "FUSÍVEL 36/15KV 140K 10KA"
+    },
+    {
+      "codigo": "376854",
+      "descricao": "FUSÍVEL 36/15KV 200K 10KA"
+    },
+    {
+      "codigo": "375778",
+      "descricao": "FUSÍVEL 36/15KV 20K 10KA"
+    },
+    {
+      "codigo": "376855",
+      "descricao": "FUSÍVEL 36/15KV 25K 10KA"
+    },
+    {
+      "codigo": "375777",
+      "descricao": "FUSÍVEL 36/15KV 50K 10KA"
+    },
+    {
+      "codigo": "309740",
+      "descricao": "FUSÍVEL DIAZED 50A"
+    },
+    {
+      "codigo": "309765",
+      "descricao": "FUSÍVEL DIAZED 63A"
+    },
+    {
+      "codigo": "229138",
+      "descricao": "FUSÍVEL LIMITADOR 253MM² CABO AL"
+    },
+    {
+      "codigo": "229112",
+      "descricao": "FUSÍVEL LIMITADOR 253MM² CABO CU"
+    },
+    {
+      "codigo": "229104",
+      "descricao": "FUSÍVEL LIMITADOR CABO BARRA"
+    },
+    {
+      "codigo": "346643",
+      "descricao": "GABARITO DE RDA"
+    },
+    {
+      "codigo": "20180",
+      "descricao": "GANCHO ESPIRAL PARA ESTICADOR"
+    },
+    {
+      "codigo": "237396",
+      "descricao": "GANCHO OLHAL 50KN"
+    },
+    {
+      "codigo": "20172",
+      "descricao": "GANCHO PARA CORDA CARRETILHA  2,2KN"
+    },
+    {
+      "codigo": "20198",
+      "descricao": "GANCHO ROTATIVO PARA AMARRAÇÃO"
+    },
+    {
+      "codigo": "8045",
+      "descricao": "GARRA PARA CAA-CA 13-54MM²"
+    },
+    {
+      "codigo": "8060",
+      "descricao": "GARRA PARA CAA-CA 67-170MM²"
+    },
+    {
+      "codigo": "44628",
+      "descricao": "GARRA PARA CABO AÇO  3-10MM"
+    },
+    {
+      "codigo": "297770",
+      "descricao": "GRADE DE VENTILAÇÃO PARA CÂMARA TA"
+    },
+    {
+      "codigo": "297796",
+      "descricao": "GRADE DE VENTILAÇÃO PARA CÂMARA TB"
+    },
+    {
+      "codigo": "229245",
+      "descricao": "GRADE PARA POÇO DRENAGEM RDS"
+    },
+    {
+      "codigo": "224246",
+      "descricao": "GRAMPO ANCORAGEM  50MM² 25KV"
+    },
+    {
+      "codigo": "374439",
+      "descricao": "GRAMPO ANCORAGEM  70MM² 35KV"
+    },
+    {
+      "codigo": "234567",
+      "descricao": "GRAMPO ANCORAGEM  PARA CABO 50MM²"
+    },
+    {
+      "codigo": "224253",
+      "descricao": "GRAMPO ANCORAGEM 150MM² 25KV"
+    },
+    {
+      "codigo": "374440",
+      "descricao": "GRAMPO ANCORAGEM 150MM² 35KV"
+    },
+    {
+      "codigo": "234575",
+      "descricao": "GRAMPO ANCORAGEM PARA CABO 150MM²"
+    },
+    {
+      "codigo": "229021",
+      "descricao": "GRAMPO ANCORAGEM PARA CABO AÇO 9,5MM"
+    },
+    {
+      "codigo": "288688",
+      "descricao": "GRAMPO ATERRAMENTO CAA 242MM²"
+    },
+    {
+      "codigo": "375855",
+      "descricao": "GRAMPO ATERRAMENTO CU 10-50MM²"
+    },
+    {
+      "codigo": "20206",
+      "descricao": "GRAMPO ISOLADO BY-PASS CAA"
+    },
+    {
+      "codigo": "289074",
+      "descricao": "GRAMPO LINHA VIVA DERIVAÇÃO 13-70MM²"
+    },
+    {
+      "codigo": "374927",
+      "descricao": "GRAMPO LINHA VIVA DERIVAÇÃO 70-150MM²"
+    },
+    {
+      "codigo": "20214",
+      "descricao": "GRAMPO MADEIRA OU PLÁSTICO"
+    },
+    {
+      "codigo": "375561",
+      "descricao": "GRAMPO PARA FIXAÇÃO  2 FIOS CU 2,5"
+    },
+    {
+      "codigo": "21568",
+      "descricao": "GRAMPO TORÇÃO PARA BY-PASS"
+    },
+    {
+      "codigo": "237743",
+      "descricao": "HASTE ÂNCORA-OLHAL 1600MM"
+    },
+    {
+      "codigo": "222547",
+      "descricao": "HASTE ATERRAMENTO 16MMX3M"
+    },
+    {
+      "codigo": "222539",
+      "descricao": "HASTE ATERRAMENTO 2,40M"
+    },
+    {
+      "codigo": "222562",
+      "descricao": "HASTE ATERRAMENTO 20X1500"
+    },
+    {
+      "codigo": "222380",
+      "descricao": "HASTE ATERRAMENTO PARA CESTA"
+    },
+    {
+      "codigo": "352237",
+      "descricao": "IDENTIFICADOR DE FASE A"
+    },
+    {
+      "codigo": "352242",
+      "descricao": "IDENTIFICADOR DE FASE B"
+    },
+    {
+      "codigo": "352260",
+      "descricao": "IDENTIFICADOR DE FASE C"
+    },
+    {
+      "codigo": "376236",
+      "descricao": "IGNITOR PARA LÂMPADA VS  70W"
+    },
+    {
+      "codigo": "259325",
+      "descricao": "IGNITOR PARA LÂMPADA VS 100W A 400W"
+    },
+    {
+      "codigo": "311571",
+      "descricao": "INDICADOR DE DEFEITO TRIFÁSICO 300A"
+    },
+    {
+      "codigo": "314450",
+      "descricao": "INDICADOR SEQUÊNCIA FASES"
+    },
+    {
+      "codigo": "20222",
+      "descricao": "INFLADOR DE LUVA COM BOMBA"
+    },
+    {
+      "codigo": "375236",
+      "descricao": "INTERRUPTOR 1TEC 10A 250V"
+    },
+    {
+      "codigo": "375471",
+      "descricao": "INTERRUPTOR 2 TECLAS 10A 250V"
+    },
+    {
+      "codigo": "305078",
+      "descricao": "INTERRUPTOR DE SOBREPOR"
+    },
+    {
+      "codigo": "316760",
+      "descricao": "INTERRUPTOR HORÁRIO 120V (TIMER)"
+    },
+    {
+      "codigo": "317883",
+      "descricao": "INTERRUPTOR HORÁRIO 120V 10A 100A"
+    },
+    {
+      "codigo": "316778",
+      "descricao": "INTERRUPTOR HORÁRIO.220V (TIMER)"
+    },
+    {
+      "codigo": "376709",
+      "descricao": "INVERSOR CC/CA  150W"
+    },
+    {
+      "codigo": "376710",
+      "descricao": "INVERSOR CC/CA  250W"
+    },
+    {
+      "codigo": "376711",
+      "descricao": "INVERSOR CC/CA  300W"
+    },
+    {
+      "codigo": "376713",
+      "descricao": "INVERSOR CC/CA  500W"
+    },
+    {
+      "codigo": "376714",
+      "descricao": "INVERSOR CC/CA  600W"
+    },
+    {
+      "codigo": "376715",
+      "descricao": "INVERSOR CC/CA  800W"
+    },
+    {
+      "codigo": "376716",
+      "descricao": "INVERSOR CC/CA 1000W"
+    },
+    {
+      "codigo": "376717",
+      "descricao": "INVERSOR CC/CA 1000W 48VCC"
+    },
+    {
+      "codigo": "376718",
+      "descricao": "INVERSOR CC/CA 1500W"
+    },
+    {
+      "codigo": "375728",
+      "descricao": "INVERSOR CC/CA 1800W"
+    },
+    {
+      "codigo": "376719",
+      "descricao": "INVERSOR CC/CA 2000W"
+    },
+    {
+      "codigo": "375729",
+      "descricao": "INVERSOR CC/CA 2500W"
+    },
+    {
+      "codigo": "376712",
+      "descricao": "INVERSOR CC/CA 400W"
+    },
+    {
+      "codigo": "903850",
+      "descricao": "INVERSOR CC/CA 600W"
+    },
+    {
+      "codigo": "903867",
+      "descricao": "INVERSOR CC/CA 800W"
+    },
+    {
+      "codigo": "219659",
+      "descricao": "ISOLADOR ANCORAGEM POLIMÉRICO 15KV"
+    },
+    {
+      "codigo": "219667",
+      "descricao": "ISOLADOR ANCORAGEM POLIMÉRICO 35KV"
+    },
+    {
+      "codigo": "219626",
+      "descricao": "ISOLADOR CASTANHA PORCELANA"
+    },
+    {
+      "codigo": "347153",
+      "descricao": "ISOLADOR DE PINO RECUPERAR"
+    },
+    {
+      "codigo": "219550",
+      "descricao": "ISOLADOR DISCO 152X140MM PORCELANA"
+    },
+    {
+      "codigo": "219543",
+      "descricao": "ISOLADOR DISCO 175X140MM VIDRO"
+    },
+    {
+      "codigo": "347088",
+      "descricao": "ISOLADOR DISCO GARFO OLHAL RECUPERAR"
+    },
+    {
+      "codigo": "375718",
+      "descricao": "ISOLADOR PILAR 15KV"
+    },
+    {
+      "codigo": "219451",
+      "descricao": "ISOLADOR PINO 15KV PORCELANA"
+    },
+    {
+      "codigo": "219469",
+      "descricao": "ISOLADOR PINO 26,2KV PORCELANA"
+    },
+    {
+      "codigo": "219477",
+      "descricao": "ISOLADOR PINO 36,2KV PORCELANA"
+    },
+    {
+      "codigo": "219642",
+      "descricao": "ISOLADOR PINO POLIMÉRICO 15KV"
+    },
+    {
+      "codigo": "218867",
+      "descricao": "ISOLADOR PINO POLIMÉRICO 25/35KV"
+    },
+    {
+      "codigo": "375329",
+      "descricao": "ISOLADOR ROLDANA 2 CANAIS PORCEL. OU COMP POLIMÉR."
+    },
+    {
+      "codigo": "364690",
+      "descricao": "ISOLADOR ROLDANA CASTANHA RECUPERAR"
+    },
+    {
+      "codigo": "219634",
+      "descricao": "ISOLADOR ROLDANA PORCELANA"
+    },
+    {
+      "codigo": "375485",
+      "descricao": "ISOLADOR ROLDANA PVC"
+    },
+    {
+      "codigo": "375475",
+      "descricao": "ISOLADOR ROLDANA PVC 36MM"
+    },
+    {
+      "codigo": "375580",
+      "descricao": "KIT CERCA 1 SISTEMA.FOTOVOLTAICO"
+    },
+    {
+      "codigo": "375581",
+      "descricao": "KIT CERCA 2 SISTEMA FOTOVOLTAICO"
+    },
+    {
+      "codigo": "352182",
+      "descricao": "KIT N.1 CONDUTORES PARA MEDIÇÃO INDIRETA"
+    },
+    {
+      "codigo": "354912",
+      "descricao": "KIT N.2 CONDUTORES PARA MEDIÇÃO INDIRETA"
+    },
+    {
+      "codigo": "354951",
+      "descricao": "KIT N.3 CONDUTORES PARA MEDIÇÃO INDIRETA"
+    },
+    {
+      "codigo": "230219",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL DUPLO  CAA 21MM²"
+    },
+    {
+      "codigo": "230243",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL DUPLO  CAA 54MM²"
+    },
+    {
+      "codigo": "230250",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL DUPLO CAA 107MM²"
+    },
+    {
+      "codigo": "230268",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL DUPLO CAA 170MM²"
+    },
+    {
+      "codigo": "230235",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL DUPLO CAA 34MM²"
+    },
+    {
+      "codigo": "231100",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES  34,5KV CAA 34MM²"
+    },
+    {
+      "codigo": "230169",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES  CAA 21MM²"
+    },
+    {
+      "codigo": "230177",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES  CAA 34MM²"
+    },
+    {
+      "codigo": "230185",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES  CAA 54MM²"
+    },
+    {
+      "codigo": "231092",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES 34,5KV CAA 21MM²"
+    },
+    {
+      "codigo": "231118",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES 34,5KV CAA 54MM²"
+    },
+    {
+      "codigo": "230193",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES CAA 107MM²"
+    },
+    {
+      "codigo": "230201",
+      "descricao": "LAÇO PRÉ-FORMADO LATERAL SIMPLES CAA 170MM²"
+    },
+    {
+      "codigo": "226332",
+      "descricao": "LAÇO PRÉ-FORMADO PVC LATERAL CA 150MM"
+    },
+    {
+      "codigo": "226357",
+      "descricao": "LAÇO PRÉ-FORMADO PVC LATERAL CA 34MM2"
+    },
+    {
+      "codigo": "226340",
+      "descricao": "LAÇO PRÉ-FORMADO PVC LATERAL CA 53MM2"
+    },
+    {
+      "codigo": "226308",
+      "descricao": "LAÇO PRÉ-FORMADO PVC TOPO CA 150MM"
+    },
+    {
+      "codigo": "226324",
+      "descricao": "LAÇO PRÉ-FORMADO PVC TOPO CA 34MM2"
+    },
+    {
+      "codigo": "226316",
+      "descricao": "LAÇO PRÉ-FORMADO PVC TOPO CA 53MM2"
+    },
+    {
+      "codigo": "376376",
+      "descricao": "LAÇO PRÉ-FORMADO ROLDANA 1N5 AÇO ALUMINIZADO"
+    },
+    {
+      "codigo": "230300",
+      "descricao": "LAÇO PRÉ-FORMADO ROLDANA CAA  53MM²"
+    },
+    {
+      "codigo": "230326",
+      "descricao": "LAÇO PRÉ-FORMADO ROLDANA CAA 107MM²"
+    },
+    {
+      "codigo": "230342",
+      "descricao": "LAÇO PRÉ-FORMADO ROLDANA CAA 170MM²"
+    },
+    {
+      "codigo": "230284",
+      "descricao": "LAÇO PRÉ-FORMADO ROLDANA CAA 21MM²"
+    },
+    {
+      "codigo": "230292",
+      "descricao": "LAÇO PRÉ-FORMADO ROLDANA CAA 34MM²"
+    },
+    {
+      "codigo": "230359",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO  CAA 21MM²"
+    },
+    {
+      "codigo": "231126",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO 34,5KV CAA  21MM²"
+    },
+    {
+      "codigo": "231134",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO 34,5KV CAA  34MM²"
+    },
+    {
+      "codigo": "231142",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO 34,5KV CAA  54MM²"
+    },
+    {
+      "codigo": "231159",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO 34,5KV CAA 107MM²"
+    },
+    {
+      "codigo": "231167",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO 34,5KV CAA 170MM²"
+    },
+    {
+      "codigo": "230383",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO CAA 107MM²"
+    },
+    {
+      "codigo": "230391",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO CAA 170MM²"
+    },
+    {
+      "codigo": "230367",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO CAA 34MM²"
+    },
+    {
+      "codigo": "230375",
+      "descricao": "LAÇO PRÉ-FORMADO TOPO CAA 53MM²"
+    },
+    {
+      "codigo": "299610",
+      "descricao": "LAJE CONCRETO PREMOLDADO POÇO XA"
+    },
+    {
+      "codigo": "299636",
+      "descricao": "LAJE CONCRETO PREMOLDADO POÇO XB"
+    },
+    {
+      "codigo": "372328",
+      "descricao": "LÂMINA BY-PASS PARA CHAVE FUSÍVEL  2KA 15KV"
+    },
+    {
+      "codigo": "372330",
+      "descricao": "LÂMINA BY-PASS PARA CHAVE FUSÍVEL 10KA 15KV"
+    },
+    {
+      "codigo": "372331",
+      "descricao": "LÂMINA BY-PASS PARA CHAVE FUSÍVEL 10KA 24KV"
+    },
+    {
+      "codigo": "372329",
+      "descricao": "LÂMINA BY-PASS PARA CHAVE FUSÍVEL 2KA 24KV"
+    },
+    {
+      "codigo": "11882",
+      "descricao": "LÂMINA DE SERRA 305X13MM"
+    },
+    {
+      "codigo": "20230",
+      "descricao": "LAMINA ROTATIVA PARA AMARRAÇÃO"
+    },
+    {
+      "codigo": "361650",
+      "descricao": "LÂMPADA FLUORESCENTE COMPACTA 15W"
+    },
+    {
+      "codigo": "375049",
+      "descricao": "LÂMPADA FLUORESCENTE TUBULAR 16W"
+    },
+    {
+      "codigo": "375055",
+      "descricao": "LÂMPADA FLUORESCENTE TUBULAR 32W"
+    },
+    {
+      "codigo": "338368",
+      "descricao": "LÂMPADA USADA VM VS MISTA"
+    },
+    {
+      "codigo": "376239",
+      "descricao": "LÂMPADA VAPOR METÁLICO 150W AP E-40 OVÓIDE"
+    },
+    {
+      "codigo": "377333",
+      "descricao": "LÂMPADA VAPOR METÁLICO 150W AP E-40 TUBULAR"
+    },
+    {
+      "codigo": "377331",
+      "descricao": "LÂMPADA VAPOR METÁLICO 35W AP E-27 REFLET 10 GRAUS"
+    },
+    {
+      "codigo": "377332",
+      "descricao": "LÂMPADA VAPOR METÁLICO 35W AP E-27 REFLET 30 GRAUS"
+    },
+    {
+      "codigo": "339119",
+      "descricao": "LÂMPADA VAPOR METÁLICO 70W AP BASE G-12"
+    },
+    {
+      "codigo": "377329",
+      "descricao": "LÂMPADA VAPOR METALICO 70W AP E-27 REFLET 10 GRAUS"
+    },
+    {
+      "codigo": "377330",
+      "descricao": "LÂMPADA VAPOR METALICO 70W AP E-27 REFLET 30 GRAUS"
+    },
+    {
+      "codigo": "258251",
+      "descricao": "LÂMPADA VM  80W AP E-27"
+    },
+    {
+      "codigo": "258277",
+      "descricao": "LÂMPADA VM 125W AP E-27"
+    },
+    {
+      "codigo": "258285",
+      "descricao": "LÂMPADA VM 250W AP E-40"
+    },
+    {
+      "codigo": "258293",
+      "descricao": "LÂMPADA VM 400W AP E-40"
+    },
+    {
+      "codigo": "259424",
+      "descricao": "LÂMPADA VS  70W AP E-27 OVÓIDE"
+    },
+    {
+      "codigo": "376237",
+      "descricao": "LÂMPADA VS  70W AP E-27 TUBULAR"
+    },
+    {
+      "codigo": "352561",
+      "descricao": "LÂMPADA VS 100W AP E-40 OVÓIDE"
+    },
+    {
+      "codigo": "376238",
+      "descricao": "LÂMPADA VS 100W AP E-40 TUBULAR"
+    },
+    {
+      "codigo": "259390",
+      "descricao": "LÂMPADA VS 150W AP E-40 OVÓIDE"
+    },
+    {
+      "codigo": "354899",
+      "descricao": "LÂMPADA VS 150W AP E-40 TUBULAR"
+    },
+    {
+      "codigo": "258343",
+      "descricao": "LÂMPADA VS 250W AP E-40 OVÓIDE"
+    },
+    {
+      "codigo": "256537",
+      "descricao": "LÂMPADA VS 250W AP E-40 TUBULAR"
+    },
+    {
+      "codigo": "258301",
+      "descricao": "LÂMPADA VS 400W AP E-40 TUBULAR"
+    },
+    {
+      "codigo": "360876",
+      "descricao": "LÂMPADA VS 400W AP E40 TUBULAR DUPLO TUBO DE ARCO"
+    },
+    {
+      "codigo": "20248",
+      "descricao": "LENÇOL ISOLANTE"
+    },
+    {
+      "codigo": "44743",
+      "descricao": "LENÇOL ISOLANTE 1KV"
+    },
+    {
+      "codigo": "20255",
+      "descricao": "LENÇOL ISOLANTE SEMI-PARTIDO"
+    },
+    {
+      "codigo": "284968",
+      "descricao": "LOADBUSTER 25KV 600A"
+    },
+    {
+      "codigo": "256321",
+      "descricao": "LUMINÁRIA ABERTA COM E SEM REATOR A RECUPERAR"
+    },
+    {
+      "codigo": "259259",
+      "descricao": "LUMINÁRIA COM EQUIP ORNAM ESFÉRICA LEIT VM 125W"
+    },
+    {
+      "codigo": "259242",
+      "descricao": "LUMINÁRIA COM EQUIP ORNAM ESFÉRICA TRANSP VM 125W"
+    },
+    {
+      "codigo": "377317",
+      "descricao": "LUMINÁRIA COM EQUIP ORNAMENTAL P/ LÂMPADA VS 150W"
+    },
+    {
+      "codigo": "377734",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO SEMI ESFÉRICA VM 125W"
+    },
+    {
+      "codigo": "377732",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO SEMI ESFÉRICA VS100W TUB"
+    },
+    {
+      "codigo": "377733",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO SEMI ESFÉRICA VS150W TUB"
+    },
+    {
+      "codigo": "352635",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 100W OVÓIDE"
+    },
+    {
+      "codigo": "376109",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 100W VIDRO PLANO"
+    },
+    {
+      "codigo": "354901",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 150W POLICARBONATO"
+    },
+    {
+      "codigo": "376790",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 150W REATOR 240V"
+    },
+    {
+      "codigo": "354900",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 150W TUBULAR"
+    },
+    {
+      "codigo": "349118",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 250W POLICARBONATO"
+    },
+    {
+      "codigo": "376789",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 250W REATOR 240V"
+    },
+    {
+      "codigo": "257113",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 250W TUBULAR"
+    },
+    {
+      "codigo": "354882",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 400W"
+    },
+    {
+      "codigo": "328468",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 70W OVÓIDE"
+    },
+    {
+      "codigo": "376108",
+      "descricao": "LUMINÁRIA COM EQUIPAMENTO VS 70W VIDRO PLANO"
+    },
+    {
+      "codigo": "375093",
+      "descricao": "LUMINÁRIA DUPLA PARA LÂMPADA 16W FLUORESCENTE"
+    },
+    {
+      "codigo": "375101",
+      "descricao": "LUMINÁRIA DUPLA PARA LÂMPADA 32W FLUORESCENTE"
+    },
+    {
+      "codigo": "256362",
+      "descricao": "LUMINÁRIA FECHADA 1 LÂMPADA REATOR INTERNO RECUP"
+    },
+    {
+      "codigo": "256370",
+      "descricao": "LUMINÁRIA FECHADA 2 LÂMPADAS REATOR EXTERNO RECUP"
+    },
+    {
+      "codigo": "256354",
+      "descricao": "LUMINÁRIA FECHADA 2 LÂMPADAS REATOR INTERNO RECUP"
+    },
+    {
+      "codigo": "374267",
+      "descricao": "LUMINÁRIA FECHADA P/1 LÂMPADA REATOR EXTERNO RECUP"
+    },
+    {
+      "codigo": "256297",
+      "descricao": "LUMINÁRIA LÂMPADAIÃO COLONIAL"
+    },
+    {
+      "codigo": "374337",
+      "descricao": "LUMINÁRIA ORNAMENTAL PROJETOR RECUPERAR"
+    },
+    {
+      "codigo": "375092",
+      "descricao": "LUMINÁRIA SIMPLES PARA LÂMPADA 16W FLUORESCENTE"
+    },
+    {
+      "codigo": "375099",
+      "descricao": "LUMINÁRIA SIMPLES PARA LÂMPADA 32W FLUORESCENTE"
+    },
+    {
+      "codigo": "80986",
+      "descricao": "LUVA BORRACHA 17KV N. 9"
+    },
+    {
+      "codigo": "81034",
+      "descricao": "LUVA BORRACHA 17KV N.10"
+    },
+    {
+      "codigo": "80978",
+      "descricao": "LUVA BORRACHA 1KV N. 9"
+    },
+    {
+      "codigo": "81026",
+      "descricao": "LUVA BORRACHA 1KV N.10"
+    },
+    {
+      "codigo": "80994",
+      "descricao": "LUVA BORRACHA 26,5KV N. 9"
+    },
+    {
+      "codigo": "81059",
+      "descricao": "LUVA BORRACHA 26,5KV N.10"
+    },
+    {
+      "codigo": "298182",
+      "descricao": "LUVA DEFLETORA PVC PARA ELETRODUTO  75MM"
+    },
+    {
+      "codigo": "298232",
+      "descricao": "LUVA DEFLETORA PVC PARA ELETRODUTO 125MM"
+    },
+    {
+      "codigo": "376374",
+      "descricao": "LUVA EMENDA COMPRESSÃO 1N5 AÇO ALUMINIZADO"
+    },
+    {
+      "codigo": "226449",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA  21MM²"
+    },
+    {
+      "codigo": "226456",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA  34MM²"
+    },
+    {
+      "codigo": "231571",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA  50MM² RDP"
+    },
+    {
+      "codigo": "226472",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA 107MM²"
+    },
+    {
+      "codigo": "231209",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA 120MM²"
+    },
+    {
+      "codigo": "234500",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA 150MM² RDP"
+    },
+    {
+      "codigo": "226480",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA 170MM²"
+    },
+    {
+      "codigo": "226464",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA 54MM² / 70MM² COMPACTADO"
+    },
+    {
+      "codigo": "231183",
+      "descricao": "LUVA EMENDA COMPRESSÃO CA/CU 240MM²"
+    },
+    {
+      "codigo": "226548",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAA  21MM²"
+    },
+    {
+      "codigo": "226555",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAA  34MM²"
+    },
+    {
+      "codigo": "226563",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAA  54MM²"
+    },
+    {
+      "codigo": "226571",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAA 107MM²"
+    },
+    {
+      "codigo": "226589",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAA 170MM²"
+    },
+    {
+      "codigo": "226498",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAL  50MM²"
+    },
+    {
+      "codigo": "226506",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAL  70MM²"
+    },
+    {
+      "codigo": "231191",
+      "descricao": "LUVA EMENDA COMPRESSÃO CAL/CA 35MM²"
+    },
+    {
+      "codigo": "226779",
+      "descricao": "LUVA EMENDA COMPRESSÃO CU 253MM²"
+    },
+    {
+      "codigo": "226720",
+      "descricao": "LUVA EMENDA COMPRESSÃO CU 35MM²"
+    },
+    {
+      "codigo": "226761",
+      "descricao": "LUVA EMENDA COMPRESSÃO FIO CU 10MM²"
+    },
+    {
+      "codigo": "226746",
+      "descricao": "LUVA EMENDA COMPRESSÃO FIO CU 25MM²"
+    },
+    {
+      "codigo": "376330",
+      "descricao": "LUVA PARA ELETRODUTO COM 2 ANÉIS  63MM"
+    },
+    {
+      "codigo": "376331",
+      "descricao": "LUVA PARA ELETRODUTO COM 2 ANÉIS  90MM"
+    },
+    {
+      "codigo": "376332",
+      "descricao": "LUVA PARA ELETRODUTO COM 2 ANÉIS 125MM"
+    },
+    {
+      "codigo": "376333",
+      "descricao": "LUVA PARA ELETRODUTO COM 2 ANÉIS 140MM"
+    },
+    {
+      "codigo": "81091",
+      "descricao": "LUVA PROTETORA PARA LUVA ISOLANTE N. 9"
+    },
+    {
+      "codigo": "81000",
+      "descricao": "LUVA PROTETORA PARA LUVA ISOLANTE N.10"
+    },
+    {
+      "codigo": "81018",
+      "descricao": "LUVA RASPA PARA SERVIÇOS GERAIS"
+    },
+    {
+      "codigo": "81075",
+      "descricao": "LUVA VAQUETA TRABALHO LEVE N. 9"
+    },
+    {
+      "codigo": "81067",
+      "descricao": "LUVA VAQUETA TRABALHO LEVE N.10"
+    },
+    {
+      "codigo": "44768",
+      "descricao": "MANGA ISOLANTE CLASSE 1"
+    },
+    {
+      "codigo": "20271",
+      "descricao": "MANGA ISOLANTE CLASSE 2 LINHA VIVA"
+    },
+    {
+      "codigo": "20545",
+      "descricao": "MANGA ISOLANTE CLASSE 3 LINHA VIVA"
+    },
+    {
+      "codigo": "18556",
+      "descricao": "MANGUEIRA DIELÉTRICA 1,8M"
+    },
+    {
+      "codigo": "84392",
+      "descricao": "MANGUEIRA DIELÉTRICA 7,6M"
+    },
+    {
+      "codigo": "237263",
+      "descricao": "MANILHA CLASSE 120KN"
+    },
+    {
+      "codigo": "237271",
+      "descricao": "MANILHA SAPATILHA 50KN"
+    },
+    {
+      "codigo": "374393",
+      "descricao": "MANTA AUTO-ADESIVA 15KV RDP"
+    },
+    {
+      "codigo": "237784",
+      "descricao": "MÃO FRANCESA PERFILADA"
+    },
+    {
+      "codigo": "237800",
+      "descricao": "MÃO FRANCESA PERFILADA BECO"
+    },
+    {
+      "codigo": "237115",
+      "descricao": "MÃO FRANCESA PLANA"
+    },
+    {
+      "codigo": "700270",
+      "descricao": "MÃO-DE-OBRA CONSTRUÇÃO RDA"
+    },
+    {
+      "codigo": "700232",
+      "descricao": "MÃO-DE-OBRA LIMPEZA e aceiro DE FAIXA"
+    },
+    {
+      "codigo": "700685",
+      "descricao": "MÃO-DE-OBRA MAPEAMENTO E CADASTRO"
+    },
+    {
+      "codigo": "700681",
+      "descricao": "MÃO-DE-OBRA PROJETO RDA"
+    },
+    {
+      "codigo": "700686",
+      "descricao": "MÃO-DE-OBRA TOPOGRAFIA RDA"
+    },
+    {
+      "codigo": "82586",
+      "descricao": "MASSA CALAFETAR 1KG"
+    },
+    {
+      "codigo": "20289",
+      "descricao": "MASTRO 1600MM PARA CRUZETA AUXILIAR"
+    },
+    {
+      "codigo": "214593",
+      "descricao": "MASTRO EQUILIBRIO CAP 1500 DAN"
+    },
+    {
+      "codigo": "214601",
+      "descricao": "MASTRO SIMPLES CAP 600DAN"
+    },
+    {
+      "codigo": "28415",
+      "descricao": "MATRIZ ALICATE MECÂNICO COMPRESSÃO 0"
+    },
+    {
+      "codigo": "374387",
+      "descricao": "MATRIZ DE CORTE TIPO U"
+    },
+    {
+      "codigo": "23838",
+      "descricao": "MATRIZ INTERCAMBIÁVEL 29ART Y-39"
+    },
+    {
+      "codigo": "23804",
+      "descricao": "MATRIZ INTERCAMBIÁVEL 31ART Y-39"
+    },
+    {
+      "codigo": "23812",
+      "descricao": "MATRIZ INTERCAMBIÁVEL 34ART Y-39"
+    },
+    {
+      "codigo": "23796",
+      "descricao": "MATRIZ INTERCAMBIÁVEL 34RT  Y-39"
+    },
+    {
+      "codigo": "23820",
+      "descricao": "MATRIZ INTERCAMBIÁVEL 39ART Y-39"
+    },
+    {
+      "codigo": "23846",
+      "descricao": "MATRIZ INTERCAMBIÁVEL 655 Y-39"
+    },
+    {
+      "codigo": "23853",
+      "descricao": "MATRIZ INTERCAMBIÁVEL 705 Y-39"
+    },
+    {
+      "codigo": "7880",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 162"
+    },
+    {
+      "codigo": "7898",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 163"
+    },
+    {
+      "codigo": "7906",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 236"
+    },
+    {
+      "codigo": "7914",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 237"
+    },
+    {
+      "codigo": "7922",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 238"
+    },
+    {
+      "codigo": "7930",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 239"
+    },
+    {
+      "codigo": "7955",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 242"
+    },
+    {
+      "codigo": "7963",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 243"
+    },
+    {
+      "codigo": "8029",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 245"
+    },
+    {
+      "codigo": "8003",
+      "descricao": "MATRIZ PARA ALICATE MECÂNICO COMPRESSÃO 28K"
+    },
+    {
+      "codigo": "319392",
+      "descricao": "MEDIDOR DIGITAL 280V 2,5A"
+    },
+    {
+      "codigo": "376701",
+      "descricao": "MEDIDOR ELET KWH 120V 15A 3E"
+    },
+    {
+      "codigo": "319525",
+      "descricao": "MEDIDOR ELETRÔNICO 240V 15A"
+    },
+    {
+      "codigo": "376874",
+      "descricao": "MEDIDOR ELETRÔNICO DE 3 ELEMENTOS 2,5A"
+    },
+    {
+      "codigo": "376699",
+      "descricao": "MEDIDOR ELETRÔNICO KWH 120V 15A 1 ELEMENTO"
+    },
+    {
+      "codigo": "376700",
+      "descricao": "MEDIDOR ELETRÔNICO KWH 120V 15A 2 ELEMENTOS"
+    },
+    {
+      "codigo": "326751",
+      "descricao": "MEDIDOR ELETRÔNICO TRIFÁSICO"
+    },
+    {
+      "codigo": "314138",
+      "descricao": "MEDIDOR KVARH 120V 2,5A 2 ELEMENTOS 10A"
+    },
+    {
+      "codigo": "324798",
+      "descricao": "MEDIDOR KVARH 120V 2,5A 2 ELENTOS"
+    },
+    {
+      "codigo": "324806",
+      "descricao": "MEDIDOR KVARH 120V 2,5A 3 ELEMENTOS"
+    },
+    {
+      "codigo": "314153",
+      "descricao": "MEDIDOR KVARH 120V 2,5A 3 ELEMENTOS 10A"
+    },
+    {
+      "codigo": "313361",
+      "descricao": "MEDIDOR KVARH 2 ELEMENTOS COM SENSOR POLIFÁSICO"
+    },
+    {
+      "codigo": "314179",
+      "descricao": "MEDIDOR KVARH 240V 2,5A 3 ELEMENTOS 10A"
+    },
+    {
+      "codigo": "325829",
+      "descricao": "MEDIDOR KVARH 240V 2,5A 3 ELEMENTOS SENSOR INTERNO"
+    },
+    {
+      "codigo": "313379",
+      "descricao": "MEDIDOR KVARH 3 ELEMENTOS COM SENSOR POLIFÁSICO"
+    },
+    {
+      "codigo": "314054",
+      "descricao": "MEDIDOR KWH 120V 15A 1 ELEMENTOS"
+    },
+    {
+      "codigo": "314088",
+      "descricao": "MEDIDOR KWH 120V 15A 2 ELEMENTOS"
+    },
+    {
+      "codigo": "317230",
+      "descricao": "MEDIDOR KWH 120V 15A 2 ELEMENTOS DUPLO REGISTRO"
+    },
+    {
+      "codigo": "314112",
+      "descricao": "MEDIDOR KWH 120V 15A 3 ELEMENTOS"
+    },
+    {
+      "codigo": "317248",
+      "descricao": "MEDIDOR KWH 120V 15A 3 ELEMENTOS DUPLO REGISTRO"
+    },
+    {
+      "codigo": "314070",
+      "descricao": "MEDIDOR KWH 120V 2,5A 2 ELEMENTOS"
+    },
+    {
+      "codigo": "317388",
+      "descricao": "MEDIDOR KWH 120V 2,5A 2 ELEMENTOS DUPLO REGISTRO"
+    },
+    {
+      "codigo": "313346",
+      "descricao": "MEDIDOR KWH 2 ELEMENTOS COM SENSOR POLIFÁSICO"
+    },
+    {
+      "codigo": "314062",
+      "descricao": "MEDIDOR KWH 240V 15A 1 ELEMENTOS 3 FIOS"
+    },
+    {
+      "codigo": "317404",
+      "descricao": "MEDIDOR KWH 240V 15A 3 ELEMENTOS DUPLO REGISTRO"
+    },
+    {
+      "codigo": "325811",
+      "descricao": "MEDIDOR KWH 240V 2,5A 3 ELEMENTOS COM SENSOR"
+    },
+    {
+      "codigo": "317396",
+      "descricao": "MEDIDOR KWH 240V 2,5A 3 ELEMENTOS DUPLO REGISTRO"
+    },
+    {
+      "codigo": "314104",
+      "descricao": "MEDIDOR KWH 240V 2,5A 3 ELEMENTOS IMÁX 10A"
+    },
+    {
+      "codigo": "314211",
+      "descricao": "MEDIDOR KWH 240V 2,5A 3 ELEMENTOS IMÁX 10A"
+    },
+    {
+      "codigo": "313353",
+      "descricao": "MEDIDOR KWH 3 ELEMENTOS COM SENSOR POLIFÁSICO"
+    },
+    {
+      "codigo": "230037",
+      "descricao": "MÓDULO BÁSICO T MBT 15KV"
+    },
+    {
+      "codigo": "230045",
+      "descricao": "MÓDULO BÁSICO T MBT 25KV"
+    },
+    {
+      "codigo": "903937",
+      "descricao": "MÓDULO FOTOVOLTAICO 100WP"
+    },
+    {
+      "codigo": "376692",
+      "descricao": "MÓDULO FOTOVOLTAICO 22WP"
+    },
+    {
+      "codigo": "903941",
+      "descricao": "MÓDULO FOTOVOLTAICO 50WP"
+    },
+    {
+      "codigo": "376691",
+      "descricao": "MÓDULO FOTOVOLTAICO BP75"
+    },
+    {
+      "codigo": "375734",
+      "descricao": "MÓDULO FOTOVOLTAICO KC120"
+    },
+    {
+      "codigo": "376678",
+      "descricao": "MÓDULO FOTOVOLTAICO KC45"
+    },
+    {
+      "codigo": "376680",
+      "descricao": "MÓDULO FOTOVOLTAICO KC50"
+    },
+    {
+      "codigo": "375722",
+      "descricao": "MÓDULO FOTOVOLTAICO KC60"
+    },
+    {
+      "codigo": "375732",
+      "descricao": "MÓDULO FOTOVOLTAICO KC70"
+    },
+    {
+      "codigo": "375733",
+      "descricao": "MÓDULO FOTOVOLTAICO KC80"
+    },
+    {
+      "codigo": "376679",
+      "descricao": "MÓDULO FOTOVOLTAICO LA45"
+    },
+    {
+      "codigo": "376687",
+      "descricao": "MÓDULO FOTOVOLTAICO MSX53"
+    },
+    {
+      "codigo": "376688",
+      "descricao": "MÓDULO FOTOVOLTAICO MSX56"
+    },
+    {
+      "codigo": "376689",
+      "descricao": "MÓDULO FOTOVOLTAICO MSX64"
+    },
+    {
+      "codigo": "376690",
+      "descricao": "MÓDULO FOTOVOLTAICO MSX70"
+    },
+    {
+      "codigo": "355204",
+      "descricao": "MÓDULO FOTOVOLTAICO MSX75"
+    },
+    {
+      "codigo": "376682",
+      "descricao": "MÓDULO FOTOVOLTAICO SP65"
+    },
+    {
+      "codigo": "376683",
+      "descricao": "MÓDULO FOTOVOLTAICO SP70"
+    },
+    {
+      "codigo": "376684",
+      "descricao": "MÓDULO FOTOVOLTAICO SP75"
+    },
+    {
+      "codigo": "376686",
+      "descricao": "MÓDULO FOTOVOLTAICO SR100"
+    },
+    {
+      "codigo": "376681",
+      "descricao": "MÓDULO FOTOVOLTAICO SR50"
+    },
+    {
+      "codigo": "18408",
+      "descricao": "MOITÃO 2 GORNES 400 DAN"
+    },
+    {
+      "codigo": "12039",
+      "descricao": "MOITÃO MADEIRA 2 GORNES 500 D"
+    },
+    {
+      "codigo": "12047",
+      "descricao": "MOITÃO MADEIRA 3 GORNES 700 D"
+    },
+    {
+      "codigo": "297747",
+      "descricao": "MOLDURA PARA CÂMARA TA"
+    },
+    {
+      "codigo": "297754",
+      "descricao": "MOLDURA PARA CÂMARA TB"
+    },
+    {
+      "codigo": "237289",
+      "descricao": "OLHAL PARA PARAFUSO 50KN"
+    },
+    {
+      "codigo": "372659",
+      "descricao": "PADRÃO ENTRADA  4,5M 2F 2 CONSUMIDORES"
+    },
+    {
+      "codigo": "372658",
+      "descricao": "PADRÃO ENTRADA  4,5M 3F 1 CONSUMIDOR"
+    },
+    {
+      "codigo": "372660",
+      "descricao": "PADRÃO ENTRADA  7M 2F 2 CONSUMIDORES"
+    },
+    {
+      "codigo": "309245",
+      "descricao": "PADRÃO ENTRADA 4,5M 2 fios"
+    },
+    {
+      "codigo": "309252",
+      "descricao": "PADRÃO ENTRADA 7M 2 fios"
+    },
+    {
+      "codigo": "309260",
+      "descricao": "PADRÃO ENTRADA 7M 3 FIOS"
+    },
+    {
+      "codigo": "376746",
+      "descricao": "PAINEL DE CONTROLE REGULADOR MONOFÁSICO"
+    },
+    {
+      "codigo": "337295",
+      "descricao": "PARAFUSADEIRA ELÉTRICA"
+    },
+    {
+      "codigo": "66688",
+      "descricao": "PARAFUSO CABEÇA ABAULADA M12X 40MM"
+    },
+    {
+      "codigo": "66878",
+      "descricao": "PARAFUSO CABEÇA ABAULADA M16X 45MM"
+    },
+    {
+      "codigo": "66886",
+      "descricao": "PARAFUSO CABEÇA ABAULADA M16X 70MM"
+    },
+    {
+      "codigo": "66894",
+      "descricao": "PARAFUSO CABEÇA ABAULADA M16X150MM"
+    },
+    {
+      "codigo": "74773",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M12X150MM"
+    },
+    {
+      "codigo": "74799",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X125MM"
+    },
+    {
+      "codigo": "74807",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X150MM"
+    },
+    {
+      "codigo": "74815",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X200MM"
+    },
+    {
+      "codigo": "74823",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X250MM"
+    },
+    {
+      "codigo": "74831",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X300MM"
+    },
+    {
+      "codigo": "74849",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X350MM"
+    },
+    {
+      "codigo": "74856",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X400MM"
+    },
+    {
+      "codigo": "74864",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X450MM"
+    },
+    {
+      "codigo": "74872",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X500MM"
+    },
+    {
+      "codigo": "74880",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X550MM"
+    },
+    {
+      "codigo": "74898",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X600MM"
+    },
+    {
+      "codigo": "74906",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X650MM"
+    },
+    {
+      "codigo": "74914",
+      "descricao": "PARAFUSO CABEÇA QUADRADA M16X700MM"
+    },
+    {
+      "codigo": "75903",
+      "descricao": "PARAFUSO CABEÇA SEXTAVADA 3/8X1.1/2P"
+    },
+    {
+      "codigo": "75895",
+      "descricao": "PARAFUSO CABEÇA SEXTAVADA 3/8X1P"
+    },
+    {
+      "codigo": "75036",
+      "descricao": "PARAFUSO CABEÇA SEXTAVADA M12X 40MM"
+    },
+    {
+      "codigo": "75044",
+      "descricao": "PARAFUSO CABEÇA SEXTAVADA M12X 50MM"
+    },
+    {
+      "codigo": "66191",
+      "descricao": "PARAFUSO N.14"
+    },
+    {
+      "codigo": "198366",
+      "descricao": "PARAFUSO N.6"
+    },
+    {
+      "codigo": "66589",
+      "descricao": "PARAFUSO N.8"
+    },
+    {
+      "codigo": "289058",
+      "descricao": "PÁRA-RAIOS 12KV 10KA ZNO"
+    },
+    {
+      "codigo": "289157",
+      "descricao": "PÁRA-RAIOS 21KV 10KA ZNO"
+    },
+    {
+      "codigo": "375258",
+      "descricao": "PÁRA-RAIOS 30KV 10KA ZNO"
+    },
+    {
+      "codigo": "374422",
+      "descricao": "PÁRA-RAIOS 33KV 10KA ZNO"
+    },
+    {
+      "codigo": "288902",
+      "descricao": "PÁRA-RAIOS DESC 12KV 5KA"
+    },
+    {
+      "codigo": "260281",
+      "descricao": "PÁRA-RAIOS RECUPERÁVEL"
+    },
+    {
+      "codigo": "293357",
+      "descricao": "PÁRA-RAIOS REDE SECUNDÁRIA ISOLADA 10KA"
+    },
+    {
+      "codigo": "293308",
+      "descricao": "PÁRA-RAIOS SEC CONV 10KA"
+    },
+    {
+      "codigo": "79681",
+      "descricao": "PASTA ANTIÓXIDO EMB 400G"
+    },
+    {
+      "codigo": "82446",
+      "descricao": "PASTA ANTIÓXIDO EMBALAGEM 250G"
+    },
+    {
+      "codigo": "2113",
+      "descricao": "PEÇA Z AÇO ZINCADO PARA LEITO DE CABO"
+    },
+    {
+      "codigo": "3194",
+      "descricao": "PERFIL AÇO  35X35X35MM"
+    },
+    {
+      "codigo": "3186",
+      "descricao": "PERFIL L AÇO  70X70MM"
+    },
+    {
+      "codigo": "375873",
+      "descricao": "PERFIL L-127X127X24,1X513MM"
+    },
+    {
+      "codigo": "375871",
+      "descricao": "PERFIL L-88,9X63,5X10X127MM"
+    },
+    {
+      "codigo": "375872",
+      "descricao": "PERFIL L-88,9X63,5X10X922MM"
+    },
+    {
+      "codigo": "375870",
+      "descricao": "PERFIL L-88,9X63,6X10X102MM"
+    },
+    {
+      "codigo": "3178",
+      "descricao": "PERFIL Z AÇO  34X40X34MM"
+    },
+    {
+      "codigo": "78907",
+      "descricao": "PERFILADO PERF ACO 38X6M"
+    },
+    {
+      "codigo": "237545",
+      "descricao": "PINO DE CRUZETA 290MM PARA ISOLADOR 15KV"
+    },
+    {
+      "codigo": "237511",
+      "descricao": "PINO DE CRUZETA 324MM PARA ISOLADOR 25KV"
+    },
+    {
+      "codigo": "237529",
+      "descricao": "PINO DE CRUZETA 370MM PARA ISOLADOR 35KV"
+    },
+    {
+      "codigo": "237495",
+      "descricao": "PINO DE TOPO 389MM PARA ISOLADOR 15KV"
+    },
+    {
+      "codigo": "237503",
+      "descricao": "PINO DE TOPO 419MM PARA ISOLADOR 25KV"
+    },
+    {
+      "codigo": "375720",
+      "descricao": "PINO PARA ISOLADOR PILAR"
+    },
+    {
+      "codigo": "236265",
+      "descricao": "PINO PARA ISOLADOR POLIMÉRICO 36,2KV ITEM 1"
+    },
+    {
+      "codigo": "375233",
+      "descricao": "PINO PARA ISOLADOR POLIMÉRICO ATÉ 36,2KV ITEM 2"
+    },
+    {
+      "codigo": "81950",
+      "descricao": "PLACA DE IDENTIFICAÇÃO H"
+    },
+    {
+      "codigo": "81976",
+      "descricao": "PLACA DE IDENTIFICAÇÃO K"
+    },
+    {
+      "codigo": "81836",
+      "descricao": "PLACA DE IDENTIFICAÇÃO T"
+    },
+    {
+      "codigo": "81679",
+      "descricao": "PLACA N.0 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81596",
+      "descricao": "PLACA N.1 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81604",
+      "descricao": "PLACA N.2 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81612",
+      "descricao": "PLACA N.3 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81620",
+      "descricao": "PLACA N.4 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81638",
+      "descricao": "PLACA N.5 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81646",
+      "descricao": "PLACA N.6 OU 9 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81653",
+      "descricao": "PLACA N.7 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "81661",
+      "descricao": "PLACA N.8 PARA  IDENTIFICAÇÃO EQUIPAMENTO"
+    },
+    {
+      "codigo": "20305",
+      "descricao": "PLATAFORMA EPOXI 1200MM"
+    },
+    {
+      "codigo": "20313",
+      "descricao": "PLATAFORMA EPOXI 1800MM"
+    },
+    {
+      "codigo": "229799",
+      "descricao": "PLUGUE ATERRAMENTO  PAT 15KV"
+    },
+    {
+      "codigo": "229955",
+      "descricao": "PLUGUE ATERRAMENTO  PAT 25KV"
+    },
+    {
+      "codigo": "231001",
+      "descricao": "PLUGUE ATERRAMENTO PAT 15KV 600A"
+    },
+    {
+      "codigo": "229963",
+      "descricao": "PLUGUE CONEXÃO PDC 15KV"
+    },
+    {
+      "codigo": "229989",
+      "descricao": "PLUGUE CONEXÃO PDC 25KV"
+    },
+    {
+      "codigo": "229872",
+      "descricao": "PLUGUE ISOLANTE BLINDADO 15KV"
+    },
+    {
+      "codigo": "229898",
+      "descricao": "PLUGUE ISOLANTE BLINDADO 25KV"
+    },
+    {
+      "codigo": "337964",
+      "descricao": "PLUGUE ISOLANTE PIB 15KV 600A"
+    },
+    {
+      "codigo": "230508",
+      "descricao": "PLUGUE TERMINAL PTC 15KV FÊMEA"
+    },
+    {
+      "codigo": "229633",
+      "descricao": "PLUGUE TERMINAL PTC 15KV MACHO"
+    },
+    {
+      "codigo": "230516",
+      "descricao": "PLUGUE TERMINAL PTC 25KV FÊMEA"
+    },
+    {
+      "codigo": "230060",
+      "descricao": "PLUGUE TERMINAL PTC 25KV MACHO"
+    },
+    {
+      "codigo": "230672",
+      "descricao": "PLUGUE TRANSIÇÃO PTR 15KV FÊMEA"
+    },
+    {
+      "codigo": "230698",
+      "descricao": "PLUGUE TRANSIÇÃO PTR 15KV MACHO"
+    },
+    {
+      "codigo": "230680",
+      "descricao": "PLUGUE TRANSIÇÃO PTR 25KV FÊMEA"
+    },
+    {
+      "codigo": "230706",
+      "descricao": "PLUGUE TRANSIÇÃO PTR 25KV MACHO"
+    },
+    {
+      "codigo": "75887",
+      "descricao": "PORCA LOSANGULAR 3/8P"
+    },
+    {
+      "codigo": "75630",
+      "descricao": "PORCA QUADRADA M16 X 24MM"
+    },
+    {
+      "codigo": "297457",
+      "descricao": "PORCA-ARRUELA AÇO  3/4P"
+    },
+    {
+      "codigo": "288951",
+      "descricao": "PORTA-FUSÍVEL 15KV 100A 1,4KA"
+    },
+    {
+      "codigo": "271205",
+      "descricao": "PORTA-FUSÍVEL 15KV 100A 7,1KA"
+    },
+    {
+      "codigo": "271213",
+      "descricao": "PORTA-FUSÍVEL 15KV 200A 7,1KA"
+    },
+    {
+      "codigo": "288969",
+      "descricao": "PORTA-FUSÍVEL 24KV 100A 1,4KA"
+    },
+    {
+      "codigo": "271221",
+      "descricao": "PORTA-FUSÍVEL 24KV 100A 4,5KA"
+    },
+    {
+      "codigo": "208207",
+      "descricao": "POSTE AÇO DIVERSOS À RECUPERAR"
+    },
+    {
+      "codigo": "376509",
+      "descricao": "POSTE AÇO IP COLONIAL 6M"
+    },
+    {
+      "codigo": "377336",
+      "descricao": "POSTE AÇO IP CÔNICO CONTÍNUO 10,5M"
+    },
+    {
+      "codigo": "377202",
+      "descricao": "POSTE AÇO IP CÔNICO CONTÍNUO 6,5M"
+    },
+    {
+      "codigo": "209726",
+      "descricao": "POSTE AÇO IP ESCALONADO 4,50M"
+    },
+    {
+      "codigo": "377116",
+      "descricao": "POSTE AÇO IP OCTOG ENGAST 11,3M P/ CHIC/SEÇÃO RETA"
+    },
+    {
+      "codigo": "377117",
+      "descricao": "POSTE AÇO IP OCTOG ENGAST 9,3M P/ CHIC/SEÇÃO RETA"
+    },
+    {
+      "codigo": "376514",
+      "descricao": "POSTE AÇO IP OCTOG FLANG 11,8M P/ CHIC/SEÇÃO RETA"
+    },
+    {
+      "codigo": "214635",
+      "descricao": "POSTE AÇO IP OCTOG FLANG 7,8M P/ CHIC/SEÇÃO RETA"
+    },
+    {
+      "codigo": "214627",
+      "descricao": "POSTE AÇO IP OCTOG FLANG 9,8M PARA CHIC/SEÇÃO RETA"
+    },
+    {
+      "codigo": "207159",
+      "descricao": "POSTE CONCRETO CIRCULAR  9M 150DAN"
+    },
+    {
+      "codigo": "207274",
+      "descricao": "POSTE CONCRETO CIRCULAR  9M 300DAN"
+    },
+    {
+      "codigo": "207290",
+      "descricao": "POSTE CONCRETO CIRCULAR 10M 150DAN"
+    },
+    {
+      "codigo": "207324",
+      "descricao": "POSTE CONCRETO CIRCULAR 10M 300DAN"
+    },
+    {
+      "codigo": "207357",
+      "descricao": "POSTE CONCRETO CIRCULAR 10M 600DAN"
+    },
+    {
+      "codigo": "207415",
+      "descricao": "POSTE CONCRETO CIRCULAR 11M 300DAN"
+    },
+    {
+      "codigo": "207431",
+      "descricao": "POSTE CONCRETO CIRCULAR 11M 450DAN"
+    },
+    {
+      "codigo": "207449",
+      "descricao": "POSTE CONCRETO CIRCULAR 11M 600DAN"
+    },
+    {
+      "codigo": "207472",
+      "descricao": "POSTE CONCRETO CIRCULAR 11M1000DAN"
+    },
+    {
+      "codigo": "207522",
+      "descricao": "POSTE CONCRETO CIRCULAR 12M 300DAN"
+    },
+    {
+      "codigo": "207506",
+      "descricao": "POSTE CONCRETO CIRCULAR 12M 600DAN"
+    },
+    {
+      "codigo": "207514",
+      "descricao": "POSTE CONCRETO CIRCULAR 12M1000DAN"
+    },
+    {
+      "codigo": "207530",
+      "descricao": "POSTE CONCRETO CIRCULAR 13M 600DAN"
+    },
+    {
+      "codigo": "207555",
+      "descricao": "POSTE CONCRETO CIRCULAR 13M1000DAN"
+    },
+    {
+      "codigo": "372995",
+      "descricao": "POSTE CONCRETO CIRCULAR/DT À RECUPERAR"
+    },
+    {
+      "codigo": "207241",
+      "descricao": "POSTE CONCRETO DUPLO T   9M 150DAN"
+    },
+    {
+      "codigo": "207753",
+      "descricao": "POSTE CONCRETO DUPLO T   9M 300DAN"
+    },
+    {
+      "codigo": "207308",
+      "descricao": "POSTE CONCRETO DUPLO T  10M 150DAN"
+    },
+    {
+      "codigo": "207670",
+      "descricao": "POSTE CONCRETO DUPLO T  10M 300C/ME"
+    },
+    {
+      "codigo": "207316",
+      "descricao": "POSTE CONCRETO DUPLO T  10M 300DAN"
+    },
+    {
+      "codigo": "207365",
+      "descricao": "POSTE CONCRETO DUPLO T  10M 600DAN"
+    },
+    {
+      "codigo": "207373",
+      "descricao": "POSTE CONCRETO DUPLO T  11M 300DAN"
+    },
+    {
+      "codigo": "214569",
+      "descricao": "POSTE CONCRETO DUPLO T  11M 600DAN"
+    },
+    {
+      "codigo": "207571",
+      "descricao": "POSTE CONCRETO DUPLO T  12M 300DAN"
+    },
+    {
+      "codigo": "214577",
+      "descricao": "POSTE CONCRETO DUPLO T  12M 600DAN"
+    },
+    {
+      "codigo": "207597",
+      "descricao": "POSTE CONCRETO DUPLO T  13M 300DAN"
+    },
+    {
+      "codigo": "207647",
+      "descricao": "POSTE CONCRETO DUPLO T  13M 600DAN"
+    },
+    {
+      "codigo": "207654",
+      "descricao": "POSTE CONCRETO DUPLO T  15M 600DAN"
+    },
+    {
+      "codigo": "214742",
+      "descricao": "POSTE CONCRETO DUPLO T  18M 600DAN"
+    },
+    {
+      "codigo": "214668",
+      "descricao": "POSTE CONCRETO RC IP 11,5M 150DAN"
+    },
+    {
+      "codigo": "214734",
+      "descricao": "POSTE CONCRETO RC IP 13,5M 150DAN"
+    },
+    {
+      "codigo": "214726",
+      "descricao": "POSTE CONCRETO RC IP 16M 150DAN"
+    },
+    {
+      "codigo": "376241",
+      "descricao": "POSTE DE AÇO IP COLONIAL 4M"
+    },
+    {
+      "codigo": "207985",
+      "descricao": "POSTE EUCALIPTO  9M 150DAN"
+    },
+    {
+      "codigo": "208041",
+      "descricao": "POSTE EUCALIPTO 10M 150DAN"
+    },
+    {
+      "codigo": "208058",
+      "descricao": "POSTE EUCALIPTO 10M 300DAN"
+    },
+    {
+      "codigo": "208025",
+      "descricao": "POSTE EUCALIPTO 10M 600DAN"
+    },
+    {
+      "codigo": "208074",
+      "descricao": "POSTE EUCALIPTO 11M 300DAN"
+    },
+    {
+      "codigo": "208082",
+      "descricao": "POSTE EUCALIPTO 11M 600DAN"
+    },
+    {
+      "codigo": "208124",
+      "descricao": "POSTE EUCALIPTO 12M 300DAN"
+    },
+    {
+      "codigo": "208108",
+      "descricao": "POSTE EUCALIPTO 12M 600DAN"
+    },
+    {
+      "codigo": "208181",
+      "descricao": "POSTE EUCALIPTO 13M 300DAN"
+    },
+    {
+      "codigo": "208173",
+      "descricao": "POSTE EUCALIPTO 13M 600DAN"
+    },
+    {
+      "codigo": "208264",
+      "descricao": "POSTE EUCALIPTO 15M 600DAN"
+    },
+    {
+      "codigo": "208298",
+      "descricao": "POSTE EUCALIPTO 16M 600DAN"
+    },
+    {
+      "codigo": "208306",
+      "descricao": "POSTE EUCALIPTO 17M 600DAN"
+    },
+    {
+      "codigo": "208322",
+      "descricao": "POSTE EUCALIPTO 18M 600DAN"
+    },
+    {
+      "codigo": "372996",
+      "descricao": "POSTE MADEIRA À RECUPERAR"
+    },
+    {
+      "codigo": "210880",
+      "descricao": "POSTE MODULAR AÇO  DUPLO U 10M"
+    },
+    {
+      "codigo": "210898",
+      "descricao": "POSTE MODULAR AÇO  DUPLO U 11M"
+    },
+    {
+      "codigo": "210906",
+      "descricao": "POSTE MODULAR AÇO  DUPLO U 12M"
+    },
+    {
+      "codigo": "210914",
+      "descricao": "POSTE MODULAR AÇO  DUPLO U 13M"
+    },
+    {
+      "codigo": "212019",
+      "descricao": "POSTE RETO 12M POL CONICO"
+    },
+    {
+      "codigo": "214676",
+      "descricao": "POSTE RETO 16M POLIG ACO"
+    },
+    {
+      "codigo": "89664",
+      "descricao": "PRANCHETA LEITURISTA"
+    },
+    {
+      "codigo": "900675",
+      "descricao": "PREGO 17/21 CABECA CHATA"
+    },
+    {
+      "codigo": "298844",
+      "descricao": "PRENSA-CABO ALUMÍNIO 1P"
+    },
+    {
+      "codigo": "39271",
+      "descricao": "PRESILHA ELEVAÇÃO COM ISOLADOR"
+    },
+    {
+      "codigo": "20321",
+      "descricao": "PRESILHA ELEVAÇÃO SEM ISOLADOR"
+    },
+    {
+      "codigo": "39289",
+      "descricao": "PRESILHA SUSPENSÃO COM ISOLADOR"
+    },
+    {
+      "codigo": "20339",
+      "descricao": "PRESILHA SUSPENSÃO SEM ISOLADOR"
+    },
+    {
+      "codigo": "377657",
+      "descricao": "PROJETOR C/ EQUIPAMENTO LÂMPADA VS400W REATOR 240V"
+    },
+    {
+      "codigo": "375495",
+      "descricao": "PROJETOR COM EQUIPAMENTO VS 400W TUBULAR 220V"
+    },
+    {
+      "codigo": "377334",
+      "descricao": "PROJETOR DE EMBUTIR PISO PARA LÂMPADA REFLETORA"
+    },
+    {
+      "codigo": "258475",
+      "descricao": "PROJETOR VM 250/400W P400MVR"
+    },
+    {
+      "codigo": "256289",
+      "descricao": "PROJETOR VM 250/400W PL400MA"
+    },
+    {
+      "codigo": "314294",
+      "descricao": "PROTETOR RETICULADO.220/127V 1.875A"
+    },
+    {
+      "codigo": "314302",
+      "descricao": "PROTETOR RETICULADO.220/127V 2.825A"
+    },
+    {
+      "codigo": "376999",
+      "descricao": "QDP PARA TRANSFORMADOR  45KVA RDS"
+    },
+    {
+      "codigo": "377000",
+      "descricao": "QDP PARA TRANSFORMADOR  75KVA RDS"
+    },
+    {
+      "codigo": "377001",
+      "descricao": "QDP PARA TRANSFORMADOR 150KVA RDS"
+    },
+    {
+      "codigo": "377002",
+      "descricao": "QDP PARA TRANSFORMADOR 300KVA RDS"
+    },
+    {
+      "codigo": "377003",
+      "descricao": "QDP PARA TRANSFORMADOR 500KVA RDS"
+    },
+    {
+      "codigo": "375473",
+      "descricao": "QUADRO DE DISTRIBUIÇÃO PVC CIRCULAR"
+    },
+    {
+      "codigo": "375068",
+      "descricao": "REATOR DUPLO 2X16W 127V"
+    },
+    {
+      "codigo": "375072",
+      "descricao": "REATOR DUPLO 2X32W"
+    },
+    {
+      "codigo": "375067",
+      "descricao": "REATOR ELETRÔNICO 16W"
+    },
+    {
+      "codigo": "259275",
+      "descricao": "REATOR ELETRÔNICO 20W"
+    },
+    {
+      "codigo": "375071",
+      "descricao": "REATOR ELETRÔNICO 32W"
+    },
+    {
+      "codigo": "377627",
+      "descricao": "REATOR LÂMPADA VAPOR MERCÚRIO 125W INTEG IP ORNAM"
+    },
+    {
+      "codigo": "377628",
+      "descricao": "REATOR LÂMPADA VAPOR METÁLICO 150W INTEG IP ORNAM"
+    },
+    {
+      "codigo": "376240",
+      "descricao": "REATOR LÂMPADA VAPOR METÁLICO 150W LAMPIÃO COLONI"
+    },
+    {
+      "codigo": "377631",
+      "descricao": "REATOR LÂMPADA VAPOR METÁLICO 35W EXTERNO IP ORNAM"
+    },
+    {
+      "codigo": "377632",
+      "descricao": "REATOR LÂMPADA VAPOR METÁLICO 35W INTEGR IP ORNAM"
+    },
+    {
+      "codigo": "377629",
+      "descricao": "REATOR LÂMPADA VAPOR METÁLICO 70W EXTERNO IP ORNAM"
+    },
+    {
+      "codigo": "377630",
+      "descricao": "REATOR LÂMPADA VAPOR METÁLICO 70W INTEG IP ORNAM"
+    },
+    {
+      "codigo": "328484",
+      "descricao": "REATOR LÂMPADA VAPOR METÁLICO 70W LAMPIÃO COLONIAL"
+    },
+    {
+      "codigo": "259077",
+      "descricao": "REATOR LÂMPADA VM  80W EXTERNO"
+    },
+    {
+      "codigo": "259051",
+      "descricao": "REATOR LÂMPADA VM 125W EXTERNO"
+    },
+    {
+      "codigo": "259093",
+      "descricao": "REATOR LÂMPADA VM 125W INTEGRADO"
+    },
+    {
+      "codigo": "259010",
+      "descricao": "REATOR LÂMPADA VM 250W EXTERNO"
+    },
+    {
+      "codigo": "259002",
+      "descricao": "REATOR LÂMPADA VM 400W EXTERNO"
+    },
+    {
+      "codigo": "259085",
+      "descricao": "REATOR LÂMPADA VM 400W INTEGRADO"
+    },
+    {
+      "codigo": "259382",
+      "descricao": "REATOR LÂMPADA VS  70W EXTERNO"
+    },
+    {
+      "codigo": "355029",
+      "descricao": "REATOR LÂMPADA VS 100W INTEGRADO"
+    },
+    {
+      "codigo": "376112",
+      "descricao": "REATOR LÂMPADA VS 100W INTEGRADO CONECTOR RÁPIDO"
+    },
+    {
+      "codigo": "259408",
+      "descricao": "REATOR LÂMPADA VS 150W EXTERNO"
+    },
+    {
+      "codigo": "355028",
+      "descricao": "REATOR LÂMPADA VS 150W INTEGRADO"
+    },
+    {
+      "codigo": "376788",
+      "descricao": "REATOR LÂMPADA VS 150W INTEGRADO 240V"
+    },
+    {
+      "codigo": "259044",
+      "descricao": "REATOR LÂMPADA VS 250W EXTERNO"
+    },
+    {
+      "codigo": "259416",
+      "descricao": "REATOR LÂMPADA VS 250W INTEGRADO"
+    },
+    {
+      "codigo": "376787",
+      "descricao": "REATOR LÂMPADA VS 250W INTEGRADO 240V"
+    },
+    {
+      "codigo": "258996",
+      "descricao": "REATOR LÂMPADA VS 400W EXTERNO"
+    },
+    {
+      "codigo": "258988",
+      "descricao": "REATOR LÂMPADA VS 400W INTEGRADO"
+    },
+    {
+      "codigo": "377441",
+      "descricao": "REATOR LÂMPADA VS 400W INTEGRADO IP ORNAM"
+    },
+    {
+      "codigo": "333955",
+      "descricao": "REATOR LÂMPADA VS 70W INTEGRADO"
+    },
+    {
+      "codigo": "376110",
+      "descricao": "REATOR LÂMPADA VS 70W INTEGRADO CONECTOR RÁPIDO"
+    },
+    {
+      "codigo": "354348",
+      "descricao": "REATOR PARTIDA.RÁPIDA 40W LÂMPADA.FLUORESCENTE"
+    },
+    {
+      "codigo": "377030",
+      "descricao": "REATOR PROJETOR VS 400 240V"
+    },
+    {
+      "codigo": "256008",
+      "descricao": "REATORES RECUPERÁVEIS"
+    },
+    {
+      "codigo": "375326",
+      "descricao": "RECEPTÁCULO DE PORCELANA"
+    },
+    {
+      "codigo": "229831",
+      "descricao": "RECEPTÁCULO ISOLANTE BLINDADO 15KV"
+    },
+    {
+      "codigo": "229914",
+      "descricao": "RECEPTÁCULO ISOLANTE BLINDADO 25KV"
+    },
+    {
+      "codigo": "258871",
+      "descricao": "RECEPTÁCULO PORCELANA E-27 PARA LUMINÁRIA"
+    },
+    {
+      "codigo": "258855",
+      "descricao": "RECEPTÁCULO PORCELANA E-40 PARA LUMINÁRIA"
+    },
+    {
+      "codigo": "375327",
+      "descricao": "RECEPTÁCULO TERMOPLÁSTICO COM RABICHO"
+    },
+    {
+      "codigo": "324749",
+      "descricao": "REGISTRADOR DIGITAL COM MEMÓRIA MASSA"
+    },
+    {
+      "codigo": "313338",
+      "descricao": "REGISTRADOR ELETRÔNICO PROGRAMÁVEL 2 CANAIS"
+    },
+    {
+      "codigo": "325928",
+      "descricao": "REGISTRADOR ELETRÔNICO PROGRAMÁVEL 3 CANAIS"
+    },
+    {
+      "codigo": "246082",
+      "descricao": "REGULADOR MONOFÁSICO 15KV  76,2KVA"
+    },
+    {
+      "codigo": "351965",
+      "descricao": "REGULADOR MONOFÁSICO 15KV 167 KVA F INV"
+    },
+    {
+      "codigo": "376744",
+      "descricao": "REGULADOR MONOFÁSICO 15KV 167 KVA S/COM"
+    },
+    {
+      "codigo": "246108",
+      "descricao": "REGULADOR MONOFÁSICO 15KV 167KVA"
+    },
+    {
+      "codigo": "372261",
+      "descricao": "REGULADOR MONOFÁSICO 15KV 250KVA"
+    },
+    {
+      "codigo": "376743",
+      "descricao": "REGULADOR MONOFÁSICO 15KV 76,2KVA S/CM"
+    },
+    {
+      "codigo": "246116",
+      "descricao": "REGULADOR MONOFÁSICO 25KV  72KVA"
+    },
+    {
+      "codigo": "246124",
+      "descricao": "REGULADOR MONOFÁSICO 25KV 144KVA"
+    },
+    {
+      "codigo": "374953",
+      "descricao": "REGULADOR MONOFÁSICO 34,5KV 200KVA"
+    },
+    {
+      "codigo": "376737",
+      "descricao": "REGULADOR MONOFÁSICO 34,5KV 333KVA"
+    },
+    {
+      "codigo": "376738",
+      "descricao": "REGULADOR MONOFÁSICO 34,5KV 400KVA"
+    },
+    {
+      "codigo": "323170",
+      "descricao": "RELÉ CONTROLADOR 120/240 VCA"
+    },
+    {
+      "codigo": "310508",
+      "descricao": "RELÉ FOTOELÉTRICO 10A RECUPERÁVEL"
+    },
+    {
+      "codigo": "323188",
+      "descricao": "RELÉ FOTOELÉTRICO 127V"
+    },
+    {
+      "codigo": "327361",
+      "descricao": "RELÉ FOTOELÉTRICO ELETRÔNICO 105-305V"
+    },
+    {
+      "codigo": "313916",
+      "descricao": "RELÉ FOTOELÉTRICO TEMPORIZADO"
+    },
+    {
+      "codigo": "269936",
+      "descricao": "RELIGADOR MONOFÁSICO 15KV 100A 2KA"
+    },
+    {
+      "codigo": "269944",
+      "descricao": "RELIGADOR MONOFÁSICO 24,2KV 280A 4KA"
+    },
+    {
+      "codigo": "375260",
+      "descricao": "RELIGADOR MONOFÁSICO 36,2KV 560A 8KA"
+    },
+    {
+      "codigo": "269928",
+      "descricao": "RELIGADOR TRIFÁSICO 15KV 200A 2KA"
+    },
+    {
+      "codigo": "288779",
+      "descricao": "RELIGADOR TRIFÁSICO 15KV 400A 6KA"
+    },
+    {
+      "codigo": "353725",
+      "descricao": "RELIGADOR TRIFÁSICO 15KV 560A 6KA ISOL MAT POLIM"
+    },
+    {
+      "codigo": "273003",
+      "descricao": "RELIGADOR TRIFÁSICO 24KV 560A 12KA ISOL MAT POLIM"
+    },
+    {
+      "codigo": "375259",
+      "descricao": "RELIGADOR TRIFÁSICO 36,2KV 630A 12KA"
+    },
+    {
+      "codigo": "351957",
+      "descricao": "RELIGADOR TRIFÁSICO 6KA 15KV AUT"
+    },
+    {
+      "codigo": "39636",
+      "descricao": "RESTAURADOR BRILHO A E 6B"
+    },
+    {
+      "codigo": "375323",
+      "descricao": "ROLDANA PVC 32/32"
+    },
+    {
+      "codigo": "20354",
+      "descricao": "SACADOR CONTRAPINO PARA IMPULSO"
+    },
+    {
+      "codigo": "20347",
+      "descricao": "SACADOR E COLOCADOR PINO 16MM"
+    },
+    {
+      "codigo": "79780",
+      "descricao": "SACOLA PARA BASTÃO UNIVERSAL"
+    },
+    {
+      "codigo": "79822",
+      "descricao": "SACOLA PARA FERRAMENTAS IMPERMEÁVEL"
+    },
+    {
+      "codigo": "237768",
+      "descricao": "SAPATILHA"
+    },
+    {
+      "codigo": "376852",
+      "descricao": "SEÇÃO RETA OCTOGONAL 2,2M P/ POSTE DE AÇO OCTOG IP"
+    },
+    {
+      "codigo": "78980",
+      "descricao": "SECCIONADOR CERCA ARAME.LISO"
+    },
+    {
+      "codigo": "355258",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 2OP 16A"
+    },
+    {
+      "codigo": "355256",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 2OP 24A"
+    },
+    {
+      "codigo": "352169",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 2OP 40A"
+    },
+    {
+      "codigo": "352168",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 2OP 56A"
+    },
+    {
+      "codigo": "355257",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 3OP 16A"
+    },
+    {
+      "codigo": "337345",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 3OP 24A"
+    },
+    {
+      "codigo": "337337",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 3OP 40A"
+    },
+    {
+      "codigo": "337329",
+      "descricao": "SECCIONADOR ELETRÔNICO 1F 15KV 3OP 56A"
+    },
+    {
+      "codigo": "78972",
+      "descricao": "SECCIONADOR PRÉ-FORMADO CERCA ARAME.FARPADO"
+    },
+    {
+      "codigo": "284976",
+      "descricao": "SECCIONALIZADOR MONOFÁSICO 15KV GH"
+    },
+    {
+      "codigo": "375847",
+      "descricao": "SECCIONALIZADOR MONOFÁSICO ELETRÔNICO 15KV 200A"
+    },
+    {
+      "codigo": "285569",
+      "descricao": "SECCIONALIZADOR TRIFÁSICO 15KV 200A RESTRIT INRUSH"
+    },
+    {
+      "codigo": "284984",
+      "descricao": "SECCIONALIZADOR TRIFÁSICO 15KV GN3"
+    },
+    {
+      "codigo": "20370",
+      "descricao": "SELA COM EXTENSOR E COLAR 38MM"
+    },
+    {
+      "codigo": "20388",
+      "descricao": "SELA COM EXTENSOR E COLAR 64MM"
+    },
+    {
+      "codigo": "214585",
+      "descricao": "SELA P/MASTROS EQUIL.SIMP"
+    },
+    {
+      "codigo": "20362",
+      "descricao": "SELA PARA AMARRAÇÃO DE CORDA"
+    },
+    {
+      "codigo": "288860",
+      "descricao": "SELA PARA ATERRAMENTO TEMPORÁRIO"
+    },
+    {
+      "codigo": "237156",
+      "descricao": "SELA PARA CRUZETA"
+    },
+    {
+      "codigo": "20396",
+      "descricao": "SELA SIMPLES DE ELEVAÇÃO"
+    },
+    {
+      "codigo": "374483",
+      "descricao": "SELO DE SINALIZAÇÃO"
+    },
+    {
+      "codigo": "231647",
+      "descricao": "SEPARADOR VERTICAL 50-150MM²"
+    },
+    {
+      "codigo": "234534",
+      "descricao": "SEPARADOR VERTICAL PARA  50MM²"
+    },
+    {
+      "codigo": "211763",
+      "descricao": "SEPARADOR VERTICAL PARA 150MM²"
+    },
+    {
+      "codigo": "18481",
+      "descricao": "SERRA CIRCULAR HIDRÁULICA"
+    },
+    {
+      "codigo": "18507",
+      "descricao": "SERRA CORRENTE HIDRÁULICA"
+    },
+    {
+      "codigo": "376791",
+      "descricao": "SHORTING CAP PARA LUMINÁRIA IP"
+    },
+    {
+      "codigo": "376199",
+      "descricao": "SINCRONIZADOR PARA REGULADOR"
+    },
+    {
+      "codigo": "18309",
+      "descricao": "SOQUETE PARA CHAVE CATRACA"
+    },
+    {
+      "codigo": "220087",
+      "descricao": "SUCATA CABO AL.MULTIPLEX"
+    },
+    {
+      "codigo": "219790",
+      "descricao": "SUCATA CABO CAA"
+    },
+    {
+      "codigo": "219808",
+      "descricao": "SUCATA CABO COBRE ISOLADO"
+    },
+    {
+      "codigo": "219824",
+      "descricao": "SUCATA CABO E FIOS AL.ISOLADO"
+    },
+    {
+      "codigo": "219840",
+      "descricao": "SUCATA CABOS CA E FIOS AL"
+    },
+    {
+      "codigo": "220186",
+      "descricao": "SUCATA CABOS MULTIPLEX"
+    },
+    {
+      "codigo": "294017",
+      "descricao": "SUCATA CHAVE FACA RECUPERAR"
+    },
+    {
+      "codigo": "78162",
+      "descricao": "SUCATA COBERTURA PROTETORA RDA"
+    },
+    {
+      "codigo": "207100",
+      "descricao": "SUCATA CRUZETA DE MADEIRA"
+    },
+    {
+      "codigo": "1842",
+      "descricao": "SUCATA DE ALUMÍNIO"
+    },
+    {
+      "codigo": "1826",
+      "descricao": "SUCATA DE BOQUILHA DE LÂMPADA"
+    },
+    {
+      "codigo": "1834",
+      "descricao": "SUCATA DE BRONZE MIXTA"
+    },
+    {
+      "codigo": "1784",
+      "descricao": "SUCATA DE CABO DE AÇO"
+    },
+    {
+      "codigo": "294009",
+      "descricao": "SUCATA DE CHAVE FUSÍVEL"
+    },
+    {
+      "codigo": "1800",
+      "descricao": "SUCATA DE CHUMBO"
+    },
+    {
+      "codigo": "1867",
+      "descricao": "SUCATA DE COBRE"
+    },
+    {
+      "codigo": "1776",
+      "descricao": "SUCATA DE FERRO"
+    },
+    {
+      "codigo": "207589",
+      "descricao": "SUCATA DE FERRO ZINCADO"
+    },
+    {
+      "codigo": "219774",
+      "descricao": "SUCATA DE FIOS COPPERWELD"
+    },
+    {
+      "codigo": "377762",
+      "descricao": "SUCATA DE FIOS/CB ACO ALUM"
+    },
+    {
+      "codigo": "338004",
+      "descricao": "SUCATA DE ISOLADOR PORCELANA"
+    },
+    {
+      "codigo": "372697",
+      "descricao": "SUCATA DE POLIETILENO RDI/RSI RECUPERAR"
+    },
+    {
+      "codigo": "256032",
+      "descricao": "SUCATA DE REATORES"
+    },
+    {
+      "codigo": "237867",
+      "descricao": "SUCATA DE TC E TP"
+    },
+    {
+      "codigo": "220178",
+      "descricao": "SUCATA FIOS/CABOS CA ISOLADOS"
+    },
+    {
+      "codigo": "310185",
+      "descricao": "SUCATA MEDIDOR DE KWH"
+    },
+    {
+      "codigo": "260463",
+      "descricao": "SUCATA PÁRA-RAIOS 15-23 KV"
+    },
+    {
+      "codigo": "207464",
+      "descricao": "SUCATA PONTA POSTE MADEIRA"
+    },
+    {
+      "codigo": "207340",
+      "descricao": "SUCATA POSTE AÇO"
+    },
+    {
+      "codigo": "207126",
+      "descricao": "SUCATA POSTE AROEIRA"
+    },
+    {
+      "codigo": "207266",
+      "descricao": "SUCATA POSTE CONCRETO"
+    },
+    {
+      "codigo": "207191",
+      "descricao": "SUCATA POSTE CONCRETO CIRCULAR"
+    },
+    {
+      "codigo": "207134",
+      "descricao": "SUCATA POSTE EUCALIPTO"
+    },
+    {
+      "codigo": "310268",
+      "descricao": "SUCATA RELÉ FOTOELÉTRICO"
+    },
+    {
+      "codigo": "237883",
+      "descricao": "SUCATA TRANSFORMADOR DISTRIBUIÇÃO"
+    },
+    {
+      "codigo": "237065",
+      "descricao": "SUPORTE 210MM TRANSFORMADOR POSTE CC"
+    },
+    {
+      "codigo": "237073",
+      "descricao": "SUPORTE 225MM TRANSFORMADOR POSTE CC"
+    },
+    {
+      "codigo": "237081",
+      "descricao": "SUPORTE 240MM TRANSFORMADOR POSTE CC"
+    },
+    {
+      "codigo": "237818",
+      "descricao": "SUPORTE 255MM TRANSFORMADOR POSTE CC"
+    },
+    {
+      "codigo": "237826",
+      "descricao": "SUPORTE 270MM TRANSFORMADOR POSTE CC"
+    },
+    {
+      "codigo": "237834",
+      "descricao": "SUPORTE 285MM TRANSFORMADOR POSTE CC"
+    },
+    {
+      "codigo": "80242",
+      "descricao": "SUPORTE AÇO  FIXAÇÃO EMENDA PRÉ-MOLDADA"
+    },
+    {
+      "codigo": "237792",
+      "descricao": "SUPORTE BANDEJA PARA CABO ISOLADO"
+    },
+    {
+      "codigo": "237107",
+      "descricao": "SUPORTE BTX"
+    },
+    {
+      "codigo": "237842",
+      "descricao": "SUPORTE BTX 600A 15KV"
+    },
+    {
+      "codigo": "20479",
+      "descricao": "SUPORTE FLEXÍVEL PARA SOQUETE LINHA VIVA"
+    },
+    {
+      "codigo": "377203",
+      "descricao": "SUPORTE IP 1 LUMINÁRIA POSTE AÇO CÔNICO CONT 6/10M"
+    },
+    {
+      "codigo": "354902",
+      "descricao": "SUPORTE IP 1 LUMINÁRIA POSTE RC OU AÇO 10/12/14M"
+    },
+    {
+      "codigo": "377204",
+      "descricao": "SUPORTE IP 2 LUMINÁRIAS POSTE AÇO CÔNIC CONT 6/10M"
+    },
+    {
+      "codigo": "354903",
+      "descricao": "SUPORTE IP 2 LUMINÁRIAS POSTE RC OU AÇO 10/12/14M"
+    },
+    {
+      "codigo": "376242",
+      "descricao": "SUPORTE IP COLONIAL CURTO PARA PAREDE VOLUTA RETA"
+    },
+    {
+      "codigo": "376243",
+      "descricao": "SUPORTE IP COLONIAL LONGO PARA PAREDE VOLUTA RETA"
+    },
+    {
+      "codigo": "259374",
+      "descricao": "SUPORTE IP PARA LUMINÁRIA ORNAMENTAL ESFÉRICA"
+    },
+    {
+      "codigo": "20404",
+      "descricao": "SUPORTE ISOLADO PARA BY-PASS"
+    },
+    {
+      "codigo": "18440",
+      "descricao": "SUPORTE ISOLANTE PARA CONDUTOR"
+    },
+    {
+      "codigo": "237776",
+      "descricao": "SUPORTE L PARA  TOPO POSTE"
+    },
+    {
+      "codigo": "237172",
+      "descricao": "SUPORTE L PARA CRUZETA"
+    },
+    {
+      "codigo": "20412",
+      "descricao": "SUPORTE MASTRO CRUZETA AUXILIAR"
+    },
+    {
+      "codigo": "235002",
+      "descricao": "SUPORTE MÓDULO BÁSICO T 600A"
+    },
+    {
+      "codigo": "327791",
+      "descricao": "SUPORTE PARA BTX OPERAÇÃO CARGA"
+    },
+    {
+      "codigo": "237180",
+      "descricao": "SUPORTE PARA FIXAÇÃO MÓDULOS FOTOVOLTAICOS"
+    },
+    {
+      "codigo": "288704",
+      "descricao": "SUPORTE PARA GRAMPO ATERRAMENTO"
+    },
+    {
+      "codigo": "377189",
+      "descricao": "SUPORTE PARA ISOLADOR PILAR"
+    },
+    {
+      "codigo": "375474",
+      "descricao": "SUPORTE PARA LUMINÁRIA PÉ-DE-GALINHA"
+    },
+    {
+      "codigo": "214338",
+      "descricao": "SUPORTE PARA RELIGADOR 6H"
+    },
+    {
+      "codigo": "311340",
+      "descricao": "SUPORTE PÁRA-RAIOS REDE SECUNDÁRIA"
+    },
+    {
+      "codigo": "237164",
+      "descricao": "SUPORTE TL PARA CHAVE FACA TOPO POSTE"
+    },
+    {
+      "codigo": "237099",
+      "descricao": "SUPORTE TRANSFORMADOR POSTE MADEIRA E DT"
+    },
+    {
+      "codigo": "231555",
+      "descricao": "SUPORTE Z PARA CHAVE FUSÍVEL"
+    },
+    {
+      "codigo": "80903",
+      "descricao": "SUSPENSÃO TIRA JUGULAR"
+    },
+    {
+      "codigo": "8268",
+      "descricao": "TALHA ALAVANCA COM CORRENTE 7,5KN"
+    },
+    {
+      "codigo": "8276",
+      "descricao": "TALHA DE CABO DE AÇO 30M 16KN"
+    },
+    {
+      "codigo": "375859",
+      "descricao": "TAMPA CONCRETO COM ANEL DE FERRO NODULAR PARA ZB"
+    },
+    {
+      "codigo": "297713",
+      "descricao": "TAMPA CONCRETO PARA CÂMARA TA"
+    },
+    {
+      "codigo": "297739",
+      "descricao": "TAMPA CONCRETO PARA CÂMARA TB"
+    },
+    {
+      "codigo": "371891",
+      "descricao": "TAMPA PARA CAIXA ZD"
+    },
+    {
+      "codigo": "376334",
+      "descricao": "TAMPÃO PARA ELETRODUTO PEAD  63MM"
+    },
+    {
+      "codigo": "376335",
+      "descricao": "TAMPÃO PARA ELETRODUTO PEAD  90MM"
+    },
+    {
+      "codigo": "376336",
+      "descricao": "TAMPÃO PARA ELETRODUTO PEAD 125MM"
+    },
+    {
+      "codigo": "376337",
+      "descricao": "TAMPÃO PARA ELETRODUTO PEAD 140MM"
+    },
+    {
+      "codigo": "242289",
+      "descricao": "TC   5-5A 15KV"
+    },
+    {
+      "codigo": "242446",
+      "descricao": "TC   5-5A 25,8KV"
+    },
+    {
+      "codigo": "242297",
+      "descricao": "TC  10-5A 15KV"
+    },
+    {
+      "codigo": "242453",
+      "descricao": "TC  10-5A 25,8KV"
+    },
+    {
+      "codigo": "242305",
+      "descricao": "TC  15-5A 15KV"
+    },
+    {
+      "codigo": "242321",
+      "descricao": "TC  25-5A 15KV"
+    },
+    {
+      "codigo": "242487",
+      "descricao": "TC  25-5A 25,8KV"
+    },
+    {
+      "codigo": "242354",
+      "descricao": "TC  50-5A 15KV"
+    },
+    {
+      "codigo": "242511",
+      "descricao": "TC  50-5A 25,8KV"
+    },
+    {
+      "codigo": "242370",
+      "descricao": "TC 100-5A 15KV"
+    },
+    {
+      "codigo": "242537",
+      "descricao": "TC 100-5A 25,8KV"
+    },
+    {
+      "codigo": "377343",
+      "descricao": "TC 100-5A 34,5KV"
+    },
+    {
+      "codigo": "377340",
+      "descricao": "TC 10-5A 34,5KV"
+    },
+    {
+      "codigo": "242206",
+      "descricao": "TC 200-5A 0,6KV"
+    },
+    {
+      "codigo": "242396",
+      "descricao": "TC 200-5A 15KV"
+    },
+    {
+      "codigo": "377344",
+      "descricao": "TC 200-5A 34,5KV"
+    },
+    {
+      "codigo": "377341",
+      "descricao": "TC 25-5A 34,5KV"
+    },
+    {
+      "codigo": "242818",
+      "descricao": "TC 400-5A 0,6KV"
+    },
+    {
+      "codigo": "242412",
+      "descricao": "TC 400-5A 15KV"
+    },
+    {
+      "codigo": "377345",
+      "descricao": "TC 400-5A 34,5KV"
+    },
+    {
+      "codigo": "377342",
+      "descricao": "TC 50-5A 34,5KV"
+    },
+    {
+      "codigo": "377339",
+      "descricao": "TC 5-5A 34,5KV"
+    },
+    {
+      "codigo": "242198",
+      "descricao": "TC 600-5A 0,6KV"
+    },
+    {
+      "codigo": "259291",
+      "descricao": "TELA PROTEÇÃO PARA LUMINÁRIA ABERTA"
+    },
+    {
+      "codigo": "229773",
+      "descricao": "TERMINAL DESCONECTÁVEL COTOV TDC 15KV 200A  50MM²"
+    },
+    {
+      "codigo": "229781",
+      "descricao": "TERMINAL DESCONECTÁVEL COTOV TDC 15KV 200A 120MM²"
+    },
+    {
+      "codigo": "229708",
+      "descricao": "TERMINAL DESCONECTÁVEL COTOV TDC 25KV 200A  50MM²"
+    },
+    {
+      "codigo": "229930",
+      "descricao": "TERMINAL DESCONECTÁVEL RETO - TDR 15KV 200A 120MM²"
+    },
+    {
+      "codigo": "229856",
+      "descricao": "TERMINAL DESCONECTÁVEL RETO - TDR 15KV 200A 50MM²"
+    },
+    {
+      "codigo": "229948",
+      "descricao": "TERMINAL DESCONECTÁVEL RETO - TDR 25KV 200A  50MM²"
+    },
+    {
+      "codigo": "231506",
+      "descricao": "TERMINAL DESCONECTÁVEL T 25KV 200A"
+    },
+    {
+      "codigo": "229823",
+      "descricao": "TERMINAL MODULAR EXTERNO - TME  120MM² 15KV"
+    },
+    {
+      "codigo": "229807",
+      "descricao": "TERMINAL MODULAR EXTERNO - TME  50MM² 15KV"
+    },
+    {
+      "codigo": "230649",
+      "descricao": "TERMINAL MODULAR EXTERNO - TME  50MM² 25KV"
+    },
+    {
+      "codigo": "230664",
+      "descricao": "TERMINAL MODULAR EXTERNO - TME  85MM² 25KV"
+    },
+    {
+      "codigo": "231399",
+      "descricao": "TERMINAL MODULAR EXTERNO - TME 185MM² 15KV"
+    },
+    {
+      "codigo": "230631",
+      "descricao": "TERMINAL MODULAR EXTERNO - TME 400MM² 15KV"
+    },
+    {
+      "codigo": "375441",
+      "descricao": "TERMINAL MODULAR EXTERNO - TME 70MM² 35KV"
+    },
+    {
+      "codigo": "18267",
+      "descricao": "TERMINAL PARA BATERIA CABO 16MM"
+    },
+    {
+      "codigo": "18499",
+      "descricao": "TESOURA HIDRÁULICA PODA GALHOS"
+    },
+    {
+      "codigo": "12062",
+      "descricao": "TESOURÃO ARTICULADO 610MM"
+    },
+    {
+      "codigo": "20461",
+      "descricao": "TESOURÃO ISOLADO PARA CAA 336,4MCM"
+    },
+    {
+      "codigo": "18325",
+      "descricao": "TESOURÃO ISOLADO PARA CAA 53MM²"
+    },
+    {
+      "codigo": "344119",
+      "descricao": "TESTADOR DE ILUMINAÇÃO PÚBLICA"
+    },
+    {
+      "codigo": "20107",
+      "descricao": "TESTADOR FASE 16KV 2 BASTÕES"
+    },
+    {
+      "codigo": "322255",
+      "descricao": "TESTADOR TENSÃO NEON 120V"
+    },
+    {
+      "codigo": "365711",
+      "descricao": "TOMADA 10A 250V 2 PINOS"
+    },
+    {
+      "codigo": "307991",
+      "descricao": "TOMADA 3 PINOS"
+    },
+    {
+      "codigo": "309328",
+      "descricao": "TOMADA UNIVERSAL 10A 250V"
+    },
+    {
+      "codigo": "208413",
+      "descricao": "TORA AROEIRA 1,50M"
+    },
+    {
+      "codigo": "208389",
+      "descricao": "TORA EUCALIPTO 1,00M"
+    },
+    {
+      "codigo": "242545",
+      "descricao": "TP 15KV  70-1"
+    },
+    {
+      "codigo": "242552",
+      "descricao": "TP 15KV 120-1"
+    },
+    {
+      "codigo": "242578",
+      "descricao": "TP 25,8KV 120-1"
+    },
+    {
+      "codigo": "242586",
+      "descricao": "TP 25,8KV 200-1"
+    },
+    {
+      "codigo": "377338",
+      "descricao": "TP 34,5KV 175-1"
+    },
+    {
+      "codigo": "245886",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  24,2KV  5KVA"
+    },
+    {
+      "codigo": "245894",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  24,2KV 10KVA"
+    },
+    {
+      "codigo": "245902",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  24,2KV 15KVA"
+    },
+    {
+      "codigo": "245910",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  24,2KV 25KVA"
+    },
+    {
+      "codigo": "245928",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  24,2KV 37,5KVA"
+    },
+    {
+      "codigo": "375248",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  36,2KV 10KVA"
+    },
+    {
+      "codigo": "375249",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  36,2KV 15KVA"
+    },
+    {
+      "codigo": "375250",
+      "descricao": "TRANSFORMADOR MONOFÁSICO  36,2KV 37,5KVA"
+    },
+    {
+      "codigo": "239038",
+      "descricao": "TRANSFORMADOR MONOFÁSICO 10KVA QUEIMADO"
+    },
+    {
+      "codigo": "245761",
+      "descricao": "TRANSFORMADOR MONOFÁSICO 15KV  5KVA"
+    },
+    {
+      "codigo": "245779",
+      "descricao": "TRANSFORMADOR MONOFÁSICO 15KV 10KVA"
+    },
+    {
+      "codigo": "245787",
+      "descricao": "TRANSFORMADOR MONOFÁSICO 15KV 15KVA"
+    },
+    {
+      "codigo": "245795",
+      "descricao": "TRANSFORMADOR MONOFÁSICO 15KV 25KVA"
+    },
+    {
+      "codigo": "245803",
+      "descricao": "TRANSFORMADOR MONOFÁSICO 15KV 37,5KVA"
+    },
+    {
+      "codigo": "376740",
+      "descricao": "TRANSFORMADOR POTÊNCIA MONO 36,2KV 0,835MVA 19,9KV"
+    },
+    {
+      "codigo": "376739",
+      "descricao": "TRANSFORMADOR POTÊNCIA MONO 36,2KV 0,835MVA 7,9KV"
+    },
+    {
+      "codigo": "375456",
+      "descricao": "TRANSFORMADOR POTÊNCIA MONO 36,2KV 1,67MVA 19,9KV"
+    },
+    {
+      "codigo": "375457",
+      "descricao": "TRANSFORMADOR POTÊNCIA MONO 36,2KV 1,67MVA 7,96KV"
+    },
+    {
+      "codigo": "377979",
+      "descricao": "TRANSFORMADOR SECO DE 300KVA"
+    },
+    {
+      "codigo": "375254",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15/36,2KV 1MVA"
+    },
+    {
+      "codigo": "375255",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15/36,2KV 2,5MVA"
+    },
+    {
+      "codigo": "245811",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV  15KVA"
+    },
+    {
+      "codigo": "245829",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV  30KVA"
+    },
+    {
+      "codigo": "245837",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV  45KVA"
+    },
+    {
+      "codigo": "245845",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV  75KVA"
+    },
+    {
+      "codigo": "245852",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV 112,5KVA"
+    },
+    {
+      "codigo": "245860",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV 150KVA"
+    },
+    {
+      "codigo": "245878",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV 225KVA"
+    },
+    {
+      "codigo": "249557",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV 300KVA"
+    },
+    {
+      "codigo": "375568",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV 45KVA 380/220V"
+    },
+    {
+      "codigo": "249748",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV AP   30KVA"
+    },
+    {
+      "codigo": "248625",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV AP   75KVA"
+    },
+    {
+      "codigo": "248583",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV AP  150KVA"
+    },
+    {
+      "codigo": "241034",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV AP 112,5KVA"
+    },
+    {
+      "codigo": "259341",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV AP 45KVA"
+    },
+    {
+      "codigo": "248609",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV API  30KVA"
+    },
+    {
+      "codigo": "248591",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV API  75KVA"
+    },
+    {
+      "codigo": "241075",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV API 112,5KVA"
+    },
+    {
+      "codigo": "248617",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV API 150KVA"
+    },
+    {
+      "codigo": "241067",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV API 45KVA"
+    },
+    {
+      "codigo": "248278",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV RDI 225KVA"
+    },
+    {
+      "codigo": "249755",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 15KV RDI 300KVA"
+    },
+    {
+      "codigo": "245936",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV  15KVA"
+    },
+    {
+      "codigo": "245944",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV  30KVA"
+    },
+    {
+      "codigo": "245951",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV  45KVA"
+    },
+    {
+      "codigo": "245969",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV  75KVA"
+    },
+    {
+      "codigo": "245977",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV 112,5KVA"
+    },
+    {
+      "codigo": "245985",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV 150KVA"
+    },
+    {
+      "codigo": "245993",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV 225KVA"
+    },
+    {
+      "codigo": "249540",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV 300KVA"
+    },
+    {
+      "codigo": "250092",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV AP  45KVA"
+    },
+    {
+      "codigo": "250100",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV AP  75KVA"
+    },
+    {
+      "codigo": "250159",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 24,2KV AP 150KVA"
+    },
+    {
+      "codigo": "375251",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 36,2KV 30KVA"
+    },
+    {
+      "codigo": "375252",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 36,2KV 45KVA"
+    },
+    {
+      "codigo": "375253",
+      "descricao": "TRANSFORMADOR TRIFÁSICO 36,2KV 75KVA"
+    },
+    {
+      "codigo": "240036",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB 15KV 1000KVA 220V"
+    },
+    {
+      "codigo": "246033",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB 15KV 1000KVA 380/220V"
+    },
+    {
+      "codigo": "253872",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB 15KV 1000KVA BCH EPOXI"
+    },
+    {
+      "codigo": "247080",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB 15KV 500KVA BCH EPOXI"
+    },
+    {
+      "codigo": "253864",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB 15KV 750KVA BCH EPOXI"
+    },
+    {
+      "codigo": "376946",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB PEDESTAL 15KV 150KVA"
+    },
+    {
+      "codigo": "376948",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB PEDESTAL 15KV 300KVA"
+    },
+    {
+      "codigo": "352703",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB PEDESTAL 15KV 45KVA"
+    },
+    {
+      "codigo": "376693",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB PEDESTAL 15KV 500KVA"
+    },
+    {
+      "codigo": "352704",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUB PEDESTAL 15KV 75KVA"
+    },
+    {
+      "codigo": "246017",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUBTERRÂNEO 15KV  500KVA"
+    },
+    {
+      "codigo": "246025",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUBTERRÂNEO 15KV  750KVA"
+    },
+    {
+      "codigo": "246041",
+      "descricao": "TRANSFORMADOR TRIFÁSICO SUBTERRÂNEO 24,2KV 500KVA"
+    },
+    {
+      "codigo": "81083",
+      "descricao": "TRAVESSÃO 1800MM PARA CINTURÃO DE SEGURANÇA"
+    },
+    {
+      "codigo": "322099",
+      "descricao": "TRENA DE FIBRA 50M"
+    },
+    {
+      "codigo": "20487",
+      "descricao": "TRIPÉ PARA PLATAFORMA 1200MM LINHA VIVA"
+    },
+    {
+      "codigo": "3590",
+      "descricao": "TUBO ISOLANTE BORRACHA 600V 310MM"
+    },
+    {
+      "codigo": "57703",
+      "descricao": "TUBO PVC SOLDÁVEL D 50MM"
+    },
+    {
+      "codigo": "57729",
+      "descricao": "TUBO PVC SOLDÁVEL D 60MM"
+    },
+    {
+      "codigo": "231076",
+      "descricao": "TUBO RECOMPRESSÃO 35-70MM² 1KV"
+    },
+    {
+      "codigo": "231431",
+      "descricao": "TUBO RECOMPRESSÃO CABO  35MM² 1KV"
+    },
+    {
+      "codigo": "231464",
+      "descricao": "TUBO RECOMPRESSÃO CABO  70MM² 1KV"
+    },
+    {
+      "codigo": "231456",
+      "descricao": "TUBO RECOMPRESSÃO CABO 120MM² 1KV"
+    },
+    {
+      "codigo": "33605",
+      "descricao": "VÁLVULA ACIONAMENTO CONTROLE REMOTO"
+    },
+    {
+      "codigo": "375586",
+      "descricao": "VIGA C-254X29,7X4028MM"
+    },
+    {
+      "codigo": "78931",
+      "descricao": "VIGA I 4 X 2.5 / 8P X 1M"
+    },
+    {
+      "codigo": "375588",
+      "descricao": "VIGA I-W 250X28,4X6200MM"
+    },
+    {
+      "codigo": "314476",
+      "descricao": "VOLTÍMETRO AMPERÍMETRO ALICATE"
+    },
+    {
+      "codigo": "314344",
+      "descricao": "VOLTÍMETRO AMPERÍMETRO GRÁFICO PORTÁTIL"
+    },
+    {
+      "codigo": "316554",
+      "descricao": "VOLTÍMETRO AMPERÍMETRO OHMÍMETRO ALICATE 750V"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_master",
+      "nome": "Administrador CalcPro",
+      "email": "patricioaug@gmail.com",
+      "senha_hash": "3d108c6dde4c19a1b80c2dac14a5b353:4436b412d78fde1c4634a632b6964b74069aa2a81351fbf55049679d839fd679",
+      "status": "liberado",
+      "trial_inicio": "",
+      "trial_fim": "",
+      "created_at": "2026-09-08T09:33:30.049Z",
+      "last_login": "2026-09-09T09:59:58.997Z",
+      "device_serial": "SN-MTSH6X5M-M4HFY16S"
+    },
+    {
+      "id": "usr_1788860079059_f0l5",
+      "nome": "Engenheiro Eletricista",
+      "email": "engenheiro.teste@empresa.com.br",
+      "senha_hash": "f238c4f3638090b877a0ebb9c01f4dda:bc45641a935929f71b1b604cb86b5d96b64ce45368d191c737c20c96c092be4d",
+      "status": "liberado",
+      "trial_inicio": "2026-09-08T09:34:39.059Z",
+      "trial_fim": "2026-09-15T09:34:39.059Z",
+      "created_at": "2026-09-08T09:34:39.059Z",
+      "device_serial": "eng-device-101",
+      "last_login": "2026-09-08T09:35:55.532Z"
+    }
+  ],
+  "logins": [
+    {
+      "id": "log_1788947998998_nqzd",
+      "user_id": "usr_admin_master",
+      "user_name": "Administrador CalcPro",
+      "user_email": "patricioaug@gmail.com",
+      "data_hora": "2026-09-09T09:59:58.997Z",
+      "data_hora_formatada": "09/09/2026, 06:59:58",
+      "ip": "127.0.0.1",
+      "device_serial": "SN-MTSH6X5M-M4HFY16S",
+      "notificacao_enviada": true
+    },
+    {
+      "id": "log_1788946916471_yql2",
+      "user_id": "usr_admin_master",
+      "user_name": "Administrador CalcPro",
+      "user_email": "patricioaug@gmail.com",
+      "data_hora": "2026-09-09T09:41:56.470Z",
+      "data_hora_formatada": "09/09/2026, 06:41:56",
+      "ip": "186.248.91.130, 169.254.169.126",
+      "device_serial": "SN-MTSH6X5M-M4HFY16S",
+      "notificacao_enviada": true
+    },
+    {
+      "id": "log_1788946884263_jdvx",
+      "user_id": "usr_admin_master",
+      "user_name": "Administrador CalcPro",
+      "user_email": "patricioaug@gmail.com",
+      "data_hora": "2026-09-09T09:41:24.246Z",
+      "data_hora_formatada": "09/09/2026, 06:41:24",
+      "ip": "186.248.91.130, 169.254.169.126",
+      "device_serial": "SN-MTSH6X5M-M4HFY16S",
+      "notificacao_enviada": true
+    },
+    {
+      "id": "log_1788945809283_4uil",
+      "user_id": "usr_admin_master",
+      "user_name": "Administrador CalcPro",
+      "user_email": "patricioaug@gmail.com",
+      "data_hora": "2026-09-09T09:23:29.283Z",
+      "data_hora_formatada": "09/09/2026, 06:23:29",
+      "ip": "2804:214:92a4:bdf8:18d3:98fb:421:8de, 169.254.169.126",
+      "device_serial": "SN-MTSH6X5M-M4HFY16S",
+      "notificacao_enviada": true
+    },
+    {
+      "id": "log_1788860155532_pk3x",
+      "user_id": "usr_1788860079059_f0l5",
+      "user_name": "Engenheiro Eletricista",
+      "user_email": "engenheiro.teste@empresa.com.br",
+      "data_hora": "2026-09-08T09:35:55.532Z",
+      "data_hora_formatada": "08/09/2026, 06:35:55",
+      "ip": "127.0.0.1",
+      "device_serial": "eng-device-101",
+      "notificacao_enviada": true
+    },
+    {
+      "id": "log_1788860079060_07l4",
+      "user_id": "usr_1788860079059_f0l5",
+      "user_name": "Engenheiro Eletricista",
+      "user_email": "engenheiro.teste@empresa.com.br",
+      "data_hora": "2026-09-08T09:34:39.059Z",
+      "data_hora_formatada": "08/09/2026, 06:34:39",
+      "ip": "127.0.0.1",
+      "device_serial": "eng-device-101",
+      "notificacao_enviada": true
+    },
+    {
+      "id": "log_1788860075067_bha1",
+      "user_id": "usr_admin_master",
+      "user_name": "Administrador CalcPro",
+      "user_email": "patricioaug@gmail.com",
+      "data_hora": "2026-09-08T09:34:35.052Z",
+      "data_hora_formatada": "08/09/2026, 06:34:35",
+      "ip": "127.0.0.1",
+      "device_serial": "test-device-001",
+      "notificacao_enviada": true
+    }
+  ],
+  "calculos": [],
+  "device_trials": [
+    {
+      "device_serial": "eng-device-101",
+      "first_trial_inicio": "2026-09-08T09:34:39.059Z",
+      "first_trial_fim": "2026-09-15T09:34:39.059Z",
+      "first_user_id": "usr_1788860079059",
+      "first_user_email": "engenheiro.teste@empresa.com.br"
+    }
+  ],
+  "reset_codes": [],
+  "email_notifications": [
+    {
+      "id": "notif_1788947998999_qjfeh",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Novo Login Realizado - Administrador CalcPro",
+      "body": "Olá, Patricio!\n\nUm novo login foi registrado no aplicativo CalcPro:\n\n- Nome do Usuário: Administrador CalcPro\n- E-mail: patricioaug@gmail.com\n- Data e Hora: 09/09/2026, 06:59:58\n- Status da Conta: ADMINISTRADOR (ACESSO VITALÍCIO / SEM CONTABILIZAÇÃO DE TRIAL)\n- Endereço IP: 127.0.0.1\n- Número de Série do Dispositivo: SN-MTSH6X5M-M4HFY16S\n\n---\nNotificação automática gerada pelo servidor CalcPro.",
+      "timestamp": "2026-09-09T09:59:58.998Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "reset_1788947998973",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Código para Redefinição de Senha: 479549",
+      "body": "Solicitação de redefinição de senha para Administrador CalcPro (patricioaug@gmail.com). Autorizada recuperação direta pelo sistema.",
+      "timestamp": "2026-09-09T09:59:58.957Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "reset_1788947593092",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Solicitação para Redefinição de Senha",
+      "body": "Solicitação de redefinição de senha para Administrador CalcPro (patricioaug@gmail.com).",
+      "timestamp": "2026-09-09T09:53:13.073Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "notif_1788946916471_vmw57",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Novo Login Realizado - Administrador CalcPro",
+      "body": "Olá, Patricio!\n\nUm novo login foi registrado no aplicativo CalcPro:\n\n- Nome do Usuário: Administrador CalcPro\n- E-mail: patricioaug@gmail.com\n- Data e Hora: 09/09/2026, 06:41:56\n- Status da Conta: ADMINISTRADOR (ACESSO VITALÍCIO / SEM CONTABILIZAÇÃO DE TRIAL)\n- Endereço IP: 186.248.91.130, 169.254.169.126\n- Número de Série do Dispositivo: SN-MTSH6X5M-M4HFY16S\n\n---\nNotificação automática gerada pelo servidor CalcPro.",
+      "timestamp": "2026-09-09T09:41:56.471Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "notif_1788946884265_4mn6m",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Novo Login Realizado - Administrador CalcPro",
+      "body": "Olá, Patricio!\n\nUm novo login foi registrado no aplicativo CalcPro:\n\n- Nome do Usuário: Administrador CalcPro\n- E-mail: patricioaug@gmail.com\n- Data e Hora: 09/09/2026, 06:41:24\n- Status da Conta: ADMINISTRADOR (ACESSO VITALÍCIO / SEM CONTABILIZAÇÃO DE TRIAL)\n- Endereço IP: 186.248.91.130, 169.254.169.126\n- Número de Série do Dispositivo: SN-MTSH6X5M-M4HFY16S\n\n---\nNotificação automática gerada pelo servidor CalcPro.",
+      "timestamp": "2026-09-09T09:41:24.264Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "notif_1788945809284_5ua82",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Novo Login Realizado - Administrador CalcPro",
+      "body": "Olá, Patricio!\n\nUm novo login foi registrado no aplicativo CalcPro:\n\n- Nome do Usuário: Administrador CalcPro\n- E-mail: patricioaug@gmail.com\n- Data e Hora: 09/09/2026, 06:23:29\n- Status da Conta: ADMINISTRADOR (ACESSO VITALÍCIO / SEM CONTABILIZAÇÃO DE TRIAL)\n- Endereço IP: 2804:214:92a4:bdf8:18d3:98fb:421:8de, 169.254.169.126\n- Número de Série do Dispositivo: SN-MTSH6X5M-M4HFY16S\n\n---\nNotificação automática gerada pelo servidor CalcPro.",
+      "timestamp": "2026-09-09T09:23:29.283Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "reset_1788945751110",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Solicitação para Redefinição de Senha",
+      "body": "Solicitação de redefinição de senha para Administrador CalcPro (patricioaug@gmail.com).",
+      "timestamp": "2026-09-09T09:22:31.090Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "reset_1788945620954",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Solicitação para Redefinição de Senha",
+      "body": "Solicitação de redefinição de senha para Administrador CalcPro (patricioaug@gmail.com).",
+      "timestamp": "2026-09-09T09:20:20.937Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "reset_1788945412476",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Código para Redefinição de Senha: 118179",
+      "body": "Código de verificação de senha enviado para Administrador CalcPro (patricioaug@gmail.com): 118179",
+      "timestamp": "2026-09-09T09:16:52.450Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "reset_1788860613178",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Código de Redefinição de Senha para patricioaug@gmail.com",
+      "body": "Solicitação de redefinição de senha para Administrador CalcPro (patricioaug@gmail.com). Código gerado: 392618 às 08/09/2026, 06:43:33",
+      "timestamp": "2026-09-08T09:43:33.163Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "notif_1788860155533_zw1tq",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Novo Login Realizado - Engenheiro Eletricista",
+      "body": "Olá, Patricio!\n\nUm novo login foi registrado no aplicativo CalcPro:\n\n- Nome do Usuário: Engenheiro Eletricista\n- E-mail: engenheiro.teste@empresa.com.br\n- Data e Hora: 08/09/2026, 06:35:55\n- Status da Conta: LIBERADO\n- Endereço IP: 127.0.0.1\n- Número de Série do Dispositivo: eng-device-101\n\n---\nNotificação automática gerada pelo servidor CalcPro.",
+      "timestamp": "2026-09-08T09:35:55.532Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "reset_1788860147092",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Código de Redefinição de Senha para engenheiro.teste@empresa.com.br",
+      "body": "Solicitação de redefinição de senha para Engenheiro Eletricista (engenheiro.teste@empresa.com.br). Código gerado: 842364 às 08/09/2026, 06:35:47",
+      "timestamp": "2026-09-08T09:35:47.074Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "notif_1788860079060_kfpje",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Novo Login Realizado - Engenheiro Eletricista",
+      "body": "Olá, Patricio!\n\nUm novo login foi registrado no aplicativo CalcPro:\n\n- Nome do Usuário: Engenheiro Eletricista\n- E-mail: engenheiro.teste@empresa.com.br\n- Data e Hora: 08/09/2026, 06:34:39\n- Status da Conta: TRIAL\n- Endereço IP: 127.0.0.1\n- Número de Série do Dispositivo: eng-device-101\n\n---\nNotificação automática gerada pelo servidor CalcPro.",
+      "timestamp": "2026-09-08T09:34:39.060Z",
+      "status": "registrado_servidor"
+    },
+    {
+      "id": "notif_1788860075067_1cc1i",
+      "recipient": "patricioaug@gmail.com",
+      "subject": "[CalcPro] Novo Login Realizado - Administrador CalcPro",
+      "body": "Olá, Patricio!\n\nUm novo login foi registrado no aplicativo CalcPro:\n\n- Nome do Usuário: Administrador CalcPro\n- E-mail: patricioaug@gmail.com\n- Data e Hora: 08/09/2026, 06:34:35\n- Status da Conta: LIBERADO\n- Endereço IP: 127.0.0.1\n- Número de Série do Dispositivo: test-device-001\n\n---\nNotificação automática gerada pelo servidor CalcPro.",
+      "timestamp": "2026-09-08T09:34:35.067Z",
+      "status": "registrado_servidor"
+    }
+  ]
+}

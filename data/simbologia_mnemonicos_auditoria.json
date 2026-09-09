@@ -1,0 +1,147 @@
+{
+  "estatisticas": {
+    "total_simbolos": 142,
+    "simbolos_com_associacao": 61,
+    "simbolos_pendentes": 46,
+    "simbolos_sem_mnemonico": 35,
+    "total_mnemonicos": 7203,
+    "mnemonicos_relacionados": 831,
+    "mnemonicos_sem_associacao": 6372
+  },
+  "distribuicao_por_tipo": {
+    "DIRETA": 0,
+    "POR_CODIGO": 8,
+    "POR_DESCRICAO": 0,
+    "POR_ESTRUTURA": 36,
+    "MULTIPLA": 61,
+    "PENDENTE": 2,
+    "NAO_ENCONTRADO": 35
+  },
+  "distribuicao_por_status": {
+    "ASSOCIADO": 0,
+    "MULTIPLO": 61,
+    "PENDENTE": 46,
+    "NAO_ENCONTRADO": 35
+  },
+  "distribuicao_por_categoria": [
+    {
+      "categoria": "POSTES",
+      "total_itens": 16,
+      "com_associacao": 5,
+      "pendentes": 9,
+      "sem_associacao": 2
+    },
+    {
+      "categoria": "ATERRAMENTO",
+      "total_itens": 3,
+      "com_associacao": 3,
+      "pendentes": 0,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "COBERTURA",
+      "total_itens": 2,
+      "com_associacao": 0,
+      "pendentes": 0,
+      "sem_associacao": 2
+    },
+    {
+      "categoria": "CHAVES",
+      "total_itens": 10,
+      "com_associacao": 9,
+      "pendentes": 1,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "RELIGADOR E SECCIONALIZADOR",
+      "total_itens": 6,
+      "com_associacao": 6,
+      "pendentes": 0,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "BANCO CAPAC. E REG. TENSÃO",
+      "total_itens": 4,
+      "com_associacao": 4,
+      "pendentes": 0,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "P. RAIOS",
+      "total_itens": 2,
+      "com_associacao": 2,
+      "pendentes": 0,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "TRANSFORMADOR",
+      "total_itens": 13,
+      "com_associacao": 13,
+      "pendentes": 0,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "SECCIONAMENTO",
+      "total_itens": 3,
+      "com_associacao": 0,
+      "pendentes": 0,
+      "sem_associacao": 3
+    },
+    {
+      "categoria": "ESTAIS",
+      "total_itens": 7,
+      "com_associacao": 7,
+      "pendentes": 0,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "CONDUTORES",
+      "total_itens": 11,
+      "com_associacao": 11,
+      "pendentes": 0,
+      "sem_associacao": 0
+    },
+    {
+      "categoria": "REDES 34,5kV",
+      "total_itens": 6,
+      "com_associacao": 0,
+      "pendentes": 0,
+      "sem_associacao": 6
+    },
+    {
+      "categoria": "CONEXÃO PREMOLDADA",
+      "total_itens": 5,
+      "com_associacao": 0,
+      "pendentes": 0,
+      "sem_associacao": 5
+    },
+    {
+      "categoria": "ESFERA / ESCORA",
+      "total_itens": 2,
+      "com_associacao": 0,
+      "pendentes": 0,
+      "sem_associacao": 2
+    },
+    {
+      "categoria": "CAIXA DE EMENDA",
+      "total_itens": 3,
+      "com_associacao": 0,
+      "pendentes": 0,
+      "sem_associacao": 3
+    },
+    {
+      "categoria": "FIBRA ÓPTICA E OUTROS SÍMBOLOS DE TELECOMUNICAÇÕES",
+      "total_itens": 12,
+      "com_associacao": 0,
+      "pendentes": 0,
+      "sem_associacao": 12
+    },
+    {
+      "categoria": "DETALHES CONSTRUTIVOS",
+      "total_itens": 37,
+      "com_associacao": 1,
+      "pendentes": 36,
+      "sem_associacao": 0
+    }
+  ]
+}

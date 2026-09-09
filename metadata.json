@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Leitor de Projetos - Lista de Materiais5",
+  "description": "Leitura automática de projetos de distribuição (PDF/JPEG), identificação gráfica de estruturas e condutores e geração de lista de materiais com exportação em PDF e Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

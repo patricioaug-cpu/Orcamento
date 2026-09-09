@@ -1,0 +1,17 @@
+{
+  "catalogo": {
+    "mnemonicos": 7203,
+    "componentes": 30949
+  },
+  "arquivos_principais": [
+    "server.ts",
+    "server/mnemonicService.ts",
+    "server/simbologiaService.ts",
+    "data/eo_simbologia.json",
+    "data/mnemonicos_catalogo.json",
+    "data/mnemonicos_indice.json",
+    "src/App.tsx",
+    "src/types.ts"
+  ],
+  "modelo_gemini": "gemini-3.6-flash"
+}

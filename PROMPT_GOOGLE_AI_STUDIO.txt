@@ -1,0 +1,31 @@
+Você está trabalhando sobre o projeto existente anexado. NÃO recrie a aplicação do zero e NÃO altere a interface visual sem necessidade.
+
+Objetivo: integrar o catálogo oficial de mnemônicos que já está no projeto em `data/mnemonicos_catalogo.json`.
+
+O catálogo contém exatamente 7.203 mnemônicos e 30.949 componentes. Ele é a única fonte oficial para a composição dos mnemônicos.
+
+Faça o seguinte:
+1. Analise primeiro os arquivos existentes e preserve a arquitetura e a interface atual.
+2. Mantenha o Gemini responsável apenas por interpretar o projeto e extrair os mnemônicos, quantidades, status e localizações.
+3. A composição de cada mnemônico deve ser consultada pelo backend em `data/mnemonicos_catalogo.json`.
+4. Agrupe mnemônicos iguais antes da explosão.
+5. Para cada mnemônico, multiplique a quantidade encontrada no projeto pela quantidade de cada componente no catálogo.
+6. Consolide componentes iguais por material + unidade + status.
+7. INSTALAR deve gerar materiais de instalação.
+8. RETIRAR deve gerar materiais com status RETIRAR.
+9. EXISTENTE deve ser reconhecido e mantido para auditoria, mas não deve entrar na lista de aquisição.
+10. Mnemônicos com um componente e mnemônicos com vários componentes devem usar exatamente o mesmo algoritmo.
+11. Se o código não existir em `mnemonicos_catalogo.json`, NÃO invente composição. Coloque o código em `mnemonicosNaoEncontrados` e informe na interface.
+12. Remova qualquer fallback que invente P1/P2/P3, estruturas ou materiais quando o Gemini falhar.
+13. Preserve a tabela de materiais, preços, auditoria e exportação existentes.
+14. Não coloque os 4,5 MB do catálogo dentro do prompt do Gemini. O catálogo é dado da aplicação/backend.
+15. Mantenha a chave Gemini somente no servidor/Secrets.
+16. Execute verificação de build/lint e corrija apenas erros necessários.
+
+IMPORTANTE:
+- Não remova `data/mnemonicos_catalogo.json`.
+- Não substitua o catálogo por `extendedMnemonics.ts`.
+- Não crie componentes fictícios.
+- Não deduza um mnemônico apenas por semelhança textual.
+- Não faça a aritmética da explosão pelo Gemini; faça pelo código determinístico.
+- Ao finalizar, mostre quais arquivos foram alterados e confirme que o catálogo carregado possui 7.203 mnemônicos e 30.949 componentes.

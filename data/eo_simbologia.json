@@ -1,0 +1,1505 @@
+{
+  "metadados": {
+    "fonte_oficial": "CEMIG ND-3.1 (Capítulo 14 - Simbologia e Detalhes Construtivos)",
+    "documento": "ND-3.1",
+    "classificacao": "Público",
+    "paginas_analisadas": 7,
+    "paginas_intervalo": "14-6 a 14-12",
+    "origem_dos_dados": "Extração direta do PDF oficial anexado (7 páginas)"
+  },
+  "convencoes_operacionais": [
+    {
+      "estado": "INSTALADO",
+      "pagina": 1,
+      "secao": "Figura 13 — Simbologia (pág. 14-6 a 14-9)",
+      "representacao_grafica": "Linha contínua cheia, símbolos com traçado padrão sem elipse e sem sobreposição de 'X'. Anotação de identificação direta.",
+      "descricao": "Equipamento ou estrutura já existente em operação no sistema elétrico."
+    },
+    {
+      "estado": "A INSTALAR",
+      "pagina": 5,
+      "secao": "Figura 14 — Detalhes Construtivos (pág. 14-10, item 5)",
+      "representacao_grafica": "Contorno elíptico ao redor do código/símbolo ou símbolo em destaque preenchido/envolto em elipse.",
+      "descricao": "Equipamento, condutor ou estrutura projetado a ser instalado no sistema."
+    },
+    {
+      "estado": "A RETIRAR",
+      "pagina": 5,
+      "secao": "Figura 14 — Detalhes Construtivos (pág. 14-10, item 6)",
+      "representacao_grafica": "Símbolo 'X' sobreposto ao elemento, equipamento ou estrutura a ser removido.",
+      "descricao": "Equipamento, condutor ou poste existente a ser retirado ou desativado."
+    },
+    {
+      "estado": "NÃO É MAIS INSTALADO",
+      "pagina": 1,
+      "secao": "Figura 13 — Simbologia (pág. 14-6 e 14-7)",
+      "representacao_grafica": "Texto explícito 'NÃO É MAIS INSTALADO' na coluna 'A INSTALAR'.",
+      "descricao": "Equipamento obsoleto ou descontinuado para novas instalações na rede de distribuição."
+    }
+  ],
+  "categorias": [
+    {
+      "categoria": "POSTES",
+      "pagina": 1,
+      "secao": "Figura 13 — Simbologia (ND-3.1 p. 14-6)",
+      "itens": [
+        {
+          "id": "SIMB-P01-01",
+          "nome": "POSTE DE CONCRETO SEÇÃO CIRCULAR",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo concêntrico com texto de exemplo (ex: 12-300)",
+          "simbolo_a_instalar": "Círculo duplo concêntrico preenchido com elipse envolvente (ex: (12-300))",
+          "observacoes": "Representação gráfica de poste de concreto com geometria circular."
+        },
+        {
+          "id": "SIMB-P01-02",
+          "nome": "POSTE DE CONCRETO SEÇÃO DUPLO T",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Retângulo vertical com perfil Duplo T vazado (ex: 12-300)",
+          "simbolo_a_instalar": "Retângulo vertical com perfil Duplo T preenchido (ex: (12-300))",
+          "observacoes": "Poste de concreto armado com seção tipo DT."
+        },
+        {
+          "id": "SIMB-P01-03",
+          "nome": "POSTE DE CONCRETO SEÇÃO DUPLO T (PADRÃO INCORPORADO)",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Retângulo com divisão vertical parcial (ex: 10-300)",
+          "simbolo_a_instalar": "Retângulo duplo T preenchido com elipse envolvente (ex: (10-300))",
+          "observacoes": "Poste DT com caixa de padrão de medição embutida/incorporada."
+        },
+        {
+          "id": "SIMB-P01-04",
+          "nome": "POSTE DE CONCRETO SEÇÃO RETANGULAR",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Retângulo sólido preenchido (ex: 12-300)",
+          "simbolo_a_instalar": "Retângulo contornado vazado com elipse envolvente (ex: (12-300))",
+          "observacoes": "Poste de concreto de seção retangular."
+        },
+        {
+          "id": "SIMB-P01-05",
+          "nome": "POSTE DE MADEIRA",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo simples com sufixo M (ex: 12-300M)",
+          "simbolo_a_instalar": "Círculo simples com elipse envolvente (ex: (12-300M))",
+          "observacoes": "Poste de madeira tratada."
+        },
+        {
+          "id": "SIMB-P01-06",
+          "nome": "POSTE MODULAR AÇO/MADEIRA (DUPLO U)",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Duas barras verticais paralelas (duplo U) vazadas (ex: 12-150)",
+          "simbolo_a_instalar": "Duas barras verticais paralelas (duplo U) preenchidas (ex: (12-150))",
+          "observacoes": "Poste híbrido modular em perfil duplo U."
+        },
+        {
+          "id": "SIMB-P01-07",
+          "nome": "POSTE DA CEMIG EM USO MÚTUO COM A TELEFONIA",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo com sigla UT (ex: 10-300 UT)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com elipse envolvente (ex: (10-300 UT))",
+          "sigla": "UT",
+          "observacoes": "Uso compartilhado CEMIG + Telefonia."
+        },
+        {
+          "id": "SIMB-P01-08",
+          "nome": "POSTE DA CEMIG EM USO MÚTUO COM TV A CABO",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo com sigla UC (ex: 10-300 UC)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com elipse envolvente (ex: (10-300 UC))",
+          "sigla": "UC",
+          "observacoes": "Uso compartilhado CEMIG + TV a Cabo."
+        },
+        {
+          "id": "SIMB-P01-09",
+          "nome": "POSTE DA CEMIG EM USO MÚTUO COM TELEFONIA E TV A CABO",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo com sigla UTC (ex: 10-300 UTC)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com elipse envolvente (ex: (10-300 UTC))",
+          "sigla": "UTC",
+          "observacoes": "Uso compartilhado CEMIG + Telefonia + TV a Cabo."
+        },
+        {
+          "id": "SIMB-P01-10",
+          "nome": "POSTE DA CEMIG EM USO MÚTUO COM RMS (REDE MULTI-SERVIÇO)",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo com sigla UR (ex: 10-300 UR)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com elipse envolvente (ex: (10-300 UR))",
+          "sigla": "UR",
+          "observacoes": "Uso compartilhado CEMIG + Rede Multi-Serviço."
+        },
+        {
+          "id": "SIMB-P01-11",
+          "nome": "POSTE DA EMPRESA DE TELEFONIA EM USO MÚTUO COM A CEMIG",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo com sigla TU (ex: 10-300 TU)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com elipse envolvente (ex: (10-300 TU))",
+          "sigla": "TU",
+          "observacoes": "Poste de propriedade da Telefonia compartilhado com a CEMIG."
+        },
+        {
+          "id": "SIMB-P01-12",
+          "nome": "POSTE DA EMPRESA DE TV A CABO EM USO MÚTUO COM A CEMIG",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo com sigla CU (ex: 10-300 CU)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com elipse envolvente (ex: (10-300 CU))",
+          "sigla": "CU",
+          "observacoes": "Poste de propriedade de operadora de TV compartilhado com a CEMIG."
+        },
+        {
+          "id": "SIMB-P01-13",
+          "nome": "POSTE DA CEMIG EM USO MÚTUO, TELEFONIA, TV A CABO E REDE MULTI SERVIÇO",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo com sigla UTCR (ex: 10-300 UTCR)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com elipse envolvente (ex: (10-300 UTCR))",
+          "sigla": "UTCR",
+          "observacoes": "Uso múltiplo com 4 serviços combinados."
+        },
+        {
+          "id": "SIMB-P01-14",
+          "nome": "POSTE COM BASE CONCRETADA",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo duplo concêntrico com anel pontilhado/tracejado ao redor (ex: 12-150)",
+          "simbolo_a_instalar": "Círculo duplo preenchido com anel pontilhado ao redor e elipse (ex: (12-150))",
+          "observacoes": "Indica engastamento com fundação / base de concreto."
+        },
+        {
+          "id": "SIMB-P01-15",
+          "nome": "POSTE COM ENGASTAMENTO E PROFUNDIDADE AUMENTADA",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo triplo concêntrico com anotação de profundidade (ex: 12-300PA1,8)",
+          "simbolo_a_instalar": "Círculo triplo concêntrico com núcleo preenchido e elipse (ex: (12-300PA1,8))",
+          "sigla": "PA",
+          "observacoes": "Engastamento especial com profundidade aumentada em metros."
+        },
+        {
+          "id": "SIMB-P01-16",
+          "nome": "POSTES EXCLUSIVOS DE IP - VER ND-3.4",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Remete explicitamente à norma ND-3.4",
+          "simbolo_a_instalar": "Remete explicitamente à norma ND-3.4",
+          "observacoes": "Nota textual remetendo à norma de Iluminação Pública ND-3.4."
+        }
+      ]
+    },
+    {
+      "categoria": "ATERRAMENTO",
+      "pagina": 1,
+      "secao": "Figura 13 — Simbologia (ND-3.1 p. 14-6)",
+      "itens": [
+        {
+          "id": "SIMB-P01-17",
+          "nome": "ATERRAMENTO",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Linha contínua com símbolo de hastes verticais de terra",
+          "simbolo_a_instalar": "Círculo contornado com símbolo de aterramento inscrito",
+          "observacoes": "Aterramento de proteção / neutro da rede aérea."
+        },
+        {
+          "id": "SIMB-P01-18",
+          "nome": "ATERRAMENTO DE CERCAS",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Linha de cerca com 'x' alternados e haste de aterramento conectada (-x-x-x-)",
+          "simbolo_a_instalar": "Linha de cerca com haste de terra conectada a círculo de aterramento projetado",
+          "observacoes": "Aterramento de cerca metálica cruzando ou próxima à rede."
+        },
+        {
+          "id": "SIMB-P01-19",
+          "nome": "PONTO DE ATERRAMENTO TEMPORÁRIO EM RDP",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Terminal em colchete horizontal com texto '-C'",
+          "simbolo_a_instalar": "Terminal em colchete com elipse envolvente '(-C)'",
+          "sigla": "-C",
+          "observacoes": "Ponto para fixação de conjunto de aterramento temporário em manutenção."
+        }
+      ]
+    },
+    {
+      "categoria": "COBERTURA",
+      "pagina": 1,
+      "secao": "Figura 13 — Simbologia (ND-3.1 p. 14-6)",
+      "itens": [
+        {
+          "id": "SIMB-P01-20",
+          "nome": "COBERTURA PROTETORA DE B.T.",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Semicírculo de cobertura sobre a linha secundária (ex: 3#1/0 (1/0))",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "observacoes": "Proteção física de condutores BT. Descontinuada para novas instalações."
+        },
+        {
+          "id": "SIMB-P01-21",
+          "nome": "COBERTURA PROTETORA DE M.T.",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Semicírculo de cobertura sobre a linha tracejada primária (ex: 3#4/0)",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "observacoes": "Proteção física de condutores MT. Descontinuada para novas instalações."
+        }
+      ]
+    },
+    {
+      "categoria": "CHAVES",
+      "pagina": 1,
+      "secao": "Figura 13 — Simbologia (ND-3.1 p. 14-6)",
+      "itens": [
+        {
+          "id": "SIMB-P01-22",
+          "nome": "CHAVE INTERRUPTORA SF6 BLINDADA",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Retângulo marrom sólido com anotação 'XX-XXX'",
+          "simbolo_a_instalar": "Retângulo marrom contornado com elipse e anotação '(XX-XXX)'",
+          "observacoes": "Chave sob carga isolada a gás SF6."
+        },
+        {
+          "id": "SIMB-P01-23",
+          "nome": "CHAVE INTERRUPTORA TRIPOLAR",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo marrom sólido com 3 polos e texto 'XX-630A'",
+          "simbolo_a_instalar": "Círculo marrom contornado com elipse e texto '(XX-630A)'",
+          "observacoes": "Chave interruptora tripolar para manobra em carga."
+        },
+        {
+          "id": "SIMB-P01-24",
+          "nome": "CHAVE SECCIONADORA BASCULANTE TRIPOLAR",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo marrom com facas basculantes e texto 'XX-630A'",
+          "simbolo_a_instalar": "Círculo marrom contornado com facas basculantes e texto '(XX-630A)'",
+          "observacoes": "Chave basculante tripolar."
+        },
+        {
+          "id": "SIMB-P01-25",
+          "nome": "CHAVE FACA UNIPOLAR 400/630 A",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Círculo marrom sólido com braço de faca e texto 'XX-630A'",
+          "simbolo_a_instalar": "Círculo marrom contornado com braço de faca e texto '(XX-630A)'",
+          "observacoes": "Chave faca unipolar sem carga."
+        },
+        {
+          "id": "SIMB-P01-26",
+          "nome": "CHAVE UNIPOLAR COM LÂMINA BY PASS 300A",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Chave faca com linha de bypass paralelo e texto 'XX-300A'",
+          "simbolo_a_instalar": "Chave faca com linha de bypass paralelo e texto '(XX-300A)'",
+          "observacoes": "Chave unipolar com arranjo de desvio (bypass)."
+        },
+        {
+          "id": "SIMB-P01-27",
+          "nome": "CHAVE A ÓLEO UNIPOLAR",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Retângulo bipartido vertical com código '01' e '200A'",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "observacoes": "Chave a óleo de 1 fase. Descontinuada."
+        },
+        {
+          "id": "SIMB-P01-28",
+          "nome": "CHAVE A ÓLEO TRIPOLAR",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Retângulo bipartido vertical com código '03' e '600A'",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "observacoes": "Chave a óleo de 3 fases. Descontinuada."
+        },
+        {
+          "id": "SIMB-P01-29",
+          "nome": "CHAVE FUSÍVEL 50A - 1,25kA (ANTIGA)",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Trapézio triangular marrom sólido com anotação '50A/5H'",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "observacoes": "Chave fusível antiga de 50A. Descontinuada."
+        },
+        {
+          "id": "SIMB-P01-30",
+          "nome": "CHAVE FUSÍVEL 100/200 A",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Trapézio triangular marrom sólido com anotação '200A/10kA/5H'",
+          "simbolo_a_instalar": "Trapézio triangular marrom contornado com elipse e anotação '(200A/10kA/5H)'",
+          "observacoes": "Chave fusível de distribuição padrão 100/200A."
+        },
+        {
+          "id": "SIMB-P01-31",
+          "nome": "CHAVE FUSÍVEL REPETIDORA",
+          "pagina": 1,
+          "secao": "Figura 13 (ND-3.1 p. 14-6)",
+          "simbolo_instalado": "Trapézio marrom com hastes repetidoras e anotação 'XXXXX-100A-40T'",
+          "simbolo_a_instalar": "Trapézio marrom contornado com elipse e anotação '(XXXXX-100A-40T)'",
+          "observacoes": "Chave fusível com múltiplos cartuchos de religamento automático."
+        }
+      ]
+    },
+    {
+      "categoria": "RELIGADOR E SECCIONALIZADOR",
+      "pagina": 2,
+      "secao": "Figura 13 (ND-3.1 p. 14-7)",
+      "itens": [
+        {
+          "id": "SIMB-P02-32",
+          "nome": "RELIGADOR TRIPOLAR (V6H, BOBINA SÉRIE DE 50A, SEQUÊNCIA 1A + 2B)",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado marrom com letra 'R' e anotação 'XXXXX-100A'",
+          "simbolo_a_instalar": "Quadrado marrom contornado com letra 'R' em elipse '(XXXXX-100A)'",
+          "sigla": "R",
+          "observacoes": "Religador tripolar hidráulico/eletromecânico com bobina série."
+        },
+        {
+          "id": "SIMB-P02-33",
+          "nome": "RELIGADOR UNIPOLAR (V4H, BOBINA SÉRIE DE 25A, SEQUÊNCIA 2A + 2B)",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado marrom unipolar com letra 'R' e anotação 'XXXXX-100A'",
+          "simbolo_a_instalar": "Quadrado marrom contornado com 'R' em elipse '(XXXXX-100A)'",
+          "sigla": "R",
+          "observacoes": "Religador monofásico/unipolar para ramais rurais."
+        },
+        {
+          "id": "SIMB-P02-34",
+          "nome": "RELIGADOR TRIFÁSICO ELETRÔNICO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado marrom sólido preenchido com anotação 'XXXXX-630A'",
+          "simbolo_a_instalar": "Quadrado marrom contornado vazado com elipse '(XXXXX-630A)'",
+          "observacoes": "Religador trifásico microprocessado/eletrônico."
+        },
+        {
+          "id": "SIMB-P02-35",
+          "nome": "SECCIONALIZADOR TRIPOLAR (GN3, BOBINA SÉRIE DE 70 A, 3 OPERAÇÕES)",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado com letra 'S' e anotação 'XXXXX-100A'",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "sigla": "S",
+          "observacoes": "Seccionalizador tripolar hidráulico. Descontinuado."
+        },
+        {
+          "id": "SIMB-P02-36",
+          "nome": "SECCIONALIZADOR UNIPOLAR (GH, BOBINA SÉRIE DE 70 A, 2 OPERAÇÕES)",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado com letra 'S' e anotação 'XXXXX-100A'",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "sigla": "S",
+          "observacoes": "Seccionalizador unipolar hidráulico. Descontinuado."
+        },
+        {
+          "id": "SIMB-P02-37",
+          "nome": "SECCIONALIZADOR ELETRÔNICO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado sólido com letra 'S' e anotação 'XXXXX-100A'",
+          "simbolo_a_instalar": "Quadrado contornado com letra 'S' e anotação '(XXXXX-100A)'",
+          "sigla": "S",
+          "observacoes": "Seccionalizador eletrônico microprocessado."
+        }
+      ]
+    },
+    {
+      "categoria": "BANCO CAPAC. E REG. TENSÃO",
+      "pagina": 2,
+      "secao": "Figura 13 (ND-3.1 p. 14-7)",
+      "itens": [
+        {
+          "id": "SIMB-P02-38",
+          "nome": "BANCO DE CAPACITORES AUTOMÁTICO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Círculo azul/escuro preenchido com placas de capacitor e texto 'XXXXX-600kVAR'",
+          "simbolo_a_instalar": "Círculo contornado com elipse e texto '(XXXXX-600kVAR)'",
+          "observacoes": "Banco de capacitores manobrável/automático para compensação de reativos."
+        },
+        {
+          "id": "SIMB-P02-39",
+          "nome": "BANCO DE CAPACITORES FIXO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Círculo azul/escuro sólido preenchido com texto 'XXXXX-150kVAR'",
+          "simbolo_a_instalar": "Círculo contornado com elipse e texto '(XXXXX-150kVAR)'",
+          "observacoes": "Banco de capacitores com conexão fixa contínua."
+        },
+        {
+          "id": "SIMB-P02-40",
+          "nome": "REGULADOR DE TENSÃO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Círculo com letra 'R' e anotação 'XXXXX-76kVA'",
+          "simbolo_a_instalar": "Círculo contornado com letra 'R' em elipse '(XXXXX-76kVA)'",
+          "sigla": "R",
+          "observacoes": "Regulador de tensão monofásico ou banco de regulação de alimentador."
+        },
+        {
+          "id": "SIMB-P02-41",
+          "nome": "REGULADOR AUTO-BOOSTER",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Círculo com letra 'A' e anotação 'XXXXX-50A'",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "sigla": "A",
+          "observacoes": "Regulador auto-booster. Descontinuado."
+        }
+      ]
+    },
+    {
+      "categoria": "P. RAIOS",
+      "pagina": 2,
+      "secao": "Figura 13 (ND-3.1 p. 14-7)",
+      "itens": [
+        {
+          "id": "SIMB-P02-42",
+          "nome": "PÁRA-RAIOS DE M.T.",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Haste com linha de centelhador/óxido metálico e terra",
+          "simbolo_a_instalar": "Símbolo de para-raios de MT envolvido em elipse",
+          "observacoes": "Dispositivo de proteção contra sobretensões transitórias em Média Tensão."
+        },
+        {
+          "id": "SIMB-P02-43",
+          "nome": "PÁRA-RAIOS DE B.T.",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Símbolo de dois triângulos opostos cruzados em '8'",
+          "simbolo_a_instalar": "Símbolo em '8' de para-raios de BT envolvido em elipse",
+          "observacoes": "Dispositivo de proteção contra surtos em Baixa Tensão (DPS secundário)."
+        }
+      ]
+    },
+    {
+      "categoria": "TRANSFORMADOR",
+      "pagina": 2,
+      "secao": "Figura 13 (ND-3.1 p. 14-7)",
+      "itens": [
+        {
+          "id": "SIMB-P02-44",
+          "nome": "TRANSFORMADOR AUTO PROTEGIDO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo simples com anotação (ex: XXXXXX-75)",
+          "simbolo_a_instalar": "Triângulo inscrito em elipse (ex: (XXXXXX-75))",
+          "observacoes": "Transformador de distribuição tipo CSP (auto protegido com disjuntor secundário interno)."
+        },
+        {
+          "id": "SIMB-P02-45",
+          "nome": "TRANSFORMADOR AUTO PROTEGIDO ISOLADO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo com barra horizontal/traço interno e sufixo 'I' (ex: XXXXXX-75 I)",
+          "simbolo_a_instalar": "Triângulo com traço inscrito em elipse (ex: (XXXXXX-75 I))",
+          "sigla": "I",
+          "observacoes": "Transformador auto protegido com isolamento especial."
+        },
+        {
+          "id": "SIMB-P02-46",
+          "nome": "TRANSFORMADOR CONVENCIONAL",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo com círculo concêntrico inscrito (ex: XXXXXX-75)",
+          "simbolo_a_instalar": "Triângulo com círculo inscrito em elipse (ex: (XXXXXX-75))",
+          "observacoes": "Transformador convencional CEMIG protegido externamente por chaves fusíveis e para-raios."
+        },
+        {
+          "id": "SIMB-P02-47",
+          "nome": "TRANSFORMADOR CONVENCIONAL COM CHAVE FUSÍVEL DESLOCADA",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo com círculo e seta/haste superior (ex: XXXXXX-75)",
+          "simbolo_a_instalar": "Triângulo com círculo e haste envolto em elipse (ex: (XXXXXX-75))",
+          "observacoes": "Transformador com proteção de chave fusível montada em vão adjacente/deslocada."
+        },
+        {
+          "id": "SIMB-P02-48",
+          "nome": "TRANSFORMADOR CONVENCIONAL COM CHAVE DESLOCADA PARTICULAR",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo com círculo, haste e prefixo 'P-' (ex: P-XXXXXX-75)",
+          "simbolo_a_instalar": "Triângulo com círculo e haste em elipse com prefixo '(P-XXXXXX-75)'",
+          "sigla": "P",
+          "observacoes": "Transformador particular com chave fusível deslocada."
+        },
+        {
+          "id": "SIMB-P02-49",
+          "nome": "TRANSFORMADOR AUTO PROTEGIDO PARTICULAR",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo simples com prefixo 'P-' (ex: P-XXXXXX-75)",
+          "simbolo_a_instalar": "Triângulo em elipse com prefixo '(P-XXXXXX-75)'",
+          "sigla": "P",
+          "observacoes": "Transformador auto protegido de propriedade particular."
+        },
+        {
+          "id": "SIMB-P02-50",
+          "nome": "TRANSFORMADOR AUTO PROTEGIDO ISOLADO PARTICULAR",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo com traço interno e prefixo 'P-' (ex: P-XXXXXX-75 I)",
+          "simbolo_a_instalar": "Triângulo com traço em elipse '(P-XXXXXX-75 I)'",
+          "sigla": "P",
+          "observacoes": "Transformador auto protegido isolado particular."
+        },
+        {
+          "id": "SIMB-P02-51",
+          "nome": "TRANSFORMADOR CONVENCIONAL PARTICULAR EM POSTE",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Triângulo com círculo interno e prefixo 'P-' (ex: P-XXXXXX-45)",
+          "simbolo_a_instalar": "Triângulo com círculo em elipse '(P-XXXXXX-45)'",
+          "sigla": "P",
+          "observacoes": "Transformador convencional de cliente particular montado em poste."
+        },
+        {
+          "id": "SIMB-P02-52",
+          "nome": "TRANSFORMADOR TIPO PEDESTAL (PAD-MOUNTED) CEMIG",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Retângulo com triângulo inscrito e texto (ex: XXXXXX-75)",
+          "simbolo_a_instalar": "Retângulo com triângulo em elipse (ex: (XXXXXX-75))",
+          "observacoes": "Transformador subterrâneo/ao nível do solo em cabine pedestal (CEMIG)."
+        },
+        {
+          "id": "SIMB-P02-53",
+          "nome": "TRANSFORMADOR TIPO PEDESTAL (PAD-MOUNTED) PARTICULAR",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Retângulo com triângulo e prefixo 'P-' (ex: P-XXXXXX-75)",
+          "simbolo_a_instalar": "Retângulo com triângulo em elipse '(P-XXXXXX-75)'",
+          "sigla": "P",
+          "observacoes": "Transformador pedestal de cliente particular."
+        },
+        {
+          "id": "SIMB-P02-54",
+          "nome": "TRANSFORMADOR CONVENCIONAL CEMIG EM CABINE",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado com diagonal e triângulo inscrito (ex: XXXXXX-150)",
+          "simbolo_a_instalar": "Quadrado com diagonal e triângulo em elipse '(XXXXXX-150)'",
+          "observacoes": "Subestação abrigada em cabine de alvenaria/metálica CEMIG."
+        },
+        {
+          "id": "SIMB-P02-55",
+          "nome": "TRANSFORMADOR CONVENCIONAL PARTICULAR EM CABINE",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Quadrado com triângulo inscrito e prefixo 'P-' (ex: P-XXXXXX-150)",
+          "simbolo_a_instalar": "Quadrado com triângulo em elipse '(P-XXXXXX-150)'",
+          "sigla": "P",
+          "observacoes": "Subestação abrigada particular."
+        },
+        {
+          "id": "SIMB-P02-56",
+          "nome": "AUTOTRANSFORMADOR",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Círculo com triângulo invertido inscrito (ex: XXXXXX-75)",
+          "simbolo_a_instalar": "NÃO É MAIS INSTALADO",
+          "estado_a_instalar": "NÃO É MAIS INSTALADO",
+          "observacoes": "Autotransformador. Descontinuado para novas instalações."
+        }
+      ]
+    },
+    {
+      "categoria": "SECCIONAMENTO",
+      "pagina": 2,
+      "secao": "Figura 13 (ND-3.1 p. 14-7)",
+      "itens": [
+        {
+          "id": "SIMB-P02-57",
+          "nome": "SECCIONAMENTO NO VÃO COM ISOLADOR CASTANHA",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Linha com duas barras verticais paralelas (isolador castanha)",
+          "simbolo_a_instalar": "Duas barras paralelas envoltas em elipse",
+          "observacoes": "Seccionamento elétrico de condutor secundário ou estai em vão intermediário."
+        },
+        {
+          "id": "SIMB-P02-58",
+          "nome": "SECCIONAMENTO EM CRUZAMENTO COM ISOLADOR CASTANHA",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Cruzamento com isolador castanha em uma das direções",
+          "simbolo_a_instalar": "Cruzamento com isolador castanha envolto em elipse",
+          "observacoes": "Interrupção de circuito em cruzamento com isolador castanha."
+        },
+        {
+          "id": "SIMB-P02-59",
+          "nome": "SECCIONAMENTO DE ESTAI (CZ/P) COM ISOLADOR DE DISCO OU BASTÃO POLIÉRICO",
+          "pagina": 2,
+          "secao": "Figura 13 (ND-3.1 p. 14-7)",
+          "simbolo_instalado": "Linha de estai com isolador e setas direcionais",
+          "simbolo_a_instalar": "Linha de estai com isolador em elipse e anotação '(10-150)'",
+          "sigla": "CZ/P",
+          "observacoes": "Isolação elétrica no cabo de aço de estaiamento."
+        }
+      ]
+    },
+    {
+      "categoria": "ESTAIS",
+      "pagina": 3,
+      "secao": "Figura 13 (ND-3.1 p. 14-8)",
+      "itens": [
+        {
+          "id": "SIMB-P03-60",
+          "nome": "ESTAI DE CRUZETA A POSTE",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha tracejada de estai saindo do poste até seta de fixação no topo",
+          "simbolo_a_instalar": "Linha tracejada de estai com poste e elipse A Instalar",
+          "observacoes": "Estai mecânico da extremidade da cruzeta ao fuste do poste."
+        },
+        {
+          "id": "SIMB-P03-61",
+          "nome": "ESTAI DE CRUZETA A CRUZETA",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha tracejada entre dois postes com legenda 'CZ/CZ'",
+          "simbolo_a_instalar": "Linha tracejada entre dois postes com legenda '(CZ/CZ)'",
+          "sigla": "CZ/CZ",
+          "observacoes": "Estaiamento horizontal de cruzeta a cruzeta."
+        },
+        {
+          "id": "SIMB-P03-62",
+          "nome": "ESTAI DE POSTE A POSTE (NÍVEL DO PRIMÁRIO)",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha tracejada de estai com seta direcional no nível de cruzeta primária",
+          "simbolo_a_instalar": "Linha tracejada com elipse indicativa no nível do primário",
+          "observacoes": "Estai de poste a poste na altura da rede de MT."
+        },
+        {
+          "id": "SIMB-P03-63",
+          "nome": "ESTAI DE POSTE A POSTE (NÍVEL DO SECUNDÁRIO)",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha tracejada com bloco de texto 'BT' entre dois postes",
+          "simbolo_a_instalar": "Linha tracejada com bloco de texto '(BT)' entre dois postes",
+          "sigla": "BT",
+          "observacoes": "Estai de poste a poste na altura da rede de BT."
+        },
+        {
+          "id": "SIMB-P03-64",
+          "nome": "ESTAI DE POSTE A CONTRA POSTE (NÍVEL DO PRIMÁRIO)",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha tracejada do poste ao contra-poste retangular no nível primário",
+          "simbolo_a_instalar": "Linha tracejada do poste ao contra-poste com elipse",
+          "observacoes": "Estaiamento em montante auxiliar (contra-poste)."
+        },
+        {
+          "id": "SIMB-P03-65",
+          "nome": "ESTAI DE POSTE A CONTRA POSTE (NÍVEL DO SECUNDÁRIO)",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha tracejada com bloco 'BT' ancorando no contra-poste",
+          "simbolo_a_instalar": "Linha tracejada com bloco '(BT)' ancorando no contra-poste",
+          "sigla": "BT",
+          "observacoes": "Estai secundário ancorado em contra-poste."
+        },
+        {
+          "id": "SIMB-P03-66",
+          "nome": "ESTAI DE ÂNCORA",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha contínua inclinada com placa de ancoragem / âncora enterrada",
+          "simbolo_a_instalar": "Linha com círculo no poste e âncora de terra projetada",
+          "observacoes": "Estai de terra ancorado no solo por haste e contrapeso/âncora."
+        }
+      ]
+    },
+    {
+      "categoria": "CONDUTORES",
+      "pagina": 3,
+      "secao": "Figura 13 (ND-3.1 p. 14-8)",
+      "itens": [
+        {
+          "id": "SIMB-P03-67",
+          "nome": "CONDUTORES EM ELETRODUTO PARA IP",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha contínua com marcas transversais e texto '2x10'",
+          "simbolo_a_instalar": "Linha com marcas transversais e elipse '(2x10)'",
+          "observacoes": "Alimentação de iluminação pública em eletroduto."
+        },
+        {
+          "id": "SIMB-P03-68",
+          "nome": "CONDUTORES PRIMÁRIOS DE REDE AÉREA PROTEGIDA",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha com traços verticais transversais e anotação (ex: 3#50+9,5)",
+          "simbolo_a_instalar": "Linha com traços transversais e anotação em elipse (ex: (3#50+9,5))",
+          "observacoes": "Condutores compactos protegidos (rede compacta / spacer cable)."
+        },
+        {
+          "id": "SIMB-P03-69",
+          "nome": "CONDUTORES PRIMÁRIOS DE REDE AÉREA CONVENCIONAL",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha contínua cheia simples",
+          "simbolo_a_instalar": "Linha contínua simples com anotação em elipse (ex: (3#1/0))",
+          "observacoes": "Condutores nus em cruzeta convencional."
+        },
+        {
+          "id": "SIMB-P03-70",
+          "nome": "CONDUTORES PRIMÁRIOS DE REDE AÉREA ISOLADA",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha com traço duplo e texto de bitola (ex: 3x1x120+9,5)",
+          "simbolo_a_instalar": "Linha com traço duplo e texto em elipse (ex: (3x1x120+9,5))",
+          "observacoes": "Cabo isolado autossustentado ou pré-reunido para MT."
+        },
+        {
+          "id": "SIMB-P03-71",
+          "nome": "CONDUTORES SECUNDÁRIOS DE REDE AÉREA CONVENCIONAL",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha contínua com anotação de fases e neutro (ex: 3#1/0 (1/0))",
+          "simbolo_a_instalar": "Linha contínua com anotação em elipse (ex: (3#1/0 (1/0)))",
+          "observacoes": "Condutores secundários nus em armação vertical."
+        },
+        {
+          "id": "SIMB-P03-72",
+          "nome": "CONDUTORES SECUNDÁRIOS REDE AÉREA ISOLADA DE B T",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha contínua com anotação multiplexada (ex: 3x1x70+70)",
+          "simbolo_a_instalar": "Linha contínua com anotação em elipse (ex: (3x1x70+70))",
+          "observacoes": "Cabo multiplexado autossustentado de Baixa Tensão."
+        },
+        {
+          "id": "SIMB-P03-73",
+          "nome": "MUDANÇA DE SEÇÃO DO CONDUTOR DE M.T. MESMO NÍVEL",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Poste com estrutura CE4, condutor 3#150+9,5 à esquerda e 3#50+9,5 à direita",
+          "simbolo_a_instalar": "Poste A Instalar com anotações em elipse (3#150+9,5), (CE4), (3#50+9,5)",
+          "sigla": "CE4",
+          "observacoes": "Transição de bitola no mesmo nível de cruzeta compacta."
+        },
+        {
+          "id": "SIMB-P03-74",
+          "nome": "MUDANÇA DE MODALIDADE DE REDE",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Poste com anotação de estrutura de transição N3-13",
+          "simbolo_a_instalar": "Poste A Instalar com anotação em elipse (N3-13)",
+          "sigla": "N3-13",
+          "observacoes": "Transição entre padrões de rede aérea."
+        },
+        {
+          "id": "SIMB-P03-75",
+          "nome": "MUDANÇA DE SEÇÃO DO CONDUTOR B.T.",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha com anotação 3x1x120+70 antes e 3x1x70+70 após o ponto de apoio",
+          "simbolo_a_instalar": "Linha com anotações em elipse (3x1x120+70) e (3x1x70+70)",
+          "observacoes": "Transição de seção de condutor secundário."
+        },
+        {
+          "id": "SIMB-P03-76",
+          "nome": "CIRCUITO PRIMÁRIO DUPLO DE MESMA SEÇÃO (PLANTA DETALHE)",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha única com multiplicador '2 (3x1x50+9,5)'",
+          "simbolo_a_instalar": "Linha com anotação em elipse '(2 (3x1x50+9,5))'",
+          "observacoes": "Representação de circuitos duplos paralelos com mesma bitola."
+        },
+        {
+          "id": "SIMB-P03-77",
+          "nome": "CIRCUITO PRIMÁRIO DUPLO DE SEÇÕES DIFERENTES",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Duas linhas com anotações '3x1x50+9,5' e '3x1x120+9,5'",
+          "simbolo_a_instalar": "Linhas com anotações em elipse (3x1x50+9,5) e (3x1x120+9,5)",
+          "observacoes": "Dois circuitos primários com condutores distintos compartilhando a estrutura."
+        }
+      ]
+    },
+    {
+      "categoria": "REDES 34,5kV",
+      "pagina": 3,
+      "secao": "Figura 13 (ND-3.1 p. 14-8)",
+      "itens": [
+        {
+          "id": "SIMB-P03-78",
+          "nome": "POSTO DE TRANSFORMAÇÃO ELEVADOR",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Dois círculos tangentes com seta e potência (ex: XX-5MVA)",
+          "simbolo_a_instalar": "Dois círculos em elipse (ex: (XX-5MVA))",
+          "observacoes": "Subestação de transformação elevadora de tensão."
+        },
+        {
+          "id": "SIMB-P03-79",
+          "nome": "POSTO DE TRANSFORMAÇÃO ABAIXADOR",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Dois círculos com seta oposta e potência (ex: XX-5MVA)",
+          "simbolo_a_instalar": "Dois círculos em elipse com anotação '(XX-5MVA)'",
+          "observacoes": "Subestação abaixadora 34,5 kV / 13,8 kV."
+        },
+        {
+          "id": "SIMB-P03-80",
+          "nome": "CHAVE 34,5kV/13,8kV",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Chave preenchida verde com indicação de corrente 'XX-630A'",
+          "simbolo_a_instalar": "Chave contornada verde com anotação em elipse '(XX-630A)'",
+          "observacoes": "Chave seccionadora / interruptora de 34,5 kV."
+        },
+        {
+          "id": "SIMB-P03-81",
+          "nome": "REDE PRIMÁRIA 34,5kV",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha contínua com losangos azuis sólidos e anotação (ex: 3#1/0)",
+          "simbolo_a_instalar": "Linha com losangos contornados e anotação em elipse '(3#1/0)'",
+          "observacoes": "Convenção gráfica diferenciada para circuitos na classe de tensão de 34,5 kV."
+        },
+        {
+          "id": "SIMB-P03-82",
+          "nome": "ESTRUTURA DE SUSTENTAÇÃO DO POSTO DE TRANSFORMAÇÃO 2,5 E 5,0 MVA(4 POSTES)",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Arranjo com 4 postes conectados em quadrilátero",
+          "simbolo_a_instalar": "Arranjo de 4 postes A Instalar com anotação em elipse '(13-1000)'",
+          "observacoes": "Subestação abrigada/plataforma pesada em 4 postes de 13m/1000daN."
+        },
+        {
+          "id": "SIMB-P03-83",
+          "nome": "ESTRUTURA DE SUSTENTAÇÃO DO POSTO DE TRANSFORMAÇÃO 1,0 MVA(2 POSTES)",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Arranjo com 2 postes conectados em pórtico",
+          "simbolo_a_instalar": "Arranjo de 2 postes A Instalar com anotação em elipse '(13-1000)'",
+          "observacoes": "Subestação em pórtico de 2 postes de 13m/1000daN."
+        }
+      ]
+    },
+    {
+      "categoria": "CONEXÃO PREMOLDADA",
+      "pagina": 3,
+      "secao": "Figura 13 (ND-3.1 p. 14-8)",
+      "itens": [
+        {
+          "id": "SIMB-P03-84",
+          "nome": "CONEXÃO PREMOLDADA \"T\" - 600A DE UM CONDUTOR 185mm² / 15kV",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Letra maiúscula 'D'",
+          "simbolo_a_instalar": "Letra maiúscula 'D' dentro de círculo",
+          "sigla": "D",
+          "observacoes": "Conector premoldado tipo T 600A para cabo 185mm²."
+        },
+        {
+          "id": "SIMB-P03-85",
+          "nome": "CONEXÃO PREMOLDADA \"T\" - 600A DE UM CONDUTOR 120mm² / 15kV",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Letra maiúscula 'B'",
+          "simbolo_a_instalar": "Letra maiúscula 'B' dentro de círculo",
+          "sigla": "B",
+          "observacoes": "Conector premoldado tipo T 600A para cabo 120mm²."
+        },
+        {
+          "id": "SIMB-P03-86",
+          "nome": "CONEXÃO PREMOLDADA \"T\" - 600A DE UM CONDUTOR 50mm² / 15kV",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Letra maiúscula 'L'",
+          "simbolo_a_instalar": "Letra maiúscula 'L' dentro de círculo",
+          "sigla": "L",
+          "observacoes": "Conector premoldado tipo T 600A para cabo 50mm²."
+        },
+        {
+          "id": "SIMB-P03-87",
+          "nome": "CONEXÃO TDC OU TDR - 120mm²",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Letra minúscula 'd'",
+          "simbolo_a_instalar": "Letra minúscula 'd' dentro de círculo",
+          "sigla": "d",
+          "observacoes": "Conexão de derivação desconectável TDC/TDR para condutor 120mm²."
+        },
+        {
+          "id": "SIMB-P03-88",
+          "nome": "CONEXÃO TDC OU TDR - 50mm²",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Letra minúscula 'r'",
+          "simbolo_a_instalar": "Letra minúscula 'r' dentro de círculo",
+          "sigla": "r",
+          "observacoes": "Conexão de derivação desconectável TDC/TDR para condutor 50mm²."
+        }
+      ]
+    },
+    {
+      "categoria": "ESFERA / ESCORA",
+      "pagina": 3,
+      "secao": "Figura 13 (ND-3.1 p. 14-8)",
+      "itens": [
+        {
+          "id": "SIMB-P03-89",
+          "nome": "ESFERA DE SINALIZAÇÃO",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Círculo sobre a linha de rede com anotação 'REDE'",
+          "simbolo_a_instalar": "Círculo preenchido sobre a linha com anotação em elipse '(REDE)'",
+          "observacoes": "Esfera de sinalização diurna para advertência aérea."
+        },
+        {
+          "id": "SIMB-P03-90",
+          "nome": "ESCORA DE SUBSOLO",
+          "pagina": 3,
+          "secao": "Figura 13 (ND-3.1 p. 14-8)",
+          "simbolo_instalado": "Linha com perfil retangular contornado de escora de subsolo",
+          "simbolo_a_instalar": "Linha com perfil retangular preenchido de escora de subsolo",
+          "observacoes": "Escoramento enterrado para estabilização de fundações de postes."
+        }
+      ]
+    },
+    {
+      "categoria": "CAIXA DE EMENDA",
+      "pagina": 4,
+      "secao": "Figura 13 (ND-3.1 p. 14-9)",
+      "itens": [
+        {
+          "id": "SIMB-P04-91",
+          "nome": "CAIXA DE EMENDA DE FIBRA ÓPTICA EM POSTE",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Dois círculos concêntricos com traço horizontal sobre poste",
+          "simbolo_a_instalar": "Dois círculos concêntricos preenchidos com traço horizontal",
+          "observacoes": "Caixa de emenda óptica aérea montada em poste."
+        },
+        {
+          "id": "SIMB-P04-92",
+          "nome": "CAIXA DE EMENDA DE FIBRA ÓPTICA EM CAIXA SUBTERRÂNEA",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Dois círculos concêntricos sobre linha pontilhada subterrânea",
+          "simbolo_a_instalar": "Dois círculos concêntricos preenchidos sobre linha subterrânea",
+          "observacoes": "Caixa de emenda de fibra instalada em poço de visita / caixa subterrânea."
+        },
+        {
+          "id": "SIMB-P04-93",
+          "nome": "CAIXA DE PASSAGEM SUBTERRÂNEA",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Quadrado contornado vazado",
+          "simbolo_a_instalar": "Quadrado com metade/triângulo diagonal preenchido",
+          "observacoes": "Caixa de passagem de alvenaria/concreto para rede subterrânea."
+        }
+      ]
+    },
+    {
+      "categoria": "FIBRA ÓPTICA E OUTROS SÍMBOLOS DE TELECOMUNICAÇÕES",
+      "pagina": 4,
+      "secao": "Figura 13 (ND-3.1 p. 14-9)",
+      "itens": [
+        {
+          "id": "SIMB-P04-94",
+          "nome": "CONDUTORES DE TELEFONIA E TELÉGRAFO",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Linha contínua com ponto central",
+          "simbolo_a_instalar": "Linha contínua com ponto central",
+          "observacoes": "Cabo telefônico aéreo convencional."
+        },
+        {
+          "id": "SIMB-P04-95",
+          "nome": "CABO COAXIAL DE TV A CABO",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Linha com anotação técnica (ex: 2xP3-500-3/16HS)",
+          "simbolo_a_instalar": "Linha com anotação em elipse '(2xP3-500-3/16HS)'",
+          "observacoes": "Cabo coaxial rígido/flexível de transmissão de TV."
+        },
+        {
+          "id": "SIMB-P04-96",
+          "nome": "CABO DE FIBRA ÓPTICA AUTO-SUSTENTÁVEL",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Linha com anotação (ex: CFOA 36FB)",
+          "simbolo_a_instalar": "Linha com anotação em elipse '(CFOA 36FB)'",
+          "sigla": "CFOA",
+          "observacoes": "Cabo Óptico Auto-Sustentado totalmente dielétrico."
+        },
+        {
+          "id": "SIMB-P04-97",
+          "nome": "CABO DE FIBRA ÓPTICA COM MENSAGEIRO",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Linha com anotação (ex: CFO 144Fb+3/16HS)",
+          "simbolo_a_instalar": "Linha com anotação em elipse '(CFO 144Fb+3/16HS)'",
+          "sigla": "CFO",
+          "observacoes": "Cabo de fibra óptica com mensageiro de aço acoplado."
+        },
+        {
+          "id": "SIMB-P04-98",
+          "nome": "CORDOALHA EXISTENTE",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Dois semicírculos/parênteses invertidos opostos sobre a linha",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "observacoes": "Cordoalha de sustentação pré-existente de telecomunicações."
+        },
+        {
+          "id": "SIMB-P04-99",
+          "nome": "RESERVA TÉCNICA COM OPTLOOP",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Par de alças trapezoidais opostas (optloop)",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "observacoes": "Reserva técnica enrolada em suporte tipo cruzeta/optloop."
+        },
+        {
+          "id": "SIMB-P04-100",
+          "nome": "DESCIDA E SUBIDA LATERAL",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Degrau ortogonal em Z ao longo do poste",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "observacoes": "Transição aérea/subterrânea ou mudança de nível lateral."
+        },
+        {
+          "id": "SIMB-P04-101",
+          "nome": "PONTO DE ACESSO DIGITAL",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Círculo concêntrico com ponto central sólido preenchido",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "observacoes": "Ponto de conexão/interface de transmissão digital."
+        },
+        {
+          "id": "SIMB-P04-102",
+          "nome": "ENCABEÇAMENTO DE CORDOALHA EM FIM DE REDE",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Círculo com barra vertical terminal única",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "observacoes": "Ancoragem final de cordoalha de telecomunicações."
+        },
+        {
+          "id": "SIMB-P04-103",
+          "nome": "ENCABEÇAMENTO DUPLO DE CORDOALHA",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Círculo com duas barras verticais laterais",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "observacoes": "Ancoragem dupla de cordoalha em poste intermediário."
+        },
+        {
+          "id": "SIMB-P04-104",
+          "nome": "CONDUTORES PROJETADOS ESPINADOS",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Linha tracejada com anotação 'CE XXXX'",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "sigla": "CE",
+          "observacoes": "Cabo telefônico amarrado/espinado na cordoalha."
+        },
+        {
+          "id": "SIMB-P04-105",
+          "nome": "ATERRAMENTO DE BLINDAGEM",
+          "pagina": 4,
+          "secao": "Figura 13 (ND-3.1 p. 14-9)",
+          "simbolo_instalado": "Linha terminando em barras horizontais decrescentes de terra",
+          "simbolo_a_instalar": "Sem símbolo exclusivo a instalar",
+          "observacoes": "Conexão da blindagem metálica do cabo ao sistema de terra."
+        }
+      ]
+    },
+    {
+      "categoria": "DETALHES CONSTRUTIVOS",
+      "pagina": 5,
+      "secao": "Figura 14 — Detalhes Construtivos (ND-3.1 p. 14-10 a 14-12)",
+      "itens": [
+        {
+          "id": "SIMB-P05-106",
+          "nome": "CONDUTORES PRIMÁRIOS ( Planta detalhe )",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha tracejada longa contínua (- - - - -)",
+          "simbolo_a_instalar": "Linha tracejada com elementos em elipse",
+          "observacoes": "Representação de rede primária em plantas de detalhe."
+        },
+        {
+          "id": "SIMB-P05-107",
+          "nome": "CONDUTORES SECUNDÁRIOS ( Planta detalhes )",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha contínua cheia (—————)",
+          "simbolo_a_instalar": "Linha contínua com elementos em elipse",
+          "observacoes": "Representação de rede secundária em plantas de detalhe."
+        },
+        {
+          "id": "SIMB-P05-108",
+          "nome": "CRUZAMENTO DE CONDUTORES SEM CONEXÃO ELÉTRICA",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha contínua cruzando linha tracejada de primário com salto/arco sem nó",
+          "simbolo_a_instalar": "Não aplicável",
+          "observacoes": "Dois circuitos cruzam no espaço físico sem conexão elétrica mútua."
+        },
+        {
+          "id": "SIMB-P05-109",
+          "nome": "CRUZAMENTO DE CONDUTORES COM CONEXÃO ELÉTRICA",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha de secundário interceptando primário com nó/conexão perpendicular",
+          "simbolo_a_instalar": "Não aplicável",
+          "observacoes": "Interconexão galvânica no ponto de cruzamento."
+        },
+        {
+          "id": "SIMB-P05-110",
+          "nome": "INDICAÇÃO DE MATERIAL E EQUIPAMENTO \"A INSTALAR\"",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Não aplicável",
+          "simbolo_a_instalar": "Contorno em elipse envolvente ao redor de códigos, potências, bitolas e símbolos",
+          "observacoes": "Regra mestra de desenho para itens projetados a instalar."
+        },
+        {
+          "id": "SIMB-P05-111",
+          "nome": "INDICAÇÃO DE MATERIAL E EQUIPAMENTO \"A RETIRAR\"",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Símbolo 'X' sobreposto ao elemento a retirar",
+          "simbolo_a_instalar": "Não aplicável",
+          "observacoes": "Regra mestra de desenho para itens a serem desmontados/retirados."
+        },
+        {
+          "id": "SIMB-P05-112",
+          "nome": "ENCABEÇAMENTO DE TOPO EM CIRCUITO PRIMÁRIO",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha tracejada primária terminando em círculo duplo de topo no poste",
+          "simbolo_a_instalar": "Poste com elipse indicativa",
+          "observacoes": "Final de circuito primário no topo do poste."
+        },
+        {
+          "id": "SIMB-P05-113",
+          "nome": "ENCABEÇAMENTO LATERAL DE CIRCUITO SECUNDÁRIO",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha contínua secundária terminando na lateral do poste com travessa",
+          "simbolo_a_instalar": "Poste com anotação em elipse",
+          "observacoes": "Ancoragem final lateral de rede secundária."
+        },
+        {
+          "id": "SIMB-P05-114",
+          "nome": "MUDANÇA DE NÚMERO DE CONDUTORES SECUNDÁRIOS",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Degrau na linha com anotação '2 # 4(4) AC' antes e '3 # 4(4)' depois",
+          "simbolo_a_instalar": "Anotação correspondente em elipse",
+          "observacoes": "Variação do número de fases/condutores no circuito secundário."
+        },
+        {
+          "id": "SIMB-P05-115",
+          "nome": "ENCABEÇAMENTO DO SECUNDÁRIO COM MUDANÇA DE SEÇÃO DOS CONDUTORES",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Retângulo de encabeçamento com anotação '3x1x35+70' e '3x1x70+70'",
+          "simbolo_a_instalar": "Anotações em elipse",
+          "observacoes": "Emenda e ancoragem com transição de bitola secundária."
+        },
+        {
+          "id": "SIMB-P05-116",
+          "nome": "SECCIONAMENTO DE CIRCUITO SECUNDÁRIO POR ENCABECAMENTO ( Divisão de circuito )",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Círculo de seccionamento separando dois circuitos '3x1x70+70'",
+          "simbolo_a_instalar": "Anotações em elipse",
+          "observacoes": "Divisão física de circuitos secundários independentes no mesmo ponto de apoio."
+        },
+        {
+          "id": "SIMB-P05-117",
+          "nome": "INDICAÇÃO DO CONDUTOR NEUTRO INTERLIGADO E SECCIONAMENTO DE CIRCUITO",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha com neutro comum '(4)' interligado entre dois postes '3 # 4(4)' e '2 # 4(4)'",
+          "simbolo_a_instalar": "Anotações correspondentes",
+          "observacoes": "Continuidade do condutor neutro com fases seccionadas."
+        },
+        {
+          "id": "SIMB-P05-118",
+          "nome": "ESTAI DE CRUZETA A POSTE OU CONTRA POSTE",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Estruturas 'M2-N2', linha com seta de estaiamento e anotação 'CZ/P'",
+          "simbolo_a_instalar": "Anotações em elipse",
+          "sigla": "M2-N2",
+          "observacoes": "Detalhe de estaiamento em cruzeta meia/normal."
+        },
+        {
+          "id": "SIMB-P05-119",
+          "nome": "SUBSTITUIÇÃO DE POSTE DE MADEIRA POR CONCRETO E DERIVAÇÃO DO PRIMÁRIO A INSTALAR ( Projetado )",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Poste antigo com 'X', novo poste em elipse '(12-600)', estrutura 'N2-N2-12-600', condutor '3#2(2)'",
+          "simbolo_a_instalar": "Novo poste de concreto e cruzetas em elipse",
+          "sigla": "N2-N2-12-600",
+          "observacoes": "Troca de poste de madeira e instalação de derivação primária."
+        },
+        {
+          "id": "SIMB-P05-120",
+          "nome": "LUMINÁRIA ABERTA COM LÂMPADA VM 80W, BRAÇO CURTO, CONECTADAS ENTRE AS FASES A E B",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Poste com anotação '2C-AB' e condutor '3x1x70+70'",
+          "simbolo_a_instalar": "Anotação em elipse",
+          "sigla": "2C-AB",
+          "observacoes": "Ponto de iluminação pública ligado bifásico em fases A e B."
+        },
+        {
+          "id": "SIMB-P05-121",
+          "nome": "CIRCUITO PRIMÁRIO DUPLO DE MESMA SEÇÃO (PLANTA DETALHE)",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Linha dupla tracejada com texto '2(3#50+9,5)'",
+          "simbolo_a_instalar": "Linha dupla com anotação em elipse",
+          "observacoes": "Dois circuitos paralelos idênticos."
+        },
+        {
+          "id": "SIMB-P05-122",
+          "nome": "CIRCUITO PRIMÁRIO DUPLO SEÇÕES DIFERENTES (PLANTA DETALHE)",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Duas linhas paralelas tracejadas '(3#150+9,5)+(3#50+9,5)'",
+          "simbolo_a_instalar": "Anotações em elipse",
+          "observacoes": "Dois circuitos paralelos com condutores distintos."
+        },
+        {
+          "id": "SIMB-P05-123",
+          "nome": "DUAS MONTAGENS NO MESMO NÍVEL",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Texto alinhado 'CE3 CE3'",
+          "simbolo_a_instalar": "Anotação em elipse '(CE3 CE3)'",
+          "sigla": "CE3 CE3",
+          "observacoes": "Duas estruturas compactas instaladas na mesma altura do poste."
+        },
+        {
+          "id": "SIMB-P05-124",
+          "nome": "DUAS MONTAGENS EM NÍVEIS DISTINTOS",
+          "pagina": 5,
+          "secao": "Figura 14 (ND-3.1 p. 14-10)",
+          "simbolo_instalado": "Texto hifenizado 'CE3-CE3'",
+          "simbolo_a_instalar": "Anotação em elipse '(CE3-CE3)'",
+          "sigla": "CE3-CE3",
+          "observacoes": "Duas estruturas compactas montadas em alturas verticais escalonadas."
+        },
+        {
+          "id": "SIMB-P06-125",
+          "nome": "DERIVAÇÃO DE SECUNDÁRIO A INSTALAR",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Estrutura 'CE4', condutores '3 # 50+9,5', '3 # 2(2)'",
+          "simbolo_a_instalar": "Ramal secundário projetado com elipses '(3 # 4(4))' e '(2 # 2(2)-AB)'",
+          "sigla": "CE4",
+          "observacoes": "Derivação secundária nova partindo de estrutura existente."
+        },
+        {
+          "id": "SIMB-P06-126",
+          "nome": "RETIRADA DE ISOLADOR DE CASTANHA E INSTALAÇÃO DE AFASTADOR",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Isolador castanha com 'X' (retirada), estrutura 'B1', condutor '3 # 4'",
+          "simbolo_a_instalar": "Afastador projetado 'AF de 500mm', condutor '(3 # 1/0(1/0))'",
+          "sigla": "AF / B1",
+          "observacoes": "Substituição de isolador por afastador de armação secundária de 500mm."
+        },
+        {
+          "id": "SIMB-P06-127",
+          "nome": "ALTERAÇÃO NO SECUNDÁRIO: MUDANÇA DOS CONDUTORES FASE 4AWG PARA 2AWG COM PRIMÁRIO A INSTALAR",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Estrutura 'M1', condutores '3*4'",
+          "simbolo_a_instalar": "Condutor em elipse '(3 # 2)' e '(3 # 2(2))'",
+          "sigla": "M1",
+          "observacoes": "Recapacitação de condutores de 4 AWG para 2 AWG com novo circuito primário."
+        },
+        {
+          "id": "SIMB-P06-128",
+          "nome": "TRANSIÇÃO DO PRIMÁRIO TRIFÁSICO PARA MONOFÁSICO",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Estruturas 'N3 2', condutor trifásico '3 # 1/0', derivação monofásica '1 # 2-B', secundário '2 # 4(4)AC'",
+          "simbolo_a_instalar": "Anotações correspondentes",
+          "sigla": "N3 2",
+          "observacoes": "Ponto de transição entre alimentador trifásico e ramal monofásico."
+        },
+        {
+          "id": "SIMB-P06-129",
+          "nome": "MUDANÇA DE SEÇÃO DO CONDUTOR PRIMÁRIO NO MESMO NÍVEL DE CRUZETA",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Poste com cruzeta 'M3 2', condutores '3 # 1/0(1/0)', '3 # 1/0' e '3 # 2'",
+          "simbolo_a_instalar": "Anotações correspondentes",
+          "sigla": "M3 2",
+          "observacoes": "Ancoragem e redução de bitola primária em estrutura meio-beco."
+        },
+        {
+          "id": "SIMB-P06-130",
+          "nome": "ESTRUTURA TRIFÁSICA EM DOIS NÍVEIS DE CRUZETA",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Anotação 'CZ a CZ', estrutura 'M2-M2-11', condutores '3 # 1/0(1/0)', '3 # 4(4)', '3 # 4'",
+          "simbolo_a_instalar": "Anotações correspondentes",
+          "sigla": "M2-M2-11",
+          "observacoes": "Dois níveis de cruzetas instalados no mesmo poste."
+        },
+        {
+          "id": "SIMB-P06-131",
+          "nome": "REPRESENTAÇÃO DOS RAMAIS DE SERVIÇOS AÉREOS EM B.T.",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Poste com estrutura 'M1', condutores '3 # 1/0(1/0)', ramais para caixas: '202', '212', '222 AC', '240 3B', '243 2xA', '221 C'",
+          "simbolo_a_instalar": "Ramais em elipse quando projetados",
+          "sigla": "M1",
+          "observacoes": "Indicação detalhada de múltiplos ramais aéreos de atendimento a unidades consumidoras."
+        },
+        {
+          "id": "SIMB-P06-132",
+          "nome": "REPRESENTAÇÃO DO RAMAL DE SERVIÇO SUBTERRÂNEO EM B.T.",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Estrutura 'U1', condutor '2 # 1/0(1/0)', ramal subterrâneo '1 # 4-C', caixa de medição '31 AB'",
+          "simbolo_a_instalar": "Ramal em elipse quando projetado",
+          "sigla": "U1",
+          "observacoes": "Ramal subterrâneo de baixa tensão saindo do poste."
+        },
+        {
+          "id": "SIMB-P06-133",
+          "nome": "REPRESENTAÇÃO DO RAMAL DE SERVIÇO AÉREO EM M.T.",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Poste '3-150', estrutura 'M1-N2-12-300', condutor '3 # 1/0', derivação aérea em mufla primária",
+          "simbolo_a_instalar": "Derivação em elipse quando projetada",
+          "sigla": "M1-N2-12-300",
+          "observacoes": "Entrada de serviço primária aérea em média tensão."
+        },
+        {
+          "id": "SIMB-P06-134",
+          "nome": "REPRESENTAÇÃO DO RAMAL DE SERVIÇO SUBTERRÂNEO EM M.T.",
+          "pagina": 6,
+          "secao": "Figura 14 (ND-3.1 p. 14-11)",
+          "simbolo_instalado": "Poste '3-300', estrutura 'N2-N1-11', condutor '3 # 4', terminação e mufla para cabo subterrâneo de MT",
+          "simbolo_a_instalar": "Ramal em elipse quando projetado",
+          "sigla": "N2-N1-11",
+          "observacoes": "Transição aéreo-subterrânea para ramal particular de MT."
+        },
+        {
+          "id": "SIMB-P07-135",
+          "nome": "ESTAI PROJETADO COM CABO DE AÇO DE 9,5mm",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Linha de estai saindo do poste com círculo e seta indicativa",
+          "simbolo_a_instalar": "Círculo com elipse e cabo de aço projetado de 9,5mm",
+          "observacoes": "Estaiamento novo dimensionado com cordoalha de aço 9,5mm."
+        },
+        {
+          "id": "SIMB-P07-136",
+          "nome": "SUBSTITUIÇÃO DE POSTE DO MESMO TIPO",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Poste antigo com 'X' e poste existente '10-150', estrutura 'M1'",
+          "simbolo_a_instalar": "Novo poste em elipse '(10-300)'",
+          "sigla": "M1",
+          "observacoes": "Substituição mantendo a mesma classe geométrica do apoio com reforço de carga."
+        },
+        {
+          "id": "SIMB-P07-137",
+          "nome": "SUBSTITUIÇÃO DE POSTE DE TIPO DIFERENTE",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Poste antigo com 'X', estrutura 'U1', anotação '10-150', condutores '3'",
+          "simbolo_a_instalar": "Novo poste de outro material/seção em elipse",
+          "sigla": "U1",
+          "observacoes": "Substituição alterando o tipo de material (ex: madeira por concreto)."
+        },
+        {
+          "id": "SIMB-P07-138",
+          "nome": "SUBSTITUIÇÃO DE POSTE DE TIPO RESISTÊNCIA E ESTRUTURA DIFERENTE",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Poste existente com 'X', estrutura a retirar 'U2-11-300', condutores '3'",
+          "simbolo_a_instalar": "Novo poste e estrutura em elipse '(U1 - 10-150)'",
+          "sigla": "U1 - 10-150",
+          "observacoes": "Reforma completa com alteração de esforço, altura e armação."
+        },
+        {
+          "id": "SIMB-P07-139",
+          "nome": "INSTALAÇÃO DE TRANSFORMADOR PARA ATENDIMENTO EXCLUSIVO",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Símbolo de transformador e poste",
+          "simbolo_a_instalar": "Transformador exclusivo projetado com anotação em elipse '(3 - 75)'",
+          "observacoes": "Subestação transformadora dedicada a atendimento individual."
+        },
+        {
+          "id": "SIMB-P07-140",
+          "nome": "REMOÇÃO DE POSTE DO MESMO TIPO COM ALTERAÇÃO DE ESTRUTURA E INSTALAÇÃO DE POSTE",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Poste com 'X', estrutura 'M1-12-300', novo poste de transição '7m', estruturas '3BC', 'AB', condutor '3#12 (12)bt'",
+          "simbolo_a_instalar": "Novo poste em elipse '(M1-12-300)'",
+          "sigla": "M1-12-300",
+          "observacoes": "Remoção e remanejamento de vão com alteração estrutural complexa."
+        },
+        {
+          "id": "SIMB-P07-141",
+          "nome": "INSTALAÇÃO DE BRAÇO J EM CASOS ESPECIAIS PARA AFASTAMENTO DE REDE SECUNDÁRIA ISOLADA",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Linha secundária com braço retangular e legenda 'BRAÇO J'",
+          "simbolo_a_instalar": "Anotação em elipse '(BRAÇO J)'",
+          "sigla": "BRAÇO J",
+          "observacoes": "Braço tipo J para garantir afastamento de segurança de edificações."
+        },
+        {
+          "id": "SIMB-P07-142",
+          "nome": "INDICAÇÃO DA SEQUÊNCIA DE FASE A SEGUIR",
+          "pagina": 7,
+          "secao": "Figura 14 (ND-3.1 p. 14-12)",
+          "simbolo_instalado": "Diagrama com 4 linhas horizontais e setas transversais indicativas com legenda 'ou'",
+          "simbolo_a_instalar": "Não aplicável",
+          "observacoes": "Convenção gráfica de ordenação e sequência das fases da rede."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 10mm 12mm 10mm;
+  }
+
+  html, body {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 9.5pt !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Table layout and page break rules for A4 paper */
+  table {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-after: auto;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  thead {
+    display: table-header-group !important;
+  }
+
+  tfoot {
+    display: table-row-group !important;
+  }
+
+  /* Ensure totals only appear on the last sheet/page when printing */
+  .print-sheet {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+
+  .print-sheet:last-child {
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+
+  .print-last-page-only {
+    break-before: auto !important;
+    break-inside: avoid !important;
+  }
+
+  th, td {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  h1, h2, h3, h4, .no-page-break {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+}
