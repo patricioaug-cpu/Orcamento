@@ -67,9 +67,20 @@ app.use((req, res, next) => {
   next();
 });
 
-// Increase payload limit for base64 image/PDF uploads to 100mb
-app.use(express.json({ limit: "100mb" }));
-app.use(express.urlencoded({ extended: true, limit: "100mb" }));
+// Robust body parsing compatible with both Vercel Serverless Functions and standalone Express
+app.use((req, res, next) => {
+  if (req.body && typeof req.body === "object" && Object.keys(req.body).length > 0) {
+    return next();
+  }
+  express.json({ limit: "50mb" })(req, res, next);
+});
+
+app.use((req, res, next) => {
+  if (req.body && typeof req.body === "object" && Object.keys(req.body).length > 0) {
+    return next();
+  }
+  express.urlencoded({ extended: true, limit: "50mb" })(req, res, next);
+});
 
 // Express JSON parsing error handler
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
@@ -583,9 +594,13 @@ function getGeminiClient() {
 }
 
 // API Route for Analyzing CEMIG Project Drawings
-app.post(["/api/analyze-project", "/analyze-project"], async (req, res) => {
+app.all(["/api/analyze-project", "/analyze-project"], async (req, res) => {
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Método não permitido. Utilize POST para análise de projetos." });
+  }
+
   try {
-    const { imageBase64, mimeType, fileName, voltageLevel, userId, userEmail, deviceSerial } = req.body;
+    const { imageBase64, mimeType, fileName, voltageLevel, userId, userEmail, deviceSerial } = req.body || {};
 
     if (!imageBase64) {
       return res.status(400).json({ error: "Nenhuma imagem ou arquivo PDF fornecido." });

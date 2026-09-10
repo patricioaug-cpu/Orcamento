@@ -2,6 +2,11 @@
   "version": 2,
   "cleanUrls": true,
   "functions": {
+    "api/*.ts": {
+      "includeFiles": "data/**",
+      "maxDuration": 60,
+      "memory": 1024
+    },
     "api/**/*.ts": {
       "includeFiles": "data/**",
       "maxDuration": 60,

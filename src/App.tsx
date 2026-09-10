@@ -1022,6 +1022,12 @@ export default function App() {
     const isPdf = file.type.includes("pdf") || fileNameLower.endsWith(".pdf");
 
     if (isPdf) {
+      if (file.size > 3.8 * 1024 * 1024) {
+        throw new Error(
+          `O arquivo PDF (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o limite de 3.8 MB para envio seguro na nuvem (Vercel). Para obter melhor resultado e evitar erros de limite de rede, exporte a prancha como imagem (JPEG/PNG) ou reduza a resolução do PDF.`
+        );
+      }
+
       const base64Data = await new Promise<string>((resolve, reject) => {
         const reader = new FileReader();
         const timer = setTimeout(() => {
@@ -1072,7 +1078,8 @@ export default function App() {
         img.onload = () => {
           clearTimeout(fallbackTimer);
           try {
-            const maxDim = 2560;
+            // 2048px maximum dimension guarantees pin-sharp symbol clarity while keeping payload under 1.5MB
+            const maxDim = 2048;
             let { width, height } = img;
             if (width > maxDim || height > maxDim) {
               if (width > height) {
@@ -1091,7 +1098,8 @@ export default function App() {
               ctx.imageSmoothingEnabled = true;
               ctx.imageSmoothingQuality = "high";
               ctx.drawImage(img, 0, 0, width, height);
-              const dataUrl = canvas.toDataURL("image/jpeg", 0.90);
+              // 0.85 quality produces crisp vector-like text lines with compact payload
+              const dataUrl = canvas.toDataURL("image/jpeg", 0.85);
               const base64 = dataUrl.split(",")[1] || dataUrl;
               resolve({ base64Data: base64, mimeType: "image/jpeg" });
               return;
@@ -1210,23 +1218,19 @@ export default function App() {
       setProgressPercent(75);
       setProcessingStatusText("Consultando base de mnemônicos CEMIG e explodindo componentes...");
 
-      let resJson: any;
+      let resJson: any = null;
+      let rawText = "";
       try {
-        resJson = await response.json();
-      } catch (jsonErr) {
-        if (isCancelledRef.current) return;
-        if (response.status === 413) {
-          throw new Error("Arquivo muito grande para o servidor (HTTP 413). Reduza o tamanho ou resolução do arquivo.");
+        rawText = await response.text();
+        if (rawText) {
+          try {
+            resJson = JSON.parse(rawText);
+          } catch {
+            // Raw text is not JSON (e.g. Vercel serverless error message)
+          }
         }
-        if (response.status === 504 || response.status === 502) {
-          throw new Error(`Servidor temporariamente ocupado (HTTP ${response.status}). Tente novamente em instantes.`);
-        }
-        if (response.status === 404) {
-          throw new Error(
-            "Servidor da API não encontrado (HTTP 404). O endpoint /api/analyze-project não respondeu. Certifique-se de que o backend da aplicação foi implantado corretamente com a rota de API."
-          );
-        }
-        throw new Error(`Erro na resposta do servidor (HTTP ${response.status}).`);
+      } catch {
+        // Stream read failure
       }
 
       if (isCancelledRef.current) return;
@@ -1235,14 +1239,35 @@ export default function App() {
         if (response.status === 403 || resJson?.trialExpired) {
           setIsTrialExpiredModalOpen(true);
         }
+        if (response.status === 413) {
+          throw new Error("Arquivo muito grande para o servidor em nuvem (HTTP 413). Exporte a prancha como imagem JPEG ou reduza a resolução do arquivo.");
+        }
+        if (response.status === 504 || response.status === 502) {
+          throw new Error(`Servidor temporariamente ocupado ou tempo limite excedido (HTTP ${response.status}). Tente novamente.`);
+        }
         if (response.status === 404) {
           throw new Error(
-            "Servidor da API não encontrado (HTTP 404). O endpoint /api/analyze-project não respondeu. Certifique-se de que o backend da aplicação foi implantado corretamente com a rota de API."
+            "Servidor da API não encontrado (HTTP 404). O endpoint /api/analyze-project não respondeu. Certifique-se de que o backend da aplicação foi implantado corretamente na Vercel com a rota de API."
+          );
+        }
+        if (response.status === 500) {
+          if (resJson?.error) {
+            throw new Error(resJson.error);
+          }
+          if (rawText && !rawText.startsWith("<")) {
+            throw new Error(`Erro no servidor da Vercel (HTTP 500): ${rawText.slice(0, 180)}`);
+          }
+          throw new Error(
+            "Erro interno no servidor da Vercel (HTTP 500). Verifique se a variável GEMINI_API_KEY está configurada no painel da Vercel (Project Settings -> Environment Variables) e envie o arquivo preferencialmente em formato de imagem JPEG compacta."
           );
         }
         throw new Error(
-          resJson?.error || `Erro na análise do projeto (Código HTTP ${response.status}).`
+          resJson?.error || (rawText && !rawText.startsWith("<") ? rawText.slice(0, 150) : `Erro na resposta do servidor (HTTP ${response.status}).`)
         );
+      }
+
+      if (!resJson) {
+        throw new Error("Resposta inválida do servidor. O serviço não retornou dados no formato esperado.");
       }
 
       if (resJson.success && resJson.data) {
