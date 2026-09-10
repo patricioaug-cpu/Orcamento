@@ -201,9 +201,9 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({ onComplete }) => {
             className="absolute inset-0 pointer-events-none"
             style={{ mixBlendMode: "screen" }}
           >
-            {/* Luminous aura around central utility badge (positioned at ~43% vertical center) */}
+            {/* Luminous aura around central utility badge (centered at 50% vertical height) */}
             <div
-              className="absolute left-1/2 top-[43%] -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full pointer-events-none"
+              className="absolute left-1/2 top-[50%] -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full pointer-events-none"
               style={{
                 background:
                   "radial-gradient(circle, rgba(74, 222, 128, 0.45) 0%, rgba(34, 197, 94, 0.2) 50%, transparent 75%)",
@@ -213,7 +213,7 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({ onComplete }) => {
             />
             {/* Subtle high-tech horizontal scan beam */}
             <div
-              className="absolute left-0 right-0 top-[43%] h-0.5 bg-gradient-to-r from-transparent via-emerald-300/60 to-transparent blur-[1px]"
+              className="absolute left-0 right-0 top-[50%] h-0.5 bg-gradient-to-r from-transparent via-emerald-300/60 to-transparent blur-[1px]"
               style={{
                 animation: "ambientBreathing 1.2s ease-in-out infinite",
               }}
@@ -227,9 +227,9 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({ onComplete }) => {
             className="absolute inset-0 pointer-events-none"
             style={{ mixBlendMode: "screen" }}
           >
-            {/* Soft highlight over the RDR/RDU title zone (positioned at ~68% height) */}
+            {/* Soft highlight over the RDR/RDU title zone (positioned at ~80% height) */}
             <div
-              className="absolute left-1/2 top-[69%] -translate-x-1/2 -translate-y-1/2 w-[85%] h-24 rounded-full pointer-events-none"
+              className="absolute left-1/2 top-[80%] -translate-x-1/2 -translate-y-1/2 w-[85%] h-24 rounded-full pointer-events-none"
               style={{
                 background:
                   "radial-gradient(ellipse at center, rgba(74, 222, 128, 0.35) 0%, rgba(34, 197, 94, 0.12) 60%, transparent 80%)",

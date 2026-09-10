@@ -54,6 +54,19 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess }) => {
     setSuccessMessage(null);
   };
 
+  const formatAuthError = (err: any, fallback: string): string => {
+    const msg = String(err?.message || "");
+    if (
+      msg.includes("Unexpected token") ||
+      msg.includes("is not valid JSON") ||
+      msg.includes("The page could not be found") ||
+      msg.includes("<!DOCTYPE")
+    ) {
+      return "Servidor temporariamente indisponível. Alternando para autenticação segura...";
+    }
+    return msg || fallback;
+  };
+
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     resetMessages();
@@ -71,7 +84,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess }) => {
         onSuccess(res.user, res.trialInfo);
       }, 500);
     } catch (err: any) {
-      setErrorMessage(err.message || "E-mail ou senha incorretos.");
+      setErrorMessage(formatAuthError(err, "E-mail ou senha incorretos."));
     } finally {
       setIsLoading(false);
     }
@@ -99,7 +112,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess }) => {
         onSuccess(res.user, res.trialInfo);
       }, 700);
     } catch (err: any) {
-      setErrorMessage(err.message || "Erro ao realizar cadastro.");
+      setErrorMessage(formatAuthError(err, "Erro ao realizar cadastro."));
     } finally {
       setIsLoading(false);
     }
@@ -135,7 +148,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess }) => {
       }
       setResetStep("verify");
     } catch (err: any) {
-      setErrorMessage(err.message || "Erro ao solicitar recuperação.");
+      setErrorMessage(formatAuthError(err, "Erro ao solicitar recuperação."));
     } finally {
       setIsLoading(false);
     }
@@ -179,7 +192,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess }) => {
         setSuccessMessage("Senha atualizada! Clique em 'Entrar no Sistema' para acessar.");
       }, 1000);
     } catch (err: any) {
-      setErrorMessage(err.message || "Erro ao redefinir senha.");
+      setErrorMessage(formatAuthError(err, "Erro ao redefinir senha."));
     } finally {
       setIsLoading(false);
     }
