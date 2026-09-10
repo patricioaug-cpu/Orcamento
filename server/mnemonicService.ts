@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { consultarItemPorDescricao } from "./itemCatalogService";
+import { resolveDataPath } from "./dataPath";
 
 export type OfficialStatus = "INSTALAR" | "RETIRAR" | "EXISTENTE";
 
@@ -33,7 +34,7 @@ let catalogListCache: OfficialMnemonic[] | null = null;
 
 function loadCatalog(): Record<string, OfficialMnemonic> {
   if (catalogCache) return catalogCache;
-  const file = path.join(process.cwd(), "data", "mnemonicos_catalogo.json");
+  const file = resolveDataPath("mnemonicos_catalogo.json");
   if (!fs.existsSync(file)) {
     throw new Error(`Catálogo oficial não encontrado: ${file}`);
   }

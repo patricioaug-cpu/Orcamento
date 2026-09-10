@@ -2,9 +2,11 @@ import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import nodemailer from "nodemailer";
+import { resolveDataPath } from "./dataPath";
 
 export const ADMIN_EMAIL = "patricioaug@gmail.com";
-const DB_FILE_PATH = path.join(process.cwd(), "data", "calcpro_database.json");
+const DB_FILE_PATH = resolveDataPath("calcpro_database.json");
+const TMP_DB_PATH = path.join("/tmp", "calcpro_database.json");
 
 // Helper to safely get SMTP transporter without throwing DNS or connection errors
 function getSafeSmtpTransporter(): {
@@ -187,12 +189,9 @@ function verifyPassword(password: string, storedHash: string): boolean {
 // Ensure database file exists
 function loadDatabase(): DatabaseSchema {
   try {
-    const dir = path.dirname(DB_FILE_PATH);
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
-    }
-    if (fs.existsSync(DB_FILE_PATH)) {
-      const content = fs.readFileSync(DB_FILE_PATH, "utf-8");
+    const targetPath = fs.existsSync(TMP_DB_PATH) ? TMP_DB_PATH : DB_FILE_PATH;
+    if (fs.existsSync(targetPath)) {
+      const content = fs.readFileSync(targetPath, "utf-8");
       const parsed = JSON.parse(content);
       dbState = {
         users: Array.isArray(parsed.users) ? parsed.users : [],
@@ -224,14 +223,25 @@ function loadDatabase(): DatabaseSchema {
 }
 
 function saveDatabase(): void {
+  const jsonStr = JSON.stringify(dbState, null, 2);
+  let saved = false;
   try {
     const dir = path.dirname(DB_FILE_PATH);
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    fs.writeFileSync(DB_FILE_PATH, JSON.stringify(dbState, null, 2), "utf-8");
-  } catch (err) {
-    console.error("[Database] Erro ao salvar banco de dados:", err);
+    fs.writeFileSync(DB_FILE_PATH, jsonStr, "utf-8");
+    saved = true;
+  } catch {
+    // Expected on read-only file systems like Vercel Serverless Function (/var/task)
+  }
+
+  if (!saved) {
+    try {
+      fs.writeFileSync(TMP_DB_PATH, jsonStr, "utf-8");
+    } catch {
+      // In-memory dbState is always preserved during execution
+    }
   }
 }
 

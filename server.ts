@@ -1,7 +1,6 @@
 import express from "express";
 import path from "path";
 import fs from "fs";
-import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
 import dotenv from "dotenv";
 import {
@@ -87,8 +86,9 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
   next();
 });
 
+
 // Health check endpoint
-app.get("/api/health", (req, res) => {
+app.get(["/api/health", "/health"], (req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
@@ -106,7 +106,7 @@ app.get(["/splash_screen.png", "/file_000000000bf4820e964dd2c8ded3136c.png"], (r
 // ==================== AUTH & TRIAL & ADMIN ROUTES ====================
 
 // Register
-app.post("/api/auth/register", async (req, res) => {
+app.post(["/api/auth/register", "/auth/register"], async (req, res) => {
   try {
     const { nome, email, password, deviceSerial } = req.body;
     const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress || "127.0.0.1";
@@ -125,7 +125,7 @@ app.post("/api/auth/register", async (req, res) => {
 });
 
 // Login
-app.post("/api/auth/login", async (req, res) => {
+app.post(["/api/auth/login", "/auth/login"], async (req, res) => {
   try {
     const { email, password, deviceSerial } = req.body;
     const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress || "127.0.0.1";
@@ -143,7 +143,7 @@ app.post("/api/auth/login", async (req, res) => {
 });
 
 // Forgot password
-app.post("/api/auth/forgot-password", async (req, res) => {
+app.post(["/api/auth/forgot-password", "/auth/forgot-password"], async (req, res) => {
   try {
     const { email } = req.body;
     const result = await UserService.generatePasswordResetCode(email);
@@ -162,7 +162,7 @@ app.post("/api/auth/forgot-password", async (req, res) => {
 });
 
 // Reset password
-app.post("/api/auth/reset-password", async (req, res) => {
+app.post(["/api/auth/reset-password", "/auth/reset-password"], async (req, res) => {
   try {
     const { email, code, token, newPassword } = req.body;
     await UserService.resetPassword({ email, code, token, newPassword });
@@ -173,7 +173,7 @@ app.post("/api/auth/reset-password", async (req, res) => {
 });
 
 // Admin direct reset user password
-app.post("/api/admin/users/reset-password", async (req, res) => {
+app.post(["/api/admin/users/reset-password", "/admin/users/reset-password"], async (req, res) => {
   try {
     const { adminEmail, userId, newPassword } = req.body;
     if (String(adminEmail || "").trim().toLowerCase() !== ADMIN_EMAIL.toLowerCase()) {
@@ -187,7 +187,7 @@ app.post("/api/admin/users/reset-password", async (req, res) => {
 });
 
 // Check Trial status
-app.post("/api/auth/check-trial", (req, res) => {
+app.post(["/api/auth/check-trial", "/auth/check-trial"], (req, res) => {
   try {
     const { userId, userEmail, deviceSerial } = req.body;
 
@@ -233,7 +233,7 @@ function checkAdminAccess(req: express.Request, res: express.Response, next: exp
 }
 
 // Admin: Get all users
-app.get("/api/admin/users", checkAdminAccess, (req, res) => {
+app.get(["/api/admin/users", "/admin/users"], checkAdminAccess, (req, res) => {
   try {
     const users = UserService.getAllUsers();
     res.json({ success: true, users });
@@ -243,7 +243,7 @@ app.get("/api/admin/users", checkAdminAccess, (req, res) => {
 });
 
 // Admin: Update user status / manual release
-app.post("/api/admin/users/status", checkAdminAccess, (req, res) => {
+app.post(["/api/admin/users/status", "/admin/users/status"], checkAdminAccess, (req, res) => {
   try {
     const { targetUserId, status, extendDays } = req.body;
     const user = UserService.updateUserStatus(targetUserId, status, extendDays);
@@ -255,7 +255,7 @@ app.post("/api/admin/users/status", checkAdminAccess, (req, res) => {
 });
 
 // Admin: Get logins history
-app.get("/api/admin/logins", checkAdminAccess, (req, res) => {
+app.get(["/api/admin/logins", "/admin/logins"], checkAdminAccess, (req, res) => {
   try {
     const logins = UserService.getLoginHistory();
     res.json({ success: true, logins });
@@ -265,7 +265,7 @@ app.get("/api/admin/logins", checkAdminAccess, (req, res) => {
 });
 
 // Admin: Get email notifications
-app.get("/api/admin/notifications", checkAdminAccess, (req, res) => {
+app.get(["/api/admin/notifications", "/admin/notifications"], checkAdminAccess, (req, res) => {
   try {
     const notifications = UserService.getEmailNotifications();
     res.json({ success: true, notifications });
@@ -275,7 +275,7 @@ app.get("/api/admin/notifications", checkAdminAccess, (req, res) => {
 });
 
 // Save calculation
-app.post("/api/calculos/save", async (req, res) => {
+app.post(["/api/calculos/save", "/calculos/save"], async (req, res) => {
   try {
     const { userId, dadosJson, cargaTermica, metodo } = req.body;
     if (!userId) {
@@ -294,7 +294,7 @@ app.post("/api/calculos/save", async (req, res) => {
 });
 
 // Get calculations
-app.get("/api/calculos", (req, res) => {
+app.get(["/api/calculos", "/calculos"], (req, res) => {
   try {
     const userId = String(req.query.userId || "");
     const calculos = UserService.getCalculos(userId || undefined);
@@ -583,7 +583,7 @@ function getGeminiClient() {
 }
 
 // API Route for Analyzing CEMIG Project Drawings
-app.post("/api/analyze-project", async (req, res) => {
+app.post(["/api/analyze-project", "/analyze-project"], async (req, res) => {
   try {
     const { imageBase64, mimeType, fileName, voltageLevel, userId, userEmail, deviceSerial } = req.body;
 
@@ -977,7 +977,7 @@ app.post("/api/analyze-project", async (req, res) => {
       }
     } else {
       return res.status(503).json({
-        error: "GEMINI_API_KEY não configurada no servidor. A aplicação não gera estruturas ou materiais fictícios como fallback."
+        error: "A chave de API do Gemini (GEMINI_API_KEY) não está configurada no servidor. Configure a variável de ambiente GEMINI_API_KEY no painel de controle do Vercel (Project Settings -> Environment Variables) para ativar a leitura de projetos por IA."
       });
     }
   } catch (err: any) {
@@ -1018,6 +1018,7 @@ app.post("/api/analyze-project", async (req, res) => {
 async function startServer() {
   // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {
+    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
@@ -1040,4 +1041,10 @@ async function startServer() {
   server.timeout = 180000;
 }
 
-startServer();
+const isVercel = Boolean(process.env.VERCEL || process.env.NOW_REGION);
+if (!isVercel) {
+  startServer();
+}
+
+export { app };
+export default app;

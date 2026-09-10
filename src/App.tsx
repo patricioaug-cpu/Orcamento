@@ -1221,6 +1221,11 @@ export default function App() {
         if (response.status === 504 || response.status === 502) {
           throw new Error(`Servidor temporariamente ocupado (HTTP ${response.status}). Tente novamente em instantes.`);
         }
+        if (response.status === 404) {
+          throw new Error(
+            "Servidor da API não encontrado (HTTP 404). O endpoint /api/analyze-project não respondeu. Certifique-se de que o backend da aplicação foi implantado corretamente com a rota de API."
+          );
+        }
         throw new Error(`Erro na resposta do servidor (HTTP ${response.status}).`);
       }
 
@@ -1229,6 +1234,11 @@ export default function App() {
       if (!response.ok) {
         if (response.status === 403 || resJson?.trialExpired) {
           setIsTrialExpiredModalOpen(true);
+        }
+        if (response.status === 404) {
+          throw new Error(
+            "Servidor da API não encontrado (HTTP 404). O endpoint /api/analyze-project não respondeu. Certifique-se de que o backend da aplicação foi implantado corretamente com a rota de API."
+          );
         }
         throw new Error(
           resJson?.error || `Erro na análise do projeto (Código HTTP ${response.status}).`

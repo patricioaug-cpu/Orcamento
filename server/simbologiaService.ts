@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { resolveDataPath } from "./dataPath";
 
 export interface MetadadosSimbologia {
   fonte_oficial: string;
@@ -50,7 +51,7 @@ let simbologiaCache: BaseSimbologiaOficial | null = null;
  */
 export function loadSimbologiaBase(): BaseSimbologiaOficial {
   if (simbologiaCache) return simbologiaCache;
-  const filePath = path.join(process.cwd(), "data", "eo_simbologia.json");
+  const filePath = resolveDataPath("eo_simbologia.json");
   if (!fs.existsSync(filePath)) {
     throw new Error(`Base de simbologia oficial não encontrada: ${filePath}`);
   }

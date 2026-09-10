@@ -1,10 +1,21 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "data/**",
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
   "rewrites": [
     {
+      "source": "/api/analyze-project",
+      "destination": "/api/analyze-project"
+    },
+    {
       "source": "/api/(.*)",
-      "destination": "/api"
+      "destination": "/api/index.ts"
     },
     {
       "source": "/(.*)",

@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { resolveDataPath } from "./dataPath";
 
 export interface ItemCatalogRecord {
   codigo: string;
@@ -116,7 +117,7 @@ export function loadItemCatalog(): LoadedCatalog {
     return catalogCache;
   }
 
-  const catalogPath = path.join(process.cwd(), "data", "itens_catalogo.json");
+  const catalogPath = resolveDataPath("itens_catalogo.json");
   if (!fs.existsSync(catalogPath)) {
     throw new Error(`Arquivo do catálogo oficial de itens não encontrado: ${catalogPath}`);
   }
@@ -177,7 +178,7 @@ export function loadItemCatalog(): LoadedCatalog {
 
   // Carrega mapeamento verificado de componentes de mnemônicos
   let componentMap: Record<string, string> = {};
-  const compMapPath = path.join(process.cwd(), "data", "componentes_mnemonicos_map.json");
+  const compMapPath = resolveDataPath("componentes_mnemonicos_map.json");
   if (fs.existsSync(compMapPath)) {
     try {
       componentMap = JSON.parse(fs.readFileSync(compMapPath, "utf8"));

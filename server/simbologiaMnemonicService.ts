@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { resolveDataPath } from "./dataPath";
 
 export type TipoAssociacao =
   | "DIRETA"
@@ -78,7 +79,7 @@ let auditoriaCache: AuditoriaAssociacao | null = null;
  */
 export function loadAssociacoesBase(): BaseAssociacoesSimbologia {
   if (associacoesCache) return associacoesCache;
-  const filePath = path.join(process.cwd(), "data", "simbologia_mnemonicos.json");
+  const filePath = resolveDataPath("simbologia_mnemonicos.json");
   if (!fs.existsSync(filePath)) {
     throw new Error(`Base de associações não encontrada: ${filePath}`);
   }
@@ -133,7 +134,7 @@ export function getAssociacoesPorMnemonico(mnemonicoCodigo: string): ItemAssocia
  */
 export function getAssociacoesStats(): AuditoriaAssociacao {
   if (auditoriaCache) return auditoriaCache;
-  const filePath = path.join(process.cwd(), "data", "simbologia_mnemonicos_auditoria.json");
+  const filePath = resolveDataPath("simbologia_mnemonicos_auditoria.json");
   if (!fs.existsSync(filePath)) {
     const base = loadAssociacoesBase();
     // Fallback calculation if file does not exist
