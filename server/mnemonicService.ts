@@ -473,6 +473,16 @@ export function processOfficialMnemonics(rawData: any) {
     add(map, notFound, code, Number(g.quantity ?? g.quantidade ?? 1), g.status, "ESTAI", "", vLevel);
   }
 
+  for (const eq of Array.isArray(rawData?.detectedEquipment)
+    ? rawData.detectedEquipment
+    : Array.isArray(rawData?.detectedEquipments)
+    ? rawData.detectedEquipments
+    : []) {
+    const code = eq.mnemonicCode || eq.code || eq.codigo || eq.specification;
+    const qty = Number(eq.quantity ?? eq.quantidade ?? 1);
+    add(map, notFound, code, qty > 0 ? qty : 1, eq.status, "EQUIPAMENTO", eq.associatedPole || eq.id || "", vLevel);
+  }
+
   for (const item of Array.isArray(rawData?.detectedItems) ? rawData.detectedItems : []) {
     const code = item.mnemonicCode || item.code || item.codigo;
     const qty = Number(item.quantity ?? item.quantidade ?? 1);
@@ -527,9 +537,9 @@ export function processOfficialMnemonics(rawData: any) {
   const structureItemMap: Record<string, any[]> = {};
   const attachOne = (id: string, codeRaw: unknown, statusRaw: unknown, fallbackCode?: unknown) => {
     const status = normalizeStatus(statusRaw);
-    if (!id) return;
+    if (!id && !codeRaw && !fallbackCode) return;
     if (status === "EXISTENTE") {
-      structureItemMap[id] = [];
+      if (id && !structureItemMap[id]) structureItemMap[id] = [];
       return;
     }
     const resolved = resolveMnemonicRecords(codeRaw || fallbackCode, vLevel);
@@ -540,7 +550,7 @@ export function processOfficialMnemonics(rawData: any) {
       for (const c of catalog.componentes) {
         const lookup = consultarItemPorDescricao(c.material);
         allCompRows.push({
-          id: `${id}_${c.material}`,
+          id: `${id || "ITEM"}_${c.material}`,
           code: lookup.codigo || (lookup.status === "AMBIGUO" ? "AMBÍGUO" : "NÃO ENCONTRADO"),
           codigo: lookup.codigo,
           statusCodigo: lookup.status,
@@ -553,14 +563,49 @@ export function processOfficialMnemonics(rawData: any) {
         });
       }
     }
-    structureItemMap[id] = allCompRows;
+
+    if (id) {
+      if (!structureItemMap[id]) structureItemMap[id] = [];
+      structureItemMap[id].push(...allCompRows);
+    }
+    if (codeRaw) {
+      const cKey = String(codeRaw).toUpperCase().trim();
+      if (!structureItemMap[cKey]) structureItemMap[cKey] = [];
+      structureItemMap[cKey].push(...allCompRows);
+    }
+    if (fallbackCode) {
+      const fKey = String(fallbackCode).toUpperCase().trim();
+      if (!structureItemMap[fKey]) structureItemMap[fKey] = [];
+      structureItemMap[fKey].push(...allCompRows);
+    }
   };
 
   for (const s of Array.isArray(rawData?.detectedStructures) ? rawData.detectedStructures : []) {
     attachOne(String(s.id || ""), s.mnemonicCode, s.status, s.code);
+    if (s.associatedPost) {
+      attachOne(String(s.associatedPost), s.mnemonicCode, s.status, s.code);
+    }
   }
   for (const p of Array.isArray(rawData?.detectedPoles) ? rawData.detectedPoles : []) {
     attachOne(String(p.id || ""), p.mnemonicCode, p.status, p.typeSpec);
+  }
+  for (const eq of Array.isArray(rawData?.detectedEquipment) ? rawData.detectedEquipment : []) {
+    attachOne(String(eq.id || ""), eq.mnemonicCode, eq.status, eq.code || eq.specification);
+    if (eq.associatedPole) {
+      attachOne(String(eq.associatedPole), eq.mnemonicCode, eq.status, eq.code || eq.specification);
+    }
+  }
+  for (const tr of Array.isArray(rawData?.detectedTransformers) ? rawData.detectedTransformers : []) {
+    attachOne(String(tr.id || ""), tr.mnemonicCode, tr.status, tr.powerKva || tr.code);
+    if (tr.associatedPole) {
+      attachOne(String(tr.associatedPole), tr.mnemonicCode, tr.status, tr.powerKva || tr.code);
+    }
+  }
+  for (const g of Array.isArray(rawData?.detectedGuys) ? rawData.detectedGuys : []) {
+    attachOne(String(g.id || ""), g.mnemonicCode, g.status, g.type);
+    if (g.associatedPole) {
+      attachOne(String(g.associatedPole), g.mnemonicCode, g.status, g.type);
+    }
   }
 
   return {

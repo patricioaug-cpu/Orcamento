@@ -15,6 +15,9 @@ import {
   RefreshCw,
   Building2,
   Trees,
+  Info,
+  FileText,
+  Image as ImageIcon,
 } from "lucide-react";
 import { ProjectVoltageLevel, NetworkEnvironment } from "../types";
 import { VOLTAGE_LEVEL_OPTIONS } from "../App";
@@ -39,6 +42,7 @@ interface SidebarDrawerProps {
   onOpenStandaloneMaterials: () => void;
   onOpenRegisteredPrices: () => void;
   onOpenHelpModal: () => void;
+  onOpenFileLimitsModal?: () => void;
   onExitAppClick: () => void;
   currentUser?: SafeUser | null;
   trialInfo?: UserTrialInfo | null;
@@ -63,6 +67,7 @@ export const SidebarDrawer: React.FC<SidebarDrawerProps> = ({
   onOpenStandaloneMaterials,
   onOpenRegisteredPrices,
   onOpenHelpModal,
+  onOpenFileLimitsModal,
   onExitAppClick,
   currentUser,
   trialInfo,
@@ -207,6 +212,52 @@ export const SidebarDrawer: React.FC<SidebarDrawerProps> = ({
               </div>
               <ChevronRight className="w-4 h-4 text-slate-950/70 group-hover:translate-x-0.5 transition-transform" />
             </button>
+
+            {/* Informações de Tamanho Máximo e Formatos Suportados */}
+            <div className="p-3 bg-slate-950/90 rounded-xl border border-slate-800 text-[11px] space-y-2">
+              <div className="flex items-center justify-between text-amber-400 font-bold text-[10px] uppercase tracking-wider">
+                <div className="flex items-center gap-1.5">
+                  <Info className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                  <span>Tamanho Máximo para Leitura</span>
+                </div>
+                {onOpenFileLimitsModal && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      onOpenFileLimitsModal();
+                      onClose();
+                    }}
+                    className="text-[10px] text-amber-300 hover:text-amber-100 underline cursor-pointer"
+                  >
+                    Ver detalhes
+                  </button>
+                )}
+              </div>
+              
+              <div className="grid grid-cols-2 gap-2 text-[10px]">
+                <div className="p-2 rounded-lg bg-slate-900 border border-slate-800 flex flex-col">
+                  <span className="text-slate-400 font-semibold flex items-center gap-1">
+                    <FileText className="w-3 h-3 text-red-400" />
+                    Arquivo PDF
+                  </span>
+                  <span className="text-white font-bold text-xs mt-0.5">Até 3,2 MB</span>
+                  <span className="text-slate-400 text-[9px] leading-tight mt-0.5">Limite da nuvem sem perda de conexão</span>
+                </div>
+
+                <div className="p-2 rounded-lg bg-slate-900 border border-slate-800 flex flex-col">
+                  <span className="text-slate-400 font-semibold flex items-center gap-1">
+                    <ImageIcon className="w-3 h-3 text-emerald-400" />
+                    Imagens (JPEG/PNG)
+                  </span>
+                  <span className="text-emerald-400 font-bold text-xs mt-0.5">Até 20 MB</span>
+                  <span className="text-slate-400 text-[9px] leading-tight mt-0.5">Compressão inteligente automática</span>
+                </div>
+              </div>
+
+              <p className="text-[10px] text-slate-400 leading-relaxed border-t border-slate-800/80 pt-1.5">
+                💡 <strong className="text-slate-300">Dica técnica:</strong> Para pranchas PDF volumosas ou multifolhas, exporte ou tire foto da folha em <strong>imagem JPEG</strong> para leitura ultra rápida com símbolos nítidos.
+              </p>
+            </div>
 
             {/* Clear Project Button */}
             <button

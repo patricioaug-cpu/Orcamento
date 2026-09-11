@@ -193,6 +193,13 @@ export function processarProjetoComSimbologiaOficial(
     }
   }
 
+  // Helper para extrair o identificador do elemento ou poste da string de localização
+  const extractLocationId = (loc: string | undefined, fallback: string): string => {
+    if (!loc) return fallback;
+    const match = loc.match(/(?:Poste\/Elemento\s+|Poste\s+|Elemento\s+)([A-Za-z0-9_\-]+)/i);
+    return match ? match[1] : fallback;
+  };
+
   // 4. Encaminha EXCLUSIVAMENTE os mnemônicos oficiais associados para a lógica existente de explosão
   // sem inferências, sem fallbacks e sem materiais inventados (garantindo que 100% dos mnemônicos sejam explodidos)
   const rawDataForExplosion = {
@@ -204,52 +211,101 @@ export function processarProjetoComSimbologiaOficial(
           !k.includes("CONDUTOR") &&
           !k.includes("CABO") &&
           !k.includes("TRANSFORMADOR") &&
-          !k.includes("ESTAI")
+          !k.includes("ESTAI") &&
+          !k.includes("CHAVE") &&
+          !k.includes("EQUIPAMENTO") &&
+          !k.includes("PROTEÇÃO") &&
+          !k.includes("PARA-RAIO")
         );
       })
-      .map((m, idx) => ({
-        id: `ESTR_${idx + 1}`,
-        mnemonicCode: m.mnemonicCode,
-        status: m.status,
-        quantity: m.quantity,
-        type: m.kind,
-      })),
+      .map((m, idx) => {
+        const poleId = extractLocationId(m.location, `ESTR_${idx + 1}`);
+        return {
+          id: poleId,
+          mnemonicCode: m.mnemonicCode,
+          status: m.status,
+          quantity: m.quantity,
+          type: m.kind,
+          associatedPost: poleId,
+          locationHint: m.location,
+        };
+      }),
     detectedPoles: recognitionAudit.mnemonicos_para_explosao
       .filter((m) => String(m.kind || "").toUpperCase().includes("POSTE"))
-      .map((m, idx) => ({
-        id: `P${idx + 1}`,
-        mnemonicCode: m.mnemonicCode,
-        status: m.status,
-        quantity: m.quantity,
-      })),
+      .map((m, idx) => {
+        const poleId = extractLocationId(m.location, `P${idx + 1}`);
+        return {
+          id: poleId,
+          mnemonicCode: m.mnemonicCode,
+          status: m.status,
+          quantity: m.quantity,
+          associatedPost: poleId,
+          locationHint: m.location,
+        };
+      }),
+    detectedEquipment: recognitionAudit.mnemonicos_para_explosao
+      .filter((m) => {
+        const k = String(m.kind || "").toUpperCase();
+        return (
+          k.includes("CHAVE") ||
+          k.includes("EQUIPAMENTO") ||
+          k.includes("PROTEÇÃO") ||
+          k.includes("PARA-RAIO") ||
+          k.includes("MEDICAO") ||
+          k.includes("ATERRAMENTO")
+        );
+      })
+      .map((m, idx) => {
+        const poleId = extractLocationId(m.location, `EQ_${idx + 1}`);
+        return {
+          id: poleId,
+          mnemonicCode: m.mnemonicCode,
+          status: m.status,
+          quantity: m.quantity,
+          type: m.kind,
+          associatedPole: poleId,
+          locationHint: m.location,
+        };
+      }),
     detectedCables: recognitionAudit.mnemonicos_para_explosao
       .filter((m) => {
         const k = String(m.kind || "").toUpperCase();
         return k.includes("CONDUTOR") || k.includes("CABO");
       })
       .map((m, idx) => ({
-        id: `CABO_${idx + 1}`,
+        id: extractLocationId(m.location, `CABO_${idx + 1}`),
         mnemonicCode: m.mnemonicCode,
         status: m.status,
         quantity: m.quantity,
         estimatedLengthMeters: m.quantity,
+        locationHint: m.location,
       })),
     detectedTransformers: recognitionAudit.mnemonicos_para_explosao
       .filter((m) => String(m.kind || "").toUpperCase().includes("TRANSFORMADOR"))
-      .map((m, idx) => ({
-        id: `TR_${idx + 1}`,
-        mnemonicCode: m.mnemonicCode,
-        status: m.status,
-        quantity: m.quantity,
-      })),
+      .map((m, idx) => {
+        const poleId = extractLocationId(m.location, `TR_${idx + 1}`);
+        return {
+          id: poleId,
+          associatedPole: poleId,
+          mnemonicCode: m.mnemonicCode,
+          status: m.status,
+          quantity: m.quantity,
+          locationHint: m.location,
+        };
+      }),
     detectedGuys: recognitionAudit.mnemonicos_para_explosao
       .filter((m) => String(m.kind || "").toUpperCase().includes("ESTAI"))
-      .map((m, idx) => ({
-        id: `ESTAI_${idx + 1}`,
-        mnemonicCode: m.mnemonicCode,
-        status: m.status,
-        quantity: m.quantity,
-      })),
+      .map((m, idx) => {
+        const poleId = extractLocationId(m.location, `ESTAI_${idx + 1}`);
+        return {
+          id: poleId,
+          associatedPole: poleId,
+          mnemonicCode: m.mnemonicCode,
+          status: m.status,
+          quantity: m.quantity,
+          locationHint: m.location,
+        };
+      }),
   };
 
   const officialProcessing = processOfficialMnemonics(rawDataForExplosion);

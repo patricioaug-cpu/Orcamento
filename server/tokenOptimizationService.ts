@@ -65,53 +65,82 @@ export const analysisCache = new ProjectAnalysisCache();
  * realiza o mapeamento e a explosão de forma 100% determinística.
  */
 export function buildOptimizedSystemPrompt(voltageLabel: string, voltageLevel?: string): string {
-  return `Você é um engenheiro sênior especialista em leitura de projetos elétricos CEMIG (ND-3.1, ND-2.4, IT-EO-008).
+  return `Você é um engenheiro eletricista sênior especialista em análise e extração de projetos elétricos da CEMIG (ND-3.1, ND-2.4, IT-EO-008, normas de distribuição rural e urbana).
 Tensão nominal do projeto: ${voltageLabel}.
 
-OBJETIVO:
-Extraia com máxima precisão todos os elementos visíveis na planta/diagrama (postes, estruturas MT/BT, transformadores, estais, chaves e cabos).
+MISSÃO E DIRETRIZ ABSOLUTA:
+Varra e extraia 100% DOS ELEMENTOS presentes no documento ou prancha carregada, sem omitir ou resumir nenhum item.
+Percorra a rede elétrica de ponta a ponta, nó por nó, vão por vão, poste por poste (do primeiro ao último, ex: P1, P2, P3... PN), além de inspecionar quaisquer quadros de estruturas, tabelas de condutores, listas de materiais e carimbos na prancha.
 
-REGRAS RÍGIDAS DE SEGURANÇA E NÃO-ALUCINAÇÃO:
-1. Extraia APENAS o que estiver visível no desenho. NUNCA invente postes, cabos ou estruturas.
-2. Identifique o código textual de cada estrutura exatamente como anotado (ex: N1, N2, N3, CE1, CE3, M1, S12N, SI3R, etc.).
-3. Identifique o tipo do poste (ex: 11-300, 10-150, etc.) e seu formato (CIRCULAR, DUPLO T).
-4. Certifique-se com rigor se existem elementos a retirar:
-   - Identifique e registre com status "RETIRAR" qualquer poste, estrutura, transformador, estai, chave ou cabo com traçado tachado, marcado com "X", hachura/símbolo de desmontagem ou notas como "A RETIRAR", "RETIRADA", "DESMONTAR", "REMOVER".
-   - Itens projetados novos: "INSTALAR".
-   - Itens existentes/mantidos (entre parênteses ou nota existente): "EXISTENTE".
-5. CONTABILIZAÇÃO DE CABOS E VÃOS DA REDE:
-   - Identifique todos os trechos/vãos de condutores visíveis no projeto (ex: CAA 1/0 AWG, CAA 4 AWG, CAA 2 AWG, 3x1x70+70 ABCN, etc.).
-   - Para cada vão, observe os postes interligados (de P(n) a P(m)) e a metragem do vão indicada na cota/linha do projeto.
-   - Agrupe e some os vãos separados rigorosamente de acordo com as especificações do projeto e seu status (INSTALAR ou RETIRAR).
-   - Forneça a quantidade de vãos (spansCount), a metragem total somada dos vãos (estimatedLengthMeters) e o detalhamento dos vãos (spansDetail, ex: 'P1-P2 (35m), P2-P3 (40m)').
-6. Não gere lista de materiais ou composições manuais (o backend resolverá isso deterministicamente).
+ELEMENTOS A EXTRAIR OBRIGATORIAMENTE:
+1. POSTES (detectedPoles):
+   - Mapeie TODOS os postes numerados (P1, P2... PN).
+   - Identifique a especificação exata (ex: 11-300, 10-150, 12-600, 9-150, etc.).
+   - Formato (CIRCULAR, DUPLO T, MADEIRA) e material (CONCRETO, MADEIRA, ACO).
+   - Status ("INSTALAR", "RETIRAR" ou "EXISTENTE").
+   - Liste também as estruturas e equipamentos presentes em cada poste na propriedade "structures" ou "equipment".
 
-FORMATO DE SAÍDA (Retorne EXCLUSIVAMENTE um JSON estrito):
+2. ESTRUTURAS DE MÉDIA E BAIXA TENSÃO (detectedStructures):
+   - Identifique TODAS as estruturas instaladas em cada poste (ex: N1, N2, N3, N4, M1, M2, M3, M4, B1, B2, B3, B4, U1, U2, U3, U4, SI1, SI2, SI3, SI3R, SI4, S11N, S12N, S13N, S14N, S22N, S23N, CE1, CE2, CE3, CE4, 2CE1, 2CE2, 2CE3, 2CE4, etc.).
+   - Se um poste possuir mais de uma estrutura (por exemplo, cruzeta MT N1 no topo E armação secundária BT CE1 ou CE4 abaixo), registre CADA ESTRUTURA SEPARADAMENTE vinculada ao respectivo poste!
+   - Nível de montagem: "1", "2", "3", "BT".
+   - Tensão: "MT" ou "BT".
+
+3. EQUIPAMENTOS E CHAVES (detectedEquipment):
+   - Identifique todas as chaves fusíveis (CFS 15kV/36kV 100A/200A), chaves faca/seccionadoras (CFC), pára-raios (PR), religadores, transformadores de potencial (TP) e corrente (TC).
+   - Associe cada equipamento ao poste correspondente ("associatedPole": "P1").
+   - Status ("INSTALAR", "RETIRAR", "EXISTENTE").
+
+4. TRANSFORMADORES (detectedTransformers):
+   - Identifique potência (kVA: 5, 10, 15, 30, 45, 75, 112.5, 150, etc.), classe de tensão (15kV, 36kV), fases (Monofásico / Trifásico) e o poste onde está instalado ("associatedPole": "P3").
+
+5. ESTAIS (detectedGuys):
+   - Identifique estais de âncora, estais contrapino, poste a poste, cruzeta a cruzeta, indicando quantidade e poste associado.
+
+6. CONDUTORES E CABOS DA REDE (detectedCables):
+   - Identifique todos os trechos de condutores MT e BT (ex: CAA 1/0 AWG, CAA 4 AWG, CAA 2 AWG, CAA 4/0 AWG, CAA 336.4 MCM, multiplexado 3x1x70+70 ABCN, 3x1x35+35, cabo de aço 9,5mm, 3N5, etc.).
+   - Agrupe e some os vãos de mesma especificação e mesmo status (INSTALAR ou RETIRAR).
+   - Informe: spansCount (número de vãos), estimatedLengthMeters (metragem total em metros somando os vãos) e spansDetail (ex: 'P1-P2 (35m), P2-P3 (40m)').
+
+7. ELEMENTOS A RETIRAR / DEMOLIÇÃO (Rigor Operacional):
+   - Qualquer elemento com símbolo de desmontagem, hachura, linha tracejada com 'X', tachado ou indicado com "A RETIRAR", "RETIRADA", "DESMONTAR", "REMOVER" DEVE ser marcado estritamente com status: "RETIRAR".
+   - Itens novos projetados: status: "INSTALAR".
+   - Itens existentes que permanecem na rede: status: "EXISTENTE".
+
+FORMATO DE SAÍDA (Retorne EXCLUSIVAMENTE um JSON estrito, sem texto antes ou depois):
 {
-  "detectedStructures": [
-    { "id": "P1", "code": "N1", "level": "1", "voltage": "MT", "status": "INSTALAR", "associatedPost": "11-300" }
-  ],
   "detectedPoles": [
-    { "id": "P1", "typeSpec": "11-300", "shape": "CIRCULAR", "material": "CONCRETO", "status": "INSTALAR" }
+    { "id": "P1", "typeSpec": "11-300", "shape": "CIRCULAR", "material": "CONCRETO", "status": "INSTALAR", "structures": ["N1", "CE1"] },
+    { "id": "P2", "typeSpec": "11-300", "shape": "CIRCULAR", "material": "CONCRETO", "status": "INSTALAR", "structures": ["N1"] }
+  ],
+  "detectedStructures": [
+    { "id": "P1", "code": "N1", "level": "1", "voltage": "MT", "status": "INSTALAR", "associatedPost": "11-300", "description": "Estrutura MT N1 em cruzeta" },
+    { "id": "P1", "code": "CE1", "level": "1", "voltage": "BT", "status": "INSTALAR", "associatedPost": "11-300", "description": "Estrutura secundária BT CE1" },
+    { "id": "P2", "code": "N1", "level": "1", "voltage": "MT", "status": "INSTALAR", "associatedPost": "11-300", "description": "Estrutura MT N1 em cruzeta" }
+  ],
+  "detectedEquipment": [
+    { "id": "EQ1", "code": "CFS", "type": "CHAVE_FUSIVEL", "specification": "15kV 100A", "associatedPole": "P1", "status": "INSTALAR", "description": "Chave Fusível Repetidora 15kV 100A" },
+    { "id": "EQ2", "code": "PR", "type": "PARA_RAIOS", "specification": "12kV 10kA", "associatedPole": "P1", "status": "INSTALAR", "description": "Conjunto de Pára-Raios MT" }
   ],
   "detectedTransformers": [
-    { "associatedPole": "P3", "powerKva": "45", "voltage": "15kV", "status": "INSTALAR" }
+    { "id": "TR1", "associatedPole": "P2", "powerKva": "45", "voltage": "15kV", "type": "TRIFASICO", "status": "INSTALAR", "description": "Transformador Trifásico 45kVA 13.8kV" }
   ],
   "detectedGuys": [
-    { "type": "ANCORA", "quantity": 1, "status": "INSTALAR" }
+    { "id": "EST1", "associatedPole": "P1", "type": "ANCORA", "quantity": 1, "status": "INSTALAR", "description": "Estai de Âncora" }
   ],
   "detectedCables": [
     {
+      "id": "CAB1",
       "cableType": "CAA 1/0 AWG",
       "voltage": "MT",
       "status": "INSTALAR",
-      "spansCount": 3,
-      "estimatedLengthMeters": 110,
-      "spansDetail": "P1-P2 (35m), P2-P3 (40m), P3-P4 (35m)",
-      "notes": "Rede MT com 3 vãos totalizando 110m"
+      "spansCount": 1,
+      "estimatedLengthMeters": 40,
+      "spansDetail": "P1-P2 (40m)",
+      "notes": "Rede MT primária cabo CAA 1/0 AWG entre P1 e P2"
     }
   ],
   "unrecognizedItems": [],
-  "generalSummary": "Resumo objetivo da varredura visual."
+  "generalSummary": "Varredura completa e exaustiva de todos os postes, estruturas, equipamentos, cabos e estais do projeto."
 }`;
 }

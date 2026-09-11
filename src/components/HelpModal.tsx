@@ -12,6 +12,9 @@ import {
   Home,
   Search,
   Sparkles,
+  Info,
+  FileText,
+  Image as ImageIcon,
 } from "lucide-react";
 
 interface HelpModalProps {
@@ -118,19 +121,53 @@ export const HelpModal: React.FC<HelpModalProps> = ({
             <div className="w-9 h-9 rounded-xl bg-amber-500 text-slate-950 font-black text-sm flex items-center justify-center shrink-0 shadow-md">
               2
             </div>
-            <div className="space-y-2.5 flex-1">
+            <div className="space-y-3 flex-1">
               <div className="flex items-center justify-between flex-wrap gap-2">
                 <h3 className="font-bold text-white text-sm sm:text-base flex items-center gap-2">
                   <FileUp className="w-4 h-4 text-amber-400" />
-                  Carregar Projeto
+                  Carregar Projeto (Tamanhos e Formatos)
                 </h3>
                 <span className="text-[10px] font-mono font-bold px-2 py-0.5 bg-slate-800 text-amber-400 border border-amber-500/30 rounded-md">
                   Entrada de Dados
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                Importe sua planta técnica ou diagrama unifilar através do <strong>Menu Lateral</strong> no botão <strong>Carregar Projeto (PDF/JPEG)</strong> para processar plantas multifolha em PDF ou imagens de alta resolução.
+                Importe sua planta técnica ou diagrama unifilar através do <strong>Menu Lateral</strong> no botão <strong>Carregar Projeto (PDF/JPEG)</strong> ou arrastando o arquivo diretamente para o centro da tela.
               </p>
+
+              {/* Informações de Tamanho Máximo de Arquivos */}
+              <div className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl space-y-2.5">
+                <div className="flex items-center gap-2 text-xs font-bold text-amber-400">
+                  <Info className="w-4 h-4 text-amber-400 shrink-0" />
+                  <span>Tamanhos Máximos Suportados para Leitura:</span>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+                  <div className="p-2.5 rounded-lg bg-slate-900/90 border border-slate-800 space-y-1">
+                    <div className="flex items-center gap-1.5 font-bold text-slate-200">
+                      <FileText className="w-3.5 h-3.5 text-rose-400" />
+                      <span>Arquivo PDF: até 3,2 MB</span>
+                    </div>
+                    <p className="text-[11px] text-slate-400 leading-relaxed">
+                      Limite de segurança estrito da infraestrutura em nuvem (Vercel). Ideal para projetos vetorizados de 1 folha ou plantas otimizadas.
+                    </p>
+                  </div>
+
+                  <div className="p-2.5 rounded-lg bg-slate-900/90 border border-slate-800 space-y-1">
+                    <div className="flex items-center gap-1.5 font-bold text-emerald-400">
+                      <ImageIcon className="w-3.5 h-3.5 text-emerald-400" />
+                      <span>Imagens (JPEG/PNG/WEBP): até 20 MB</span>
+                    </div>
+                    <p className="text-[11px] text-slate-400 leading-relaxed">
+                      O sistema realiza compressão inteligente no navegador mantendo alta definição de textos, símbolos e numerações de postes.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="text-[11px] text-slate-300 leading-relaxed bg-slate-900/60 p-2.5 rounded-lg border border-slate-800/80">
+                  💡 <strong className="text-amber-300">Recomendação prática de engenharia:</strong> Se você tiver uma prancha extensa ou arquivo PDF pesado acima de 3,2 MB, salve ou exporte a página principal como <strong>imagem JPEG</strong> no seu leitor de PDF/AutoCAD. A leitura por imagem é mais rápida, tem resolução cristalina e não sofre quedas de conexão.
+                </div>
+              </div>
             </div>
           </div>
 

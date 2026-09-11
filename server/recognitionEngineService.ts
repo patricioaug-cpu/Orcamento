@@ -786,11 +786,11 @@ export function executarMotorReconhecimento(
       return;
     }
 
-    // Se não encontrou símbolo oficial via matchSymbolAssociation, verifica se é um código direto de mnemônico (ex: N1, N2, S12N)
-    const directResolvedFallback = resolveMnemonicRecords(
-      el.codigo || el.mnemonicCode || el.descricao,
-      el.tensao
-    );
+    // Se não encontrou símbolo oficial via matchSymbolAssociation, verifica se é um código direto de mnemônico (ex: N1, N2, S12N, 11-300, CFS)
+    const directResolvedFallback =
+      resolveMnemonicRecords(el.codigo || el.mnemonicCode || el.especificacao || el.descricao, el.tensao).length > 0
+        ? resolveMnemonicRecords(el.codigo || el.mnemonicCode || el.especificacao || el.descricao, el.tensao)
+        : resolveMnemonicRecords(el.especificacao, el.tensao);
     if (directResolvedFallback.length > 0) {
       const primary = directResolvedFallback[0];
       const auditItem: ReconhecimentoAuditItem = {

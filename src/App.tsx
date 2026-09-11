@@ -28,6 +28,7 @@ import { MnemonicsCatalogModal } from "./components/MnemonicsCatalogModal";
 import { StructureDetailModal } from "./components/StructureDetailModal";
 import { UnrecognizedStructuresModal } from "./components/UnrecognizedStructuresModal";
 import { HelpModal } from "./components/HelpModal";
+import { SupportedFileLimitsModal } from "./components/SupportedFileLimitsModal";
 import { CalcProLogo } from "./components/CalcProLogo";
 import { SidebarDrawer } from "./components/SidebarDrawer";
 import { AuthModal } from "./components/AuthModal";
@@ -539,6 +540,7 @@ export default function App() {
   const [isStandaloneMaterialsOpen, setIsStandaloneMaterialsOpen] = useState<boolean>(false);
   const [isMnemonicsCatalogOpen, setIsMnemonicsCatalogOpen] = useState<boolean>(false);
   const [isHelpModalOpen, setIsHelpModalOpen] = useState<boolean>(false);
+  const [isSupportedFileLimitsOpen, setIsSupportedFileLimitsOpen] = useState<boolean>(false);
   const [isUnrecognizedModalOpen, setIsUnrecognizedModalOpen] = useState<boolean>(false);
   const [showExitConfirmModal, setShowExitConfirmModal] = useState<boolean>(false);
   const fileInputRef = React.useRef<HTMLInputElement>(null);
@@ -1022,9 +1024,9 @@ export default function App() {
     const isPdf = file.type.includes("pdf") || fileNameLower.endsWith(".pdf");
 
     if (isPdf) {
-      if (file.size > 3.8 * 1024 * 1024) {
+      if (file.size > 20 * 1024 * 1024) {
         throw new Error(
-          `O arquivo PDF (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o limite de 3.8 MB para envio seguro na nuvem (Vercel). Para obter melhor resultado e evitar erros de limite de rede, exporte a prancha como imagem (JPEG/PNG) ou reduza a resolução do PDF.`
+          `O arquivo PDF selecionado (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o tamanho máximo permitido de 20 MB para processamento. Caso a prancha seja muito pesada, você pode exportá-la como imagem JPEG (também suportada até 20 MB com alta resolução).`
         );
       }
 
@@ -1032,7 +1034,7 @@ export default function App() {
         const reader = new FileReader();
         const timer = setTimeout(() => {
           reject(new Error("Tempo limite excedido ao ler o arquivo PDF. Tente novamente com um arquivo menor."));
-        }, 30000);
+        }, 45000);
 
         reader.onload = () => {
           clearTimeout(timer);
@@ -1049,7 +1051,13 @@ export default function App() {
       return { base64Data, mimeType: "application/pdf" };
     }
 
-    // High-resolution image canvas optimization (avoids oversized HTTP payloads while preserving crisp text/symbols)
+    if (file.size > 20 * 1024 * 1024) {
+      throw new Error(
+        `O arquivo de imagem selecionado (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o tamanho máximo de 20 MB suportado. Reduza a resolução para até 20 MB.`
+      );
+    }
+
+    // High-resolution image canvas optimization (preserves micro-text and symbols up to 4096px)
     return new Promise<{ base64Data: string; mimeType: string }>((resolve, reject) => {
       const reader = new FileReader();
       const fallbackTimer = setTimeout(() => {
@@ -1064,7 +1072,7 @@ export default function App() {
         } catch {
           reject(new Error("Falha ao ler o arquivo de imagem."));
         }
-      }, 15000);
+      }, 20000);
 
       reader.onload = (e) => {
         const rawResult = (e.target?.result as string) || "";
@@ -1078,8 +1086,8 @@ export default function App() {
         img.onload = () => {
           clearTimeout(fallbackTimer);
           try {
-            // 2048px maximum dimension guarantees pin-sharp symbol clarity while keeping payload under 1.5MB
-            const maxDim = 2048;
+            // 4096px maximum dimension preserves pin-sharp symbol clarity and small pole tags
+            const maxDim = 4096;
             let { width, height } = img;
             if (width > maxDim || height > maxDim) {
               if (width > height) {
@@ -1098,8 +1106,8 @@ export default function App() {
               ctx.imageSmoothingEnabled = true;
               ctx.imageSmoothingQuality = "high";
               ctx.drawImage(img, 0, 0, width, height);
-              // 0.85 quality produces crisp vector-like text lines with compact payload
-              const dataUrl = canvas.toDataURL("image/jpeg", 0.85);
+              // 0.94 quality produces vector-sharp text lines, symbols and tags
+              const dataUrl = canvas.toDataURL("image/jpeg", 0.94);
               const base64 = dataUrl.split(",")[1] || dataUrl;
               resolve({ base64Data: base64, mimeType: "image/jpeg" });
               return;
@@ -1210,7 +1218,7 @@ export default function App() {
 
       if (!response) {
         throw new Error(
-          `Falha de comunicação com o servidor (${lastFetchErr?.message || "conexão recusada"}). Por favor, tente novamente ou verifique se o arquivo não excede o limite de upload.`
+          `Falha de comunicação com o servidor (${lastFetchErr?.message || "conexão interrompida"}). Isso pode ocorrer devido a oscilação da conexão, tempo limite de resposta ou arquivo pesado. Recomendamos reenviar a prancha como imagem JPEG compacta ou aguardar alguns segundos.`
         );
       }
 
@@ -1273,48 +1281,133 @@ export default function App() {
       if (resJson.success && resJson.data) {
         const rawData = resJson.data;
 
-        // Process AI output structures
-        const aiStructures: IdentifiedStructure[] = (rawData.detectedStructures || []).map(
-          (s: any, idx: number) => ({
-            id: s.id || `P${idx + 1}`,
-            code: s.code || "N1",
-            type: (s.voltage === "BT" ? "BT" : s.type === "TRANSFORMADOR" ? "TRANSFORMADOR" : s.type === "ESTAI" ? "ESTAI" : s.type === "EQUIPAMENTO" ? "EQUIPAMENTO" : "MT") as any,
-            level: s.level || "(1)",
-            status: normalizeItemStatus(s.status),
-            description: s.description || `Estrutura ${s.code || s.id}`,
-            associatedPost: s.associatedPost || s.typeSpec || "11-300",
-            locationHint: s.locationHint || `Poste ${s.id}`,
-            computedMaterials: [],
-          })
-        );
+        // Helper para extrair o número do poste para ordenação sequencial
+        const extractPoleNumber = (idStr: string | undefined): number => {
+          if (!idStr) return 9999;
+          const match = idStr.match(/\d+/);
+          return match ? parseInt(match[0], 10) : 9999;
+        };
 
-        // Ensure every pole listed in detectedPoles is represented in aiStructures
-        const existingPoleIds = new Set(aiStructures.map((s) => s.id));
+        const aiStructures: IdentifiedStructure[] = [];
+
+        // 1. Postes detectados no projeto
         if (Array.isArray(rawData.detectedPoles)) {
           rawData.detectedPoles.forEach((p: any, idx: number) => {
             const poleId = p.id || `P${idx + 1}`;
-            if (!existingPoleIds.has(poleId)) {
-              existingPoleIds.add(poleId);
-              aiStructures.push({
-                id: poleId,
-                code: p.mnemonicCode || p.typeSpec || "POSTE",
-                type: "POSTE",
-                level: "(1)",
-                status: normalizeItemStatus(p.status),
-                description: `Poste e Estrutura ${poleId} (${p.typeSpec || "11-300"})`,
-                associatedPost: p.typeSpec || "11-300",
-                locationHint: `Poste ${poleId} identificado na planta`,
-                computedMaterials: [],
-              });
-            }
+            aiStructures.push({
+              id: poleId,
+              code: p.typeSpec || p.mnemonicCode || "POSTE",
+              mnemonicCode: p.mnemonicCode,
+              type: "POSTE",
+              level: "(1)",
+              status: normalizeItemStatus(p.status),
+              description: p.shape
+                ? `Poste ${p.shape} ${p.typeSpec || ""} (${p.material || "Concreto"})`
+                : `Poste ${poleId} (${p.typeSpec || "11-300"})`,
+              associatedPost: p.typeSpec || "11-300",
+              locationHint: `Poste ${poleId} identificado na planta`,
+              computedMaterials: [],
+            });
           });
         }
 
-        // Sort structures by Pole ID numerical order (P1, P2, P3... P10, P11...)
+        // 2. Estruturas MT e BT detectadas no projeto
+        if (Array.isArray(rawData.detectedStructures)) {
+          rawData.detectedStructures.forEach((s: any, idx: number) => {
+            const poleRef = s.associatedPost || s.id || `P${idx + 1}`;
+            const cleanId = `${poleRef}_${s.code || idx + 1}`;
+            aiStructures.push({
+              id: cleanId,
+              code: s.code || "N1",
+              mnemonicCode: s.mnemonicCode,
+              type: (s.voltage === "BT" || String(s.code || "").startsWith("CE") ? "BT" : "MT") as any,
+              level: s.level || (s.voltage === "BT" ? "(BT)" : "(1)"),
+              status: normalizeItemStatus(s.status),
+              description: s.description || `Estrutura ${s.code || ""} no Poste ${poleRef}`,
+              associatedPost: s.associatedPost || s.typeSpec || poleRef,
+              locationHint: s.locationHint || `Poste ${poleRef}`,
+              computedMaterials: [],
+            });
+          });
+        }
+
+        // 3. Equipamentos, Chaves e Pára-raios detectados
+        const detectedEquip = Array.isArray(rawData.detectedEquipment)
+          ? rawData.detectedEquipment
+          : Array.isArray(rawData.detectedEquipments)
+          ? rawData.detectedEquipments
+          : [];
+        detectedEquip.forEach((eq: any, idx: number) => {
+          const poleRef = eq.associatedPole || `P${idx + 1}`;
+          aiStructures.push({
+            id: `EQ_${poleRef}_${eq.code || idx + 1}`,
+            code: eq.code || eq.specification || "EQUIPAMENTO",
+            mnemonicCode: eq.mnemonicCode,
+            type: "EQUIPAMENTO",
+            level: "(1)",
+            status: normalizeItemStatus(eq.status),
+            description: eq.description || `${eq.type || "Equipamento"} ${eq.code || ""} (${eq.specification || ""})`.trim(),
+            associatedPost: eq.associatedPole || poleRef,
+            locationHint: eq.associatedPole ? `Poste ${eq.associatedPole}` : "Rede de Distribuição",
+            computedMaterials: [],
+          });
+        });
+
+        // 4. Transformadores detectados
+        if (Array.isArray(rawData.detectedTransformers)) {
+          rawData.detectedTransformers.forEach((t: any, idx: number) => {
+            const poleRef = t.associatedPole || `P${idx + 1}`;
+            aiStructures.push({
+              id: `TR_${poleRef}`,
+              code: t.powerKva ? `TR ${t.powerKva}kVA` : "TRANSFORMADOR",
+              mnemonicCode: t.mnemonicCode,
+              type: "TRANSFORMADOR",
+              level: "(1)",
+              status: normalizeItemStatus(t.status),
+              description: t.description || `Transformador ${t.powerKva || ""}kVA (${t.voltage || "13.8kV"})`,
+              associatedPost: t.associatedPole || poleRef,
+              locationHint: t.associatedPole ? `Poste ${t.associatedPole}` : "Rede MT",
+              computedMaterials: [],
+            });
+          });
+        }
+
+        // 5. Estais de âncora ou contraposte detectados
+        if (Array.isArray(rawData.detectedGuys)) {
+          rawData.detectedGuys.forEach((g: any, idx: number) => {
+            const poleRef = g.associatedPole || `P${idx + 1}`;
+            aiStructures.push({
+              id: `ESTAI_${poleRef}_${idx + 1}`,
+              code: g.type || "ESTAI",
+              mnemonicCode: g.mnemonicCode,
+              type: "ESTAI",
+              level: "(1)",
+              status: normalizeItemStatus(g.status),
+              description: g.description || `Estai de ${g.type || "Âncora"} no Poste ${poleRef}`,
+              associatedPost: g.associatedPole || poleRef,
+              locationHint: g.associatedPole ? `Poste ${g.associatedPole}` : "Rede de Distribuição",
+              computedMaterials: [],
+            });
+          });
+        }
+
+        // Ordenação lógica: Agrupa por Poste (P1, P2, P3... PN) e, dentro do poste, pelo tipo
+        const typeOrder: Record<string, number> = {
+          POSTE: 0,
+          MT: 1,
+          BT: 2,
+          EQUIPAMENTO: 3,
+          TRANSFORMADOR: 4,
+          ESTAI: 5,
+        };
+
         aiStructures.sort((a, b) => {
-          const numA = parseInt(a.id.replace(/\D/g, "")) || 0;
-          const numB = parseInt(b.id.replace(/\D/g, "")) || 0;
-          return numA - numB;
+          const poleNumA = extractPoleNumber(a.associatedPost || a.id);
+          const poleNumB = extractPoleNumber(b.associatedPost || b.id);
+          if (poleNumA !== poleNumB) return poleNumA - poleNumB;
+          const orderA = typeOrder[a.type] ?? 9;
+          const orderB = typeOrder[b.type] ?? 9;
+          return orderA - orderB;
         });
 
         // Process AI output cables with exact spans count and summed lengths by specification
@@ -1350,7 +1443,16 @@ export default function App() {
 
         const updatedStructures = aiStructures.map((s) => ({
           ...s,
-          computedMaterials: structureItemMap[s.id] || [],
+          computedMaterials:
+            structureItemMap[s.id]?.length > 0
+              ? structureItemMap[s.id]
+              : structureItemMap[s.code]?.length > 0
+              ? structureItemMap[s.code]
+              : structureItemMap[s.mnemonicCode || ""]?.length > 0
+              ? structureItemMap[s.mnemonicCode || ""]
+              : structureItemMap[s.associatedPost || ""]?.length > 0
+              ? structureItemMap[s.associatedPost || ""]
+              : [],
         }));
 
         const totalMaterialsValue = materials.reduce((acc: number, m: any) => {
@@ -1737,19 +1839,38 @@ export default function App() {
             {projectData.structures.length > 0 && (
               <div>
                 <h3 className="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">
-                  Postes / Estruturas Individuais ({projectData.structures.length})
+                  Elementos Mapeados na Planta ({projectData.structures.length})
                 </h3>
-                <div className="max-h-40 overflow-y-auto space-y-1 pr-1">
+                <div className="max-h-52 overflow-y-auto space-y-1 pr-1">
                   {projectData.structures.map((s) => (
                     <button
                       key={s.id}
                       onClick={() => handleOpenStructureDetail(s)}
                       className="w-full text-left p-1.5 bg-white hover:bg-amber-50 rounded border border-slate-200 text-[11px] flex items-center justify-between transition-colors cursor-pointer group"
-                      title="Clique para ver os materiais desta estrutura em tela cheia"
+                      title="Clique para ver os materiais deste elemento em tela cheia"
                     >
-                      <span className="font-mono font-bold text-slate-700 group-hover:text-amber-900 truncate">
-                        {s.id} - {s.code}
-                      </span>
+                      <div className="flex items-center gap-1.5 min-w-0">
+                        <span
+                          className={`text-[8px] font-bold px-1.5 py-0.5 rounded font-mono shrink-0 uppercase ${
+                            s.type === "POSTE"
+                              ? "bg-indigo-100 text-indigo-800 border border-indigo-200"
+                              : s.type === "BT"
+                              ? "bg-sky-100 text-sky-800 border border-sky-200"
+                              : s.type === "EQUIPAMENTO"
+                              ? "bg-amber-100 text-amber-800 border border-amber-200"
+                              : s.type === "TRANSFORMADOR"
+                              ? "bg-purple-100 text-purple-800 border border-purple-200"
+                              : s.type === "ESTAI"
+                              ? "bg-emerald-100 text-emerald-800 border border-emerald-200"
+                              : "bg-slate-100 text-slate-800 border border-slate-200"
+                          }`}
+                        >
+                          {s.type}
+                        </span>
+                        <span className="font-mono font-bold text-slate-700 group-hover:text-amber-900 truncate">
+                          {s.id} - {s.code}
+                        </span>
+                      </div>
                       <span className="text-[10px] text-slate-400 group-hover:text-amber-700 shrink-0">
                         {s.computedMaterials?.length || 0} mat.
                       </span>

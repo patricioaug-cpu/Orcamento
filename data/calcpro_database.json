@@ -104,7 +104,36 @@
       "notificacao_enviada": true
     }
   ],
-  "calculos": [],
+  "calculos": [
+    {
+      "id": "calc_1789116884032_z4cl",
+      "user_id": "usr_admin_master",
+      "user_email": "patricioaug@gmail.com",
+      "dados_json": {
+        "fileName": "EXEMPLO-1.pdf",
+        "voltageLevel": "13.8kV",
+        "structures": 2,
+        "materials": 14
+      },
+      "carga_termica": 0,
+      "metodo": "Explosão de Mnemônicos CEMIG",
+      "data": "2026-09-11T08:54:44.032Z"
+    },
+    {
+      "id": "calc_1789116463330_itj5",
+      "user_id": "usr_admin_master",
+      "user_email": "patricioaug@gmail.com",
+      "dados_json": {
+        "fileName": "60d813bcc34b2965612f0f7c67dadb21.jpg",
+        "voltageLevel": "13.8kV",
+        "structures": 0,
+        "materials": 0
+      },
+      "carga_termica": 0,
+      "metodo": "Explosão de Mnemônicos CEMIG",
+      "data": "2026-09-11T08:47:43.330Z"
+    }
+  ],
   "device_trials": [
     {
       "device_serial": "eng-device-101",
