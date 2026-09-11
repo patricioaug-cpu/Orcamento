@@ -2,10 +2,16 @@ import path from "node:path";
 import fs from "node:fs";
 import { fileURLToPath } from "node:url";
 
-const currentDir =
-  typeof __dirname !== "undefined"
-    ? __dirname
-    : path.dirname(fileURLToPath(import.meta.url));
+let currentDir = process.cwd();
+try {
+  if (typeof __dirname !== "undefined" && __dirname) {
+    currentDir = __dirname;
+  } else if (typeof import.meta !== "undefined" && import.meta && typeof import.meta.url === "string" && import.meta.url) {
+    currentDir = path.dirname(fileURLToPath(import.meta.url));
+  }
+} catch {
+  currentDir = process.cwd();
+}
 
 /**
  * Resolves the path to a data file safely across local development,

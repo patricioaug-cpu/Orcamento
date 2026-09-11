@@ -69,14 +69,31 @@ app.use((req, res, next) => {
 
 // Robust body parsing compatible with both Vercel Serverless Functions and standalone Express
 app.use((req, res, next) => {
-  if (req.body && typeof req.body === "object" && Object.keys(req.body).length > 0) {
+  // If Vercel pre-parsed the body as string, parse it
+  if (typeof req.body === "string") {
+    try {
+      req.body = JSON.parse(req.body);
+      (req as any)._body = true;
+    } catch {}
+  }
+  // If req.body is already present (e.g. from Vercel built-in parser),
+  // flag it so body-parser does not attempt to re-read the consumed stream
+  if (req.body !== undefined && req.body !== null) {
+    (req as any)._body = true;
+    return next();
+  }
+  next();
+});
+
+app.use((req, res, next) => {
+  if ((req as any)._body) {
     return next();
   }
   express.json({ limit: "50mb" })(req, res, next);
 });
 
 app.use((req, res, next) => {
-  if (req.body && typeof req.body === "object" && Object.keys(req.body).length > 0) {
+  if ((req as any)._body) {
     return next();
   }
   express.urlencoded({ extended: true, limit: "50mb" })(req, res, next);

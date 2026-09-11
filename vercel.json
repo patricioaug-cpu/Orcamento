@@ -3,12 +3,12 @@
   "cleanUrls": true,
   "functions": {
     "api/*.ts": {
-      "includeFiles": "data/**",
+      "includeFiles": "{data/**,dist/data/**}",
       "maxDuration": 60,
       "memory": 1024
     },
     "api/**/*.ts": {
-      "includeFiles": "data/**",
+      "includeFiles": "{data/**,dist/data/**}",
       "maxDuration": 60,
       "memory": 1024
     }
@@ -16,18 +16,18 @@
   "rewrites": [
     {
       "source": "/api/analyze-project",
-      "destination": "/api/analyze-project.ts"
+      "destination": "/api/analyze-project"
     },
     {
       "source": "/api/analyze-project/(.*)",
-      "destination": "/api/analyze-project.ts"
+      "destination": "/api/analyze-project"
     },
     {
       "source": "/api/(.*)",
-      "destination": "/api/index.ts"
+      "destination": "/api/index"
     },
     {
-      "source": "/(.*)",
+      "source": "/((?!api/).*)",
       "destination": "/index.html"
     }
   ]
