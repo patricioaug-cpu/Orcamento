@@ -17,10 +17,12 @@ export function resolveDataPath(filename: string): string {
     path.join(process.cwd(), "dist", "data", filename),
     path.join(currentDir, "..", "data", filename),
     path.join(currentDir, "data", filename),
+    path.join(currentDir, "..", "..", "data", filename),
     path.resolve("data", filename),
     path.join(process.cwd(), "..", "data", filename),
     path.join("/var/task", "data", filename),
     path.join("/var/task", "dist", "data", filename),
+    path.join("/var/task", "api", "..", "data", filename),
   ];
 
   for (const p of possiblePaths) {

@@ -16,7 +16,11 @@
   "rewrites": [
     {
       "source": "/api/analyze-project",
-      "destination": "/api/analyze-project"
+      "destination": "/api/analyze-project.ts"
+    },
+    {
+      "source": "/api/analyze-project/(.*)",
+      "destination": "/api/analyze-project.ts"
     },
     {
       "source": "/api/(.*)",

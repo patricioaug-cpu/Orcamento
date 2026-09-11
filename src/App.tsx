@@ -1024,9 +1024,9 @@ export default function App() {
     const isPdf = file.type.includes("pdf") || fileNameLower.endsWith(".pdf");
 
     if (isPdf) {
-      if (file.size > 20 * 1024 * 1024) {
+      if (file.size > 3.0 * 1024 * 1024) {
         throw new Error(
-          `O arquivo PDF selecionado (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o tamanho máximo permitido de 20 MB para processamento. Caso a prancha seja muito pesada, você pode exportá-la como imagem JPEG (também suportada até 20 MB com alta resolução).`
+          `O arquivo PDF selecionado (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o limite de 3.0 MB para envio direto na nuvem Vercel (limite para funções serverless). Para pranchas maiores, recomendamos exportar a página como imagem JPEG ou PNG — o sistema otimiza imagens automaticamente mantendo todos os postes, estruturas e equipamentos nítidos.`
         );
       }
 
@@ -1051,13 +1051,13 @@ export default function App() {
       return { base64Data, mimeType: "application/pdf" };
     }
 
-    if (file.size > 20 * 1024 * 1024) {
+    if (file.size > 25 * 1024 * 1024) {
       throw new Error(
-        `O arquivo de imagem selecionado (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o tamanho máximo de 20 MB suportado. Reduza a resolução para até 20 MB.`
+        `O arquivo de imagem selecionado (${(file.size / (1024 * 1024)).toFixed(1)} MB) ultrapassa o tamanho máximo de 25 MB suportado. Reduza a resolução para até 25 MB.`
       );
     }
 
-    // High-resolution image canvas optimization (preserves micro-text and symbols up to 4096px)
+    // High-resolution image canvas optimization (preserves micro-text and symbols up to 2560px)
     return new Promise<{ base64Data: string; mimeType: string }>((resolve, reject) => {
       const reader = new FileReader();
       const fallbackTimer = setTimeout(() => {
@@ -1086,8 +1086,8 @@ export default function App() {
         img.onload = () => {
           clearTimeout(fallbackTimer);
           try {
-            // 4096px maximum dimension preserves pin-sharp symbol clarity and small pole tags
-            const maxDim = 4096;
+            // 2560px provides 2.5K high-definition resolution for reading engineering drawings
+            const maxDim = 2560;
             let { width, height } = img;
             if (width > maxDim || height > maxDim) {
               if (width > height) {
@@ -1106,9 +1106,20 @@ export default function App() {
               ctx.imageSmoothingEnabled = true;
               ctx.imageSmoothingQuality = "high";
               ctx.drawImage(img, 0, 0, width, height);
-              // 0.94 quality produces vector-sharp text lines, symbols and tags
-              const dataUrl = canvas.toDataURL("image/jpeg", 0.94);
-              const base64 = dataUrl.split(",")[1] || dataUrl;
+              
+              let quality = 0.88;
+              let dataUrl = canvas.toDataURL("image/jpeg", quality);
+              let base64 = dataUrl.split(",")[1] || dataUrl;
+
+              // Ensure base64 payload is safely under 3.0MB (well below Vercel's 4.5MB serverless limit)
+              if (base64.length > 3.0 * 1024 * 1024) {
+                dataUrl = canvas.toDataURL("image/jpeg", 0.78);
+                base64 = dataUrl.split(",")[1] || dataUrl;
+              }
+              if (base64.length > 3.0 * 1024 * 1024) {
+                dataUrl = canvas.toDataURL("image/jpeg", 0.68);
+                base64 = dataUrl.split(",")[1] || dataUrl;
+              }
               resolve({ base64Data: base64, mimeType: "image/jpeg" });
               return;
             }
@@ -1266,11 +1277,11 @@ export default function App() {
             throw new Error(`Erro no servidor da Vercel (HTTP 500): ${rawText.slice(0, 180)}`);
           }
           throw new Error(
-            "Erro interno no servidor da Vercel (HTTP 500). Verifique se a variável GEMINI_API_KEY está configurada no painel da Vercel (Project Settings -> Environment Variables) e envie o arquivo preferencialmente em formato de imagem JPEG compacta."
+            "Erro no servidor da Vercel (HTTP 500). Verifique se a variável GEMINI_API_KEY foi adicionada nas configurações do projeto na Vercel (Project Settings > Environment Variables). Caso a prancha seja um PDF pesado, exporte-a como imagem JPEG para garantir o envio correto."
           );
         }
         throw new Error(
-          resJson?.error || (rawText && !rawText.startsWith("<") ? rawText.slice(0, 150) : `Erro na resposta do servidor (HTTP ${response.status}).`)
+          resJson?.error || (rawText && !rawText.startsWith("<") ? rawText.slice(0, 180) : `Erro na resposta do servidor (HTTP ${response.status}).`)
         );
       }
 

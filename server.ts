@@ -798,26 +798,24 @@ app.all(["/api/analyze-project", "/analyze-project"], async (req, res) => {
       // Fast multi-model cascade: Try each model once without excessive backoff delay
       // to guarantee the response completes well before the cloud gateway timeout (60s).
       // Fast multi-model cascade: Prioritizes active, highly available vision models
-      // 1. gemini-3.1-flash-lite: Highest availability, rapid vision analysis (3-5s), avoids 503 spikes
-      // 2. gemini-3.6-flash: High-capability modern vision model
-      // 3. gemini-3.8-flash: Latest flash model (attempted if lite/3.6 are busy)
-      // 4. gemini-3.5-flash: Official contingency model
+      // 1. gemini-3.8-flash: State-of-the-art multimodal vision model for electrical diagrams
+      // 2. gemini-3.1-flash-lite: Ultra-fast low-latency contingency model
+      // 3. gemini-flash-latest: Stable fallback model
       const modelsToTry = [
-        "gemini-3.1-flash-lite",
-        "gemini-3.6-flash",
         "gemini-3.8-flash",
-        "gemini-3.5-flash",
+        "gemini-3.1-flash-lite",
+        "gemini-flash-latest",
       ];
 
       let lastError: any = null;
       let responseText = "{}";
       const startTime = Date.now();
-      const MAX_TOTAL_TIME_MS = 50000; // 50 seconds safety cutoff
+      const MAX_TOTAL_TIME_MS = 48000; // 48 seconds safety cutoff for serverless environments
 
       for (let mIdx = 0; mIdx < modelsToTry.length; mIdx++) {
         // If we have already spent more than 45 seconds, abort early to return a clean 503 response
         if (Date.now() - startTime > MAX_TOTAL_TIME_MS) {
-          console.warn("[Gemini API] Tempo limite de segurança de 50s atingido. Retornando 503 limpo.");
+          console.warn("[Gemini API] Tempo limite de segurança de 48s atingido. Retornando 503 limpo.");
           break;
         }
 
@@ -828,7 +826,7 @@ app.all(["/api/analyze-project", "/analyze-project"], async (req, res) => {
           console.log(`[Gemini API] Solicitando análise com modelo ${modelName}...`);
           
           // Guarantee that an individual model call never hangs indefinitely
-          const MODEL_TIMEOUT_MS = 22000;
+          const MODEL_TIMEOUT_MS = 24000;
           let timeoutTimer: NodeJS.Timeout | null = null;
           const timeoutPromise = new Promise<never>((_, reject) => {
             timeoutTimer = setTimeout(() => {
@@ -1327,8 +1325,27 @@ DIRETRIZES DE EXTRAÇÃO SEM PERDAS:
       }
     }
 
-    res.status(statusCode).json({ error: friendlyMessage, rawError: err.message, isTransient: statusCode !== 500 });
+    res.status(statusCode).json({
+      success: false,
+      error: friendlyMessage,
+      rawError: err.message,
+      isTransient: statusCode !== 500,
+    });
   }
+});
+
+// Universal Express error handling middleware to always return structured JSON
+app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+  console.error("[Universal Server Error Handler]:", err);
+  if (res.headersSent) {
+    return next(err);
+  }
+  const status = err.status || err.statusCode || 500;
+  res.status(status).json({
+    success: false,
+    error: err.message || "Ocorreu um erro interno no servidor ao processar a requisição.",
+    status,
+  });
 });
 
 async function startServer() {

@@ -15,16 +15,32 @@ export default function handler(req: any, res: any) {
     req.url = "/api/analyze-project" + (req.url.startsWith("/") ? req.url : "/" + req.url);
   }
 
-  try {
-    return app(req, res);
-  } catch (err: any) {
-    console.error("[Vercel /api/analyze-project Error]:", err);
-    if (!res.headersSent) {
-      res.status(500).json({
-        success: false,
-        error: "Erro interno na função de análise do projeto: " + (err?.message || String(err)),
-      });
+  return new Promise((resolve) => {
+    let resolved = false;
+    const finish = () => {
+      if (!resolved) {
+        resolved = true;
+        resolve(null);
+      }
+    };
+
+    res.on("finish", finish);
+    res.on("close", finish);
+    res.on("error", finish);
+
+    try {
+      app(req, res);
+    } catch (err: any) {
+      console.error("[Vercel /api/analyze-project Error]:", err);
+      if (!res.headersSent) {
+        res.status(500).json({
+          success: false,
+          error: "Erro no servidor da Vercel ao analisar projeto: " + (err?.message || String(err)),
+        });
+      }
+      finish();
     }
-  }
+  });
 }
+
 
